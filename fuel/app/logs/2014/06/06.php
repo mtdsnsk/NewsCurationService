@@ -71,3 +71,4 @@ ERROR - 2014-06-06 20:20:36 --> Fatal Error - Call to undefined function get_key
 ERROR - 2014-06-06 20:40:39 --> Notice - Undefined index: desc in /Applications/XAMPP/xamppfiles/htdocs/comicnews/fuel/app/views/welcome/getrss.php on line 8
 ERROR - 2014-06-06 21:42:41 --> Notice - Undefined index: url in /Applications/XAMPP/xamppfiles/htdocs/comicnews/fuel/app/views/welcome/getrss.php on line 12
 ERROR - 2014-06-06 22:01:12 --> Fatal Error - Call to undefined function str_get_html() in /Applications/XAMPP/xamppfiles/htdocs/comicnews/fuel/app/classes/view/welcome/getrss.php on line 85
+ERROR - 2014-06-06 23:52:32 --> Fatal Error - Class 'view' not found in /Applications/XAMPP/xamppfiles/htdocs/comicnews/fuel/app/classes/controller/welcome.php on line 55

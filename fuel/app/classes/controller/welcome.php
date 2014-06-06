@@ -29,7 +29,7 @@ class Controller_Welcome extends Controller {
      * @return  Response
      */
     public function action_index() {
-        return Response::forge(View::forge('welcome/index'));
+        return Response::forge(view::forge('welcome/index'));
     }
 
     /**
@@ -49,6 +49,10 @@ class Controller_Welcome extends Controller {
     
     public function action_sample1() {
         return Response::forge(ViewModel::forge('test/sample1'));
+    }
+    
+    public function action_sample2() {
+        return Response::forge(view::forge('welcome/sample1'));
     }
 
     public function action_rss() {

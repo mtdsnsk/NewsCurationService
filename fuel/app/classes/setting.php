@@ -23,7 +23,7 @@ class Setting {
             'http://rss.dailynews.yahoo.co.jp/fc/computer/rss.xml',
             'http://jp.techcrunch.com/feed/',
             'http://rss.rssad.jp/rss/itmnews/2.0/news_special.xml'
-            //'http://www.itmedia.co.jp/info/rss/',
+                //'http://www.itmedia.co.jp/info/rss/',
         );
         $com = array(
             'http://natalie.mu/comic/feed/news',
@@ -110,6 +110,7 @@ class Setting {
         );
         return array(
             'トップ' => $top,
+            'ネタ' => $neta,
         );
     }
 
