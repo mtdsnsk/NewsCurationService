@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0" xmlns:blogChannel="http://backend.userland.com/blogChannelModule">
+
+<channel>
+<title>Yahoo!ニュース・トピックス - コンピュータ</title>
+<link>http://dailynews.yahoo.co.jp/fc/computer/</link>
+<description>Yahoo! JAPANのニュース・トピックスで取り上げている最新の見出しを提供しています。</description>
+<language>ja</language>
+<pubDate>Fri, 06 Jun 2014 14:57:08 +0900</pubDate>
+
+<item>
+<title>Google 3D空間認識端末を発表</title>
+<link>http://dailynews.yahoo.co.jp/fc/computer/google/</link>
+<pubDate>Fri, 06 Jun 2014 14:57:08 +0900</pubDate><enclosure length="133" url="http://i.yimg.jp/images/icon/photo.gif" type="image/gif" />
+
+<guid isPermaLink="false">yahoo/news/topics/6129480</guid>
+</item>
+
+<item>
+<title>米Amazon18日に3Dスマホ発表?</title>
+<link>http://dailynews.yahoo.co.jp/fc/computer/amazon/</link>
+<pubDate>Thu, 05 Jun 2014 10:31:11 +0900</pubDate><enclosure length="133" url="http://i.yimg.jp/images/icon/photo.gif" type="image/gif" />
+
+<guid isPermaLink="false">yahoo/news/topics/6129357</guid>
+</item>
+
+<item>
+<title>1人から始まった新言語Swift</title>
+<link>http://dailynews.yahoo.co.jp/fc/computer/apple_new_model/</link>
+<pubDate>Thu, 05 Jun 2014 17:41:10 +0900</pubDate><enclosure length="133" url="http://i.yimg.jp/images/icon/photo.gif" type="image/gif" />
+
+<guid isPermaLink="false">yahoo/news/topics/6129398</guid>
+</item>
+
+<item>
+<title>Apple発表会 出なかった7製品</title>
+<link>http://dailynews.yahoo.co.jp/fc/economy/apple/</link>
+<pubDate>Thu, 05 Jun 2014 14:35:31 +0900</pubDate><enclosure length="133" url="http://i.yimg.jp/images/icon/photo.gif" type="image/gif" />
+
+<guid isPermaLink="false">yahoo/news/topics/6129381</guid>
+</item>
+
+<item>
+<title>女子大授業でLINE導入 効果は</title>
+<link>http://dailynews.yahoo.co.jp/fc/computer/line/</link>
+<pubDate>Thu, 05 Jun 2014 22:05:35 +0900</pubDate><enclosure length="133" url="http://i.yimg.jp/images/icon/photo.gif" type="image/gif" />
+
+<guid isPermaLink="false">yahoo/news/topics/6129427</guid>
+</item>
+
+<item>
+<title>W杯 Twitterベストイレブンは</title>
+<link>http://dailynews.yahoo.co.jp/fc/computer/twitter/</link>
+<pubDate>Wed, 04 Jun 2014 22:32:53 +0900</pubDate><enclosure length="133" url="http://i.yimg.jp/images/icon/photo.gif" type="image/gif" />
+
+<guid isPermaLink="false">yahoo/news/topics/6129326</guid>
+</item>
+
+<item>
+<title>「メルマガ作成内職」に注意</title>
+<link>http://dailynews.yahoo.co.jp/fc/domestic/consumer_protection/</link>
+<pubDate>Thu, 05 Jun 2014 20:55:49 +0900</pubDate><enclosure length="133" url="http://i.yimg.jp/images/icon/photo.gif" type="image/gif" />
+
+<guid isPermaLink="false">yahoo/news/topics/6129420</guid>
+</item>
+
+<item>
+<title>高橋名人 ゲーム会社の社長に</title>
+<link>http://dailynews.yahoo.co.jp/fc/entertainment/game/</link>
+<pubDate>Wed, 04 Jun 2014 20:15:25 +0900</pubDate><enclosure length="133" url="http://i.yimg.jp/images/icon/photo.gif" type="image/gif" />
+
+<guid isPermaLink="false">yahoo/news/topics/6129314</guid>
+</item>
+
+</channel>
+</rss>

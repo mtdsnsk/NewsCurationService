@@ -1,0 +1,119 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja-JP" lang="ja-JP">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=shift_jis" />
+<meta name="robots" content="nocache" />
+<meta name="keywords" content="サイトマップ,夕刊フジ,産経デジタル,産経新聞,ＺＡＫＺＡＫ,ZAKZAK,ザクザク" />
+<meta name="description" content="産経新聞社が発行する「夕刊フジ」の公式サイト、ＺＡＫＺＡＫの「RSS」ページです。" />
+<title>RSS - ZAKZAK</title>
+<link href="/common/css/styleRss.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" type="text/javascript" src="http://u.zakzak.co.jp/__utm.js"></script>
+<script language="javascript" type="text/javascript" src="/common/js/cmn.js"></script>
+<script language="javascript" type="text/javascript" charset="utf-8" src="/common/js/jquery-1.2.6.pack.js"></script>
+
+</head>
+<body><a href="#pagetop" id="pagetop"><!-- ページトップ --></a>
+<!-- ▼header▼ -->
+<div id="header">
+
+<div id="HeaderMain"><noscript><p class="logo"><a href="/"><img src="/common/images/header_logo_002.gif" alt="ZAKZAK" width="166" height="37" /></a></p></noscript></div>
+<script type="text/javascript"><!--
+loaderHTML("/common/parts/header/header.htm","#HeaderMain");
+// --></script>
+
+<div id="GlobalNavi"></div>
+<script type="text/javascript"><!--
+loaderHTML("/common/parts/ad/global_navi.htm","#GlobalNavi");
+// --></script>
+
+<div id="GlobalNaviNews"></div>
+<script type="text/javascript"><!--
+loaderHTML("/common/parts/header/global_news_default.htm","#GlobalNaviNews");
+// --></script>
+
+</div>
+<!-- ▲header▲ -->
+
+<div id="container">
+
+<!-- ▼main area▼ -->
+<div id="contents">
+
+<ul id="TopicPath">
+<li><a href="/top.htm">ホーム</a></li>
+<li>RSS</li>
+</ul>
+
+<div id="Rss">
+<div class="category">
+<h2><a href="./all/zakzak-all.xml">総合</a></h2>
+</div>
+<div class="category">
+<h2><a href="./society/society.xml">政治・社会</a></h2>
+<ul class="list">
+<li><a href="./society/society.xml">政治・社会ニュース</a></li>
+<li><a href="./society/gooranking.xml">gooランキング</a></li>
+</ul>
+</div>
+<div class="category">
+<h2><a href="./entertainment/entertainment.xml">芸能</a></h2>
+</div>
+<div class="category">
+<h2><a href="./sports/sports.xml">スポーツ</a></h2>
+<ul class="list">
+<li><a href="./sports/baseball.xml">野球</a></li>
+<li><a href="./sports/soccer.xml">サッカー</a></li>
+<li><a href="./sports/etc_sports.xml">スポーツ</a></li>
+</ul>
+</div>
+<div class="category">
+<h2><a href="./economy/economy.xml">経済・マネー</a></h2>
+<ul class="list">
+<li><a href="./economy/ecn-news.xml">経済ニュース</a></li>
+<li><a href="./economy/investment.xml">株式・投資</a></li>
+</ul>
+</div>
+<div class="category">
+<h2><a href="./race/race.xml">競馬・公営</a></h2>
+<ul class="list">
+<li><a href="./race/horse.xml">競馬</a></li>
+<li><a href="./race/bicycle.xml">競輪</a></li>
+<li><a href="./race/boat.xml">競艇</a></li>
+</ul>
+</div>
+<div class="category">
+<h2><a href="./gravure/gravure.xml">グラビアアイドル</a></h2>
+<ul class="list">
+<li><a href="./gravure/idol.xml">アイドルニュース</a></li>
+<li><a href="./gravure/queen.xml">ZAK THE QUEEN</a></li>
+<li><a href="./gravure/parapara.xml">パラパラ写真館</a></li>
+</ul>
+</div>
+<div class="category">
+<h2><a href="./campaigngirl/campaigngirl.xml">キャンギャル・イベント</a></h2>
+</div>
+<div class="category">
+<h2><a href="./pachi-slot/pachi-slot.xml">パチ・スロ</a></h2>
+</div>
+<div class="category">
+<h2><a href="./people/people.xml">ぴいぷる</a></h2>
+</div>
+<div class="category">
+<h2><a href="./zakspa/zakspa.xml">ZAK×SPA！</a></h2>
+</div>
+</div>
+
+
+</div>
+<!-- ▲main area▲ -->
+</div>
+
+<!-- ▼footer▼ -->
+<div id="footer"></div>
+<script type="text/javascript"><!--
+loaderHTML("/common/parts/footer/footer.htm","#footer");
+// --></script>
+<!-- ▲footer▲ -->
+
+</body>
+</html>
