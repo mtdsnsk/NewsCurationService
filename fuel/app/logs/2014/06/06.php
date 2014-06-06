@@ -72,3 +72,12 @@ ERROR - 2014-06-06 20:40:39 --> Notice - Undefined index: desc in /Applications/
 ERROR - 2014-06-06 21:42:41 --> Notice - Undefined index: url in /Applications/XAMPP/xamppfiles/htdocs/comicnews/fuel/app/views/welcome/getrss.php on line 12
 ERROR - 2014-06-06 22:01:12 --> Fatal Error - Call to undefined function str_get_html() in /Applications/XAMPP/xamppfiles/htdocs/comicnews/fuel/app/classes/view/welcome/getrss.php on line 85
 ERROR - 2014-06-06 23:52:32 --> Fatal Error - Class 'view' not found in /Applications/XAMPP/xamppfiles/htdocs/comicnews/fuel/app/classes/controller/welcome.php on line 55
+ERROR - 2014-06-06 23:53:25 --> Fatal Error - Class 'view' not found in /Applications/XAMPP/xamppfiles/htdocs/comicnews/fuel/app/classes/controller/welcome.php on line 55
+ERROR - 2014-06-06 23:53:47 --> Fatal Error - Class 'view' not found in /Applications/XAMPP/xamppfiles/htdocs/comicnews/fuel/app/classes/controller/welcome.php on line 55
+ERROR - 2014-06-06 23:53:56 --> Fatal Error - Class 'view' not found in /Applications/XAMPP/xamppfiles/htdocs/comicnews/fuel/app/classes/controller/welcome.php on line 55
+ERROR - 2014-06-06 23:54:17 --> Fatal Error - Class 'view' not found in /Applications/XAMPP/xamppfiles/htdocs/comicnews/fuel/app/classes/controller/welcome.php on line 55
+ERROR - 2014-06-06 23:57:29 --> Fatal Error - Class 'view' not found in /Applications/XAMPP/xamppfiles/htdocs/comicnews/fuel/app/classes/controller/welcome.php on line 55
+ERROR - 2014-06-06 23:57:53 --> Fatal Error - Class 'view' not found in /Applications/XAMPP/xamppfiles/htdocs/comicnews/fuel/app/classes/controller/welcome.php on line 55
+ERROR - 2014-06-06 23:57:58 --> Fatal Error - Class 'view' not found in /Applications/XAMPP/xamppfiles/htdocs/comicnews/fuel/app/classes/controller/welcome.php on line 42
+ERROR - 2014-06-06 23:58:56 --> Error - ViewModel "\View_Welcome_Sample2" could not be found. in /Applications/XAMPP/xamppfiles/htdocs/comicnews/fuel/core/classes/viewmodel.php on line 73
+ERROR - 2014-06-06 23:59:57 --> Warning - simplexml_load_string(): Entity: line 35: parser error : Entity 'raquo' not defined in /Applications/XAMPP/xamppfiles/htdocs/comicnews/fuel/app/views/welcome/sample2.php on line 4

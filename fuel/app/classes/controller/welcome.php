@@ -22,23 +22,10 @@
  */
 class Controller_Welcome extends Controller {
 
-    /**
-     * The basic welcome message
-     *
-     * @access  public
-     * @return  Response
-     */
     public function action_index() {
         return Response::forge(view::forge('welcome/index'));
     }
 
-    /**
-     * A typical "Hello, Bob!" type example.  This uses a ViewModel to
-     * show how to use them.
-     *
-     * @access  public
-     * @return  Response
-     */
     public function action_hello() {
         return Response::forge(ViewModel::forge('welcome/hello'));
     }
@@ -52,7 +39,8 @@ class Controller_Welcome extends Controller {
     }
     
     public function action_sample2() {
-        return Response::forge(view::forge('welcome/sample1'));
+        //return Response::forge(view::forge('welcome/index'));
+        return Response::forge(ViewModel::forge('welcome/sample2'));
     }
 
     public function action_rss() {
