@@ -4,7 +4,7 @@ class View_Welcome_Getrss extends ViewModel {
 
     public function view() {
         $tmpdat = array();
-        $dat = Setting::rsslist2();
+        $dat = Setting::rsslist();
         foreach ($dat as $value) {
             foreach ($value as $child) {
                 $this->show_content($child, $tmpdat);
@@ -12,7 +12,6 @@ class View_Welcome_Getrss extends ViewModel {
         }
         $this->title = 'ニュースtwitterつぶやかれランキング2';
         $this->data = $tmpdat;
-        $this->status = 'success';
         return;
     }
 
@@ -21,6 +20,7 @@ class View_Welcome_Getrss extends ViewModel {
             // RSSフィードからXML取得する
             $mycontents = View_Welcome_Getrss::getrssdata($myurl);
             if ($mycontents == NULL) {
+                echo '<br>エラー<br>no-contents! [' . $myurl . ']<br>';
                 return;
             }
             // XML文字列に変換
@@ -44,11 +44,14 @@ class View_Welcome_Getrss extends ViewModel {
             //$sp = explode('/', $myurl);
             //file_put_contents('/Applications/XAMPP/htdocs/comicnews/xml/' . $sp[2] . date("His") . '.xml', $mycontents);
             if ($mycontents === 'false') {
+                echo '<br>エラー<br>contents false[' . $myurl . ']<br>';
                 return NULL;
             }
             // レスポンス取得
             $pos = strpos($http_response_header[0], '200');
             if ($pos === false) {
+                echo '<br>エラー<br>response false[' . $myurl . ']<br>';
+                var_dump($pos);
                 return NULL;
             }
             return $mycontents;
@@ -71,7 +74,7 @@ class View_Welcome_Getrss extends ViewModel {
                 array_key_exists('guid', $item) ? $var['guid'] = $item->guid : $var['guid'] = '';
                 array_key_exists('summary', $item) ? $var['summary'] = $item->summary : $var['summary'] = '';
                 //View_Welcome_Getrss::gettwitterapi($var);
-                View_Welcome_Getrss::get_image($var['link']);
+                //$var['images'] = View_Welcome_Getrss::get_image($var['link']);
                 array_push($tmpdat, $var);
             }
             return;
@@ -87,7 +90,7 @@ class View_Welcome_Getrss extends ViewModel {
                 array_key_exists('guid', $item) ? $var['guid'] = $item->guid : $var['guid'] = '';
                 array_key_exists('summary', $item) ? $var['summary'] = $item->summary : $var['summary'] = '';
                 //View_Welcome_Getrss::gettwitterapi($var);
-                View_Welcome_Getrss::get_image($var['link']);
+                //$var['images'] = View_Welcome_Getrss::get_image($var['link']);
                 array_push($tmpdat, $var);
             }
             return;
@@ -125,11 +128,10 @@ class View_Welcome_Getrss extends ViewModel {
     }
 
     public static function get_image($url) {
-        
-        if($url == ''){
+        $image_dat = array();
+        if ($url == '') {
             return;
         }
-        
         $html = file_get_contents($url);
         $ex = preg_replace("/[<>]/", " ", $html);
         $sp1 = explode(" ", $ex);
@@ -139,14 +141,74 @@ class View_Welcome_Getrss extends ViewModel {
             $kekka = '';
             $bl = preg_match('/http.*(jpe?g|png)/i', $data, $kekka);
             if ($bl) {
-                $img = file_get_contents($kekka[0]);
+                //$img = file_get_contents($kekka[0]);
                 //$size = ceil(strlen($img) / 1024);
-                //echo 'size:' . $size . 'KB/';
-                //echo $kekka[0] . '<br>';
-                $fn = explode("/", $kekka[0]);
-                file_put_contents('/Applications/XAMPP/htdocs/comicnews/xml/' . $fn[count($fn) - 1], $img);
+                //list($width, $height) = getimagesize($kekka[0]);
+                $dat['url'] = $kekka[0];
+                //$dat['size'] = $size;
+                //$dat['width'] = $width;
+                //$dat['height'] = $height;
+                //$dat['ratio'] = $height / $width;
+                //echo '<p class="image">';
+                //echo html_tag('img', array(
+                //    'src' => $kekka[0],
+                //));
+                echo '</p>';
+                array_push($image_dat, $dat);     
+                //URLをパースしてファイル名をセット          
+                //$fn = explode("/", $kekka[0]);
+                //保存
+                //file_put_contents('/Applications/XAMPP/htdocs/comicnews/xml/' . $fn[count($fn) - 1], $img);
             }
         }
+        return $image_dat;
+    }
+
+    public static function get_image2($url) {
+
+        $image_dat = array();
+
+        if ($url == '') {
+            return;
+        }
+        echo 'データ取得先:' . $url . '<br><div><p>';
+
+        $html = file_get_contents($url);
+        $ex = preg_replace("/[<>]/", " ", $html);
+        $sp1 = explode(" ", $ex);
+        $sp2 = array_unique($sp1);
+        $sp3 = array_filter($sp2, 'strlen');
+        foreach ($sp3 as $data) {
+            $kekka = '';
+            $bl = preg_match('/http.*(jpe?g|png)/i', $data, $kekka);
+            if ($bl) {
+                //$img = file_get_contents($kekka[0]);
+                //$size = ceil(strlen($img) / 1024);
+                //list($width, $height) = getimagesize($kekka[0]);
+                //$dat['url'] = $kekka[0];
+                //$dat['size'] = $size;
+                //$dat['width'] = $width;
+                //$dat['height'] = $height;
+                //$dat['ratio'] = $height / $width;
+                //echo 'imageURL:' . $kekka[0] . '<br>';
+                echo html_tag('img', array(
+                    'alt' => 'img',
+                    //'width' => '160',
+                    //'title' => $kekka[0],
+                    'src' => $kekka[0],
+                    'style' => 'float:left;'
+                ));
+                //array_push($image_dat, $dat);
+                //echo 'size:' . $size . 'KB/';
+                //echo $kekka[0] . '<br>';                
+                //$fn = explode("/", $kekka[0]);
+                //file_put_contents('/Applications/XAMPP/htdocs/comicnews/xml/' . $fn[count($fn) - 1], $img);
+            }
+        }
+        echo '</p></div><hr>';
+        //echo '画像データ<br>';
+        //var_dump($image_dat);
+        //echo '<br>';
     }
 
 }

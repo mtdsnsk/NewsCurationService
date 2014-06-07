@@ -13,16 +13,19 @@ class Setting {
             'http://rss.dailynews.yahoo.co.jp/fc/sports/rss.xml',
         );
         $neta = array(
-            'http://gigazine.net/index.php?/news/rss_2.0/',
+            //'http://gigazine.net/index.php?/news/rss_2.0/',
+            'http://feed.rssad.jp/rss/gigazine/rss_2.0',
             'http://getnews.jp/feed/ext/orig',
-            'http://rocketnews24.com/feed/',
+            //'http://rocketnews24.com/feed/',
+            'http://feeds.rocketnews24.com/rocketnews24',
+            //'http://feeds.gizmodo.jp/rss/gizmodo/index.xml',
             'http://feeds.gizmodo.jp/rss/gizmodo/index.xml',
             'http://www.narinari.com/index.xml',
         );
         $net = array(
             'http://rss.dailynews.yahoo.co.jp/fc/computer/rss.xml',
             'http://jp.techcrunch.com/feed/',
-            'http://rss.rssad.jp/rss/itmnews/2.0/news_special.xml'
+            'http://rss.rssad.jp/rss/itmnews/2.0/news_special.xml',
                 //'http://www.itmedia.co.jp/info/rss/',
         );
         $com = array(
@@ -99,7 +102,7 @@ class Setting {
     public static function rsslist2() {
         $top = array(
             'http://rss.dailynews.yahoo.co.jp/fc/rss.xml',
-            'http://natalie.mu/music/feed/news',
+                //'http://natalie.mu/music/feed/news',
         );
         $neta = array(
             'http://gigazine.net/index.php?/news/rss_2.0/',
@@ -108,9 +111,19 @@ class Setting {
             'http://feeds.gizmodo.jp/rss/gizmodo/index.xml',
             'http://www.narinari.com/index.xml',
         );
+        $jos = array(
+            'http://joshi-spa.jp/feed',
+            'http://wol.nikkeibp.co.jp/rss/all_wol.rdf',
+            'http://rd.yahoo.co.jp/media/news/zasshi/rss/list/*http://zasshi.news.yahoo.co.jp/rss/health-all.xml',
+        );
+        $biz = array(
+            'http://toyokeizai.net/list/feed/rss',
+            'http://www.sankeibiz.jp/rss/news/points.xml',
+            'http://biz-journal.jp/index.xml',
+        );
+
         return array(
-            'トップ' => $top,
-            'ネタ' => $neta,
+            'biz' => $biz,
         );
     }
 

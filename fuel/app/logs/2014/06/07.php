@@ -34,3 +34,10 @@ ERROR - 2014-06-07 02:12:24 --> Warning - preg_match(): Compilation failed: noth
 ERROR - 2014-06-07 02:24:24 --> Warning - preg_match(): Delimiter must not be alphanumeric or backslash in /Applications/XAMPP/xamppfiles/htdocs/comicnews/fuel/app/views/welcome/sample2.php on line 18
 ERROR - 2014-06-07 02:31:56 --> Warning - preg_match():  in /Applications/XAMPP/xamppfiles/htdocs/comicnews/fuel/app/views/welcome/sample2.php on line 18
 ERROR - 2014-06-07 03:03:52 --> Warning - file_put_contents(/Applications/XAMPP/htdocs/comicnews/xml/http://s0.wp.com/wp-content/themes/vip/rocketnews/img/pts_logo.png): failed to open stream: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/comicnews/fuel/app/views/welcome/sample2.php on line 25
+ERROR - 2014-06-07 14:02:34 --> Warning - Invalid argument supplied for foreach() in /Applications/XAMPP/xamppfiles/htdocs/comicnews/fuel/app/views/welcome/getrss.php on line 49
+ERROR - 2014-06-07 14:44:19 --> Warning - array_keys() expects parameter 1 to be array, object given in /Applications/XAMPP/xamppfiles/htdocs/comicnews/fuel/app/views/welcome/sample2.php on line 51
+ERROR - 2014-06-07 15:33:27 --> Notice - Undefined variable: myurl in /Applications/XAMPP/xamppfiles/htdocs/comicnews/fuel/app/views/welcome/sample2.php on line 41
+ERROR - 2014-06-07 15:33:54 --> Notice - Undefined variable: myurl in /Applications/XAMPP/xamppfiles/htdocs/comicnews/fuel/app/views/welcome/sample2.php on line 33
+ERROR - 2014-06-07 15:33:56 --> Notice - Undefined variable: myurl in /Applications/XAMPP/xamppfiles/htdocs/comicnews/fuel/app/views/welcome/sample2.php on line 33
+ERROR - 2014-06-07 16:23:09 --> Warning - simplexml_load_string(): Entity: line 9: parser error : Input is not proper UTF-8, indicate encoding !
+Bytes: 0x83 0x41 0x83 0x43 in /Applications/XAMPP/xamppfiles/htdocs/comicnews/fuel/app/views/welcome/sample2.php on line 101
