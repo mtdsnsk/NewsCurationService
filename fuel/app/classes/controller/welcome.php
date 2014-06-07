@@ -42,6 +42,10 @@ class Controller_Welcome extends Controller {
         //return Response::forge(view::forge('welcome/index'));
         return Response::forge(ViewModel::forge('welcome/sample2'));
     }
+    
+    public function action_createdb() {
+        return Response::forge(ViewModel::forge('welcome/createdb'));
+    }
 
     public function action_rss() {
         return Response::forge(ViewModel::forge('welcome/rss'));
