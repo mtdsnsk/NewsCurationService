@@ -33,3 +33,4 @@ ERROR - 2014-06-07 02:12:10 --> Warning - preg_match(): Delimiter must not be al
 ERROR - 2014-06-07 02:12:24 --> Warning - preg_match(): Compilation failed: nothing to repeat at offset 0 in /Applications/XAMPP/xamppfiles/htdocs/comicnews/fuel/app/views/welcome/sample2.php on line 19
 ERROR - 2014-06-07 02:24:24 --> Warning - preg_match(): Delimiter must not be alphanumeric or backslash in /Applications/XAMPP/xamppfiles/htdocs/comicnews/fuel/app/views/welcome/sample2.php on line 18
 ERROR - 2014-06-07 02:31:56 --> Warning - preg_match():  in /Applications/XAMPP/xamppfiles/htdocs/comicnews/fuel/app/views/welcome/sample2.php on line 18
+ERROR - 2014-06-07 03:03:52 --> Warning - file_put_contents(/Applications/XAMPP/htdocs/comicnews/xml/http://s0.wp.com/wp-content/themes/vip/rocketnews/img/pts_logo.png): failed to open stream: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/comicnews/fuel/app/views/welcome/sample2.php on line 25

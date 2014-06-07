@@ -71,6 +71,7 @@ class View_Welcome_Getrss extends ViewModel {
                 array_key_exists('guid', $item) ? $var['guid'] = $item->guid : $var['guid'] = '';
                 array_key_exists('summary', $item) ? $var['summary'] = $item->summary : $var['summary'] = '';
                 //View_Welcome_Getrss::gettwitterapi($var);
+                View_Welcome_Getrss::get_image($var['link']);
                 array_push($tmpdat, $var);
             }
             return;
@@ -86,6 +87,7 @@ class View_Welcome_Getrss extends ViewModel {
                 array_key_exists('guid', $item) ? $var['guid'] = $item->guid : $var['guid'] = '';
                 array_key_exists('summary', $item) ? $var['summary'] = $item->summary : $var['summary'] = '';
                 //View_Welcome_Getrss::gettwitterapi($var);
+                View_Welcome_Getrss::get_image($var['link']);
                 array_push($tmpdat, $var);
             }
             return;
@@ -112,14 +114,39 @@ class View_Welcome_Getrss extends ViewModel {
             // 配列に値を格納する
             $item['url'] = $twitterapiurl;
             array_key_exists('count', $obj) ? $item['count'] = $obj->count : $item['count'] = 'none';
-            if($item['count'] == 'none' || $item['count'] == 0){
-                echo $sp[0]. '<br>';
+            if ($item['count'] == 'none' || $item['count'] == 0) {
+                echo $sp[0] . '<br>';
             }
         } catch (Exception $exc) {
             $item['count'] = 'none';
             echo '<br>gettwwitterapi<br>エラー<br>item=' . $item . '<br>' . $exc->getMessage() . '<br>';
         }
         return;
+    }
+
+    public static function get_image($url) {
+        
+        if($url == ''){
+            return;
+        }
+        
+        $html = file_get_contents($url);
+        $ex = preg_replace("/[<>]/", " ", $html);
+        $sp1 = explode(" ", $ex);
+        $sp2 = array_unique($sp1);
+        $sp3 = array_filter($sp2, 'strlen');
+        foreach ($sp3 as $data) {
+            $kekka = '';
+            $bl = preg_match('/http.*(jpe?g|png)/i', $data, $kekka);
+            if ($bl) {
+                $img = file_get_contents($kekka[0]);
+                //$size = ceil(strlen($img) / 1024);
+                //echo 'size:' . $size . 'KB/';
+                //echo $kekka[0] . '<br>';
+                $fn = explode("/", $kekka[0]);
+                file_put_contents('/Applications/XAMPP/htdocs/comicnews/xml/' . $fn[count($fn) - 1], $img);
+            }
+        }
     }
 
 }
