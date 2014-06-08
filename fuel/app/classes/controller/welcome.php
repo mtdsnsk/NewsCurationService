@@ -23,7 +23,7 @@
 class Controller_Welcome extends Controller {
 
     public function action_index() {
-        return Response::forge(ViewModel::forge('welcome/sample2'));
+        return Response::forge(View::forge('welcome/index'));
     }
 
     public function action_hello() {

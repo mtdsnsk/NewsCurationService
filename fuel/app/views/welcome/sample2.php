@@ -25,7 +25,7 @@ echo '<h1>xml取得テスト</h1>'
  . '<p>';
 
 $rsslist = DB::select()->from('sk_rsslist')
-        ->where('id', 43)
+        //->where('category', 20)
         ->execute();
 
 foreach ($rsslist as $value) {
@@ -70,18 +70,39 @@ function func($rssid, $myurl, $category) {
         }
         // XML文字列に変換
         $myrss = simplexml_load_string($mycontents);
-        var_dump($myrss);
-        echo '<div style="background-color:lightgreen; padding: 5px;">';
         foreach ($myrss->item as $item) {
-            insert_news($rssid, $item->title, $item->link, $item->guid, '', $item->description, $category, $myrss->channel->title);
+            $imgurl = '';
+            $kekka = '';
+            if ($item->description != '') {
+                $desc = $item->description;
+            } else {
+                $desc = $item->summary;
+            }
+            $bl = preg_match('/http.*(jpe?g|png)/i', $desc, $kekka);
+            if ($bl) {
+                echo Html::anchor($kekka[0], '画像');
+                $imgurl = $kekka[0];
+            }
+            $source = $myrss->channel->title;
+            insert_news($rssid, $item->title, $item->link, $item->guid, $imgurl, $desc, $category, $source);
         }
         foreach ($myrss->entry as $item) {
-            //$entry->link->attributes()->href
-            insert_news($rssid, $item->title, $item->link->attributes()->href, $item->guid, '', $item->summary, $category, $myrss->channel->title);
+            $imgurl = '';
+            $kekka = '';
+            if ($item->summary != '') {
+                $desc = $item->summary;
+            } else {
+                $desc = $item->description;
+            }
+            $bl = preg_match('/http.*(jpe?g|png)/i', $desc, $kekka);
+            if ($bl) {
+                echo Html::anchor($kekka[0], '画像');
+                $imgurl = $kekka[0];
+            }
+            $source = $myrss->channel->title;
+            insert_news($rssid, $item->title, $item->link->attributes()->href, $item->guid, $imgurl, $desc, $category, $source);
         }
         foreach ($myrss->channel->item as $item) {
-            echo '<p style="width: 90%; background-color:#00ffff; margin: 5 auto;">';
-            echo Html::anchor($item->link, $item->title) . '<br>';
             $imgurl = '';
             $kekka = '';
             if ($item->description != '') {
@@ -95,16 +116,13 @@ function func($rssid, $myurl, $category) {
                 $imgurl = $kekka[0];
             }
             $source = $myrss->channel['title'];
-            echo '</p>';
             insert_news($rssid, $item->title, $item->link, $item->guid, $imgurl, $desc, $category, $source);
         }
-        echo '</div>';
         echo '<hr>';
     } catch (Exception $exc) {
         echo '<h1>致命的なエラー</h1>' . $exc->getTraceAsString() . '<br>';
         echo '<h1>DBエラー</h1>';
         print_r(DB::error_info());
-        echo '<hr>';
         return FALSE;
     }
     return TRUE;
