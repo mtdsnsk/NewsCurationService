@@ -9,13 +9,14 @@
 Class Controller_Myutil_Myfunc extends Controller {
 
     public static function action_fn() {
-        $query = DB::select('url', 'id')->from('sk_news')
+        $query = DB::select('url', 'id', 'tweet_count')->from('sk_news')
                 //->where('rsslist_id', 50)
                 ->execute();
         foreach ($query as $data) {
             $count = Controller_Myutil_Myfunc::action_tweetcount($data['url']);
             DB::update('sk_news')->set(array(
                 'tweet_count' => $count,
+                'tweet_count_rise' => $count - $data['tweet_count'],
             ))->where('id', $data['id'])->execute();
         }
         return;
@@ -52,6 +53,7 @@ Class Controller_Myutil_Myfunc extends Controller {
             $count = 0;
             echo '<br>get_twitter_count<br>エラーメッセージ=' . $exc->getMessage() . '<br>';
         }
+        echo 'tweet回数:' .$count;
         return $count;
     }
     

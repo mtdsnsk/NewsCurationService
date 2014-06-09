@@ -28,14 +28,14 @@ $rsslist = DB::select()->from('sk_rsslist')
         //->where('category', 20)
         ->execute();
 
-foreach ($rsslist as $value) {
-    echo '<h1>' . Html::anchor($value['rssurl'], $value['rssurl']) . '</h1>';
+foreach ($rsslist as $value) {   
     $kekka = func($value['id'], $value['rssurl'], $value['category']);
     if ($kekka === FALSE) {
         DB::update('sk_rsslist')->set(array(
             'error' => 1,
         ))->where('id', $value['id'])->execute();
-        echo 'error';
+        echo '<h1>' . Html::anchor($value['rssurl'], $value['rssurl']) . '</h1>';
+        echo 'エラー発生!';
     } else {
         DB::update('sk_rsslist')->set(array(
             'error' => 0,
@@ -80,7 +80,7 @@ function func($rssid, $myurl, $category) {
             }
             $bl = preg_match('/http.*(jpe?g|png)/i', $desc, $kekka);
             if ($bl) {
-                echo Html::anchor($kekka[0], '画像');
+                //echo Html::anchor($kekka[0], '画像');
                 $imgurl = $kekka[0];
             }
             $source = $myrss->channel->title;
@@ -96,7 +96,7 @@ function func($rssid, $myurl, $category) {
             }
             $bl = preg_match('/http.*(jpe?g|png)/i', $desc, $kekka);
             if ($bl) {
-                echo Html::anchor($kekka[0], '画像');
+                //echo Html::anchor($kekka[0], '画像');
                 $imgurl = $kekka[0];
             }
             $source = $myrss->channel->title;
@@ -112,7 +112,7 @@ function func($rssid, $myurl, $category) {
             }
             $bl = preg_match('/http.*(jpe?g|png)/i', $desc, $kekka);
             if ($bl) {
-                echo Html::anchor($kekka[0], '画像');
+                //echo Html::anchor($kekka[0], '画像');
                 $imgurl = $kekka[0];
             }
             $source = $myrss->channel['title'];
@@ -162,5 +162,5 @@ function insert_news($rssid, $title, $url, $guid, $imgurl, $desc, $category, $so
             'rsslist_id' => $rssid,
         ))->execute();
     }
-    echo DB::last_query();
+    //echo DB::last_query();
 }
