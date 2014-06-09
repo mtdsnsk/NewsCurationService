@@ -14,13 +14,14 @@ Class Controller_Myutil_Parsetweet extends Controller {
                 //->where('rsslist_id', 50)
                 ->execute();
         foreach ($query as $data) {
-            $count = Controller_Myutil_Myfunc::action_tweetcount($data['url']);
+            $count = Controller_Myutil_Parsetweet::action_tweetcount($data['url']);
             Log::info('結果:' . $count . '/対象URL:' . $data['url']);
             DB::update('sk_news')->set(array(
                 'tweet_count' => $count,
                 'tweet_count_rise' => $count - $data['tweet_count'],
             ))->where('id', $data['id'])->execute();
         }
+        Log::info('twitter解析終了');
         return;
     }
     
