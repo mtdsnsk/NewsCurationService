@@ -6,14 +6,16 @@
  * and open the template in the editor.
  */
 
-Class Controller_Myutil_Myfunc extends Controller {
+Class Controller_Myutil_Parsetweet extends Controller {
 
     public static function action_fn() {
+        Log::info('twitter解析開始');
         $query = DB::select('url', 'id', 'tweet_count')->from('sk_news')
                 //->where('rsslist_id', 50)
                 ->execute();
         foreach ($query as $data) {
             $count = Controller_Myutil_Myfunc::action_tweetcount($data['url']);
+            Log::info('結果:' . $count . '/対象URL:' . $data['url']);
             DB::update('sk_news')->set(array(
                 'tweet_count' => $count,
                 'tweet_count_rise' => $count - $data['tweet_count'],
@@ -31,8 +33,6 @@ Class Controller_Myutil_Myfunc extends Controller {
 
     public static function action_tweetcount($url) {
 
-        //$url = Input::param('url');
-        echo '<h1>' . $url . '</h1>';
         $count = 0;
         try {
             //パラメータがある場合は削除
@@ -50,7 +50,6 @@ Class Controller_Myutil_Myfunc extends Controller {
                 $count = $obj->count;
             }
         } catch (Exception $exc) {
-            $count = 0;
             echo '<br>get_twitter_count<br>エラーメッセージ=' . $exc->getMessage() . '<br>';
         }
         echo 'tweet回数:' .$count;
