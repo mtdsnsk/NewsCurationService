@@ -3,6 +3,9 @@
 Class Controller_Myutil_Parsexml extends Controller {
 
     public static function action_fn() {
+        $var = 1;
+        Log::info('Application started (with $var = ' . $var . ')', 'my_init_function()');
+
         echo '<h1>xml取得</h1>'
         . '<div style="width: 900px; text-align:ceter; background-color: lightpink; margin: 0 auto;">'
         . '<p>';
@@ -11,20 +14,23 @@ Class Controller_Myutil_Parsexml extends Controller {
         Log::info('xml解析開始');
         Log::info('対象RSS数:' . count($rsslist));
         foreach ($rsslist as $value) {
-            $kekka = Controller_Myutil_Parsexml::func($value['id'], $value['rssurl'], $value['category']);
-            if ($kekka === FALSE) {
-                Log::info('取得失敗 RSS NO:' . $value['id'] . '/URL:' . $value['rssurl']);
-                DB::update('sk_rsslist')->set(array(
-                    'error' => 1,
-                ))->where('id', $value['id'])->execute();
-                echo '<h1>' . Html::anchor($value['rssurl'], $value['rssurl']) . '</h1>';
-                echo 'エラー発生!';
-            } else {
-                Log::info('取得成功 RSS NO:' . $value['id'] . '/URL:' . $value['rssurl']);
-                DB::update('sk_rsslist')->set(array(
-                    'error' => 0,
-                ))->where('id', $value['id'])->execute();
-            }
+            /*
+              $kekka = Controller_Myutil_Parsexml::func($value['id'], $value['rssurl'], $value['category']);
+              if ($kekka === FALSE) {
+              Log::info('取得失敗 RSS NO:' . $value['id'] . '/URL:' . $value['rssurl']);
+              DB::update('sk_rsslist')->set(array(
+              'error' => 1,
+              ))->where('id', $value['id'])->execute();
+              echo '<h1>' . Html::anchor($value['rssurl'], $value['rssurl']) . '</h1>';
+              echo 'エラー発生!';
+              } else {
+              Log::info('取得成功 RSS NO:' . $value['id'] . '/URL:' . $value['rssurl']);
+              DB::update('sk_rsslist')->set(array(
+              'error' => 0,
+              ))->where('id', $value['id'])->execute();
+              }
+             * 
+             */
         }
         Log::info('xml解析終了');
         echo '</p></div>';
