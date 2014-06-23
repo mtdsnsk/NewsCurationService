@@ -34,8 +34,12 @@ class Controller_Welcome extends Controller {
         return Response::forge(View::forge('test/sample'));
     }
     
-    public function action_sample1() {
-        return Response::forge(ViewModel::forge('test/sample1'));
+    public function action_sample1($category) {
+        return Response::forge(ViewModel::forge('test/sample1', $category));
+    }
+    
+        public function action_news($category) {
+        return Response::forge(ViewModel::forge('test/sample1', $category));
     }
     
     public function action_sample2() {

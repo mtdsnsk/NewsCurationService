@@ -2,7 +2,7 @@
 
 Class Controller_Myutil_Parsexml extends Controller {
 
-    public static function action_fn() {
+    public function action_fn() {
         echo '<h1>xml取得</h1>'
         . '<div style="width: 900px; text-align:ceter; background-color: lightpink; margin: 0 auto;">'
         . '<p>';
@@ -12,7 +12,7 @@ Class Controller_Myutil_Parsexml extends Controller {
         Log::info('対象RSS数:' . count($rsslist));
         foreach ($rsslist as $value) {
 
-            $kekka = Controller_Myutil_Parsexml::func($value['id'], $value['rssurl'], $value['category']);
+            $kekka = $this->func($value['id'], $value['rssurl'], $value['category']);
             if ($kekka === FALSE) {
                 Log::info('取得失敗 RSS NO:' . $value['id'] . '/URL:' . $value['rssurl']);
                 DB::update('sk_rsslist')->set(array(
@@ -31,7 +31,7 @@ Class Controller_Myutil_Parsexml extends Controller {
         echo '</p></div>';
     }
 
-    private static function func($rssid, $myurl, $category) {
+    private function func($rssid, $myurl, $category) {
         try {
             $context = stream_context_create(array(
                 'http' => array('ignore_errors' => true)
@@ -69,7 +69,7 @@ Class Controller_Myutil_Parsexml extends Controller {
                     $imgurl = $kekka[0];
                 }
                 $source = $myrss->channel->title;
-                Controller_Myutil_Parsexml::insert_news($rssid, $item->title, $item->link, $item->guid, $imgurl, $desc, $category, $source);
+                $this->insert_news($rssid, $item->title, $item->link, $item->guid, $imgurl, $desc, $category, $source);
             }
             foreach ($myrss->entry as $item) {
                 $imgurl = '';
@@ -85,7 +85,7 @@ Class Controller_Myutil_Parsexml extends Controller {
                     $imgurl = $kekka[0];
                 }
                 $source = $myrss->channel->title;
-                Controller_Myutil_Parsexml::insert_news($rssid, $item->title, $item->link->attributes()->href, $item->guid, $imgurl, $desc, $category, $source);
+                $this->insert_news($rssid, $item->title, $item->link->attributes()->href, $item->guid, $imgurl, $desc, $category, $source);
             }
             foreach ($myrss->channel->item as $item) {
                 $imgurl = '';
@@ -101,7 +101,7 @@ Class Controller_Myutil_Parsexml extends Controller {
                     $imgurl = $kekka[0];
                 }
                 $source = $myrss->channel['title'];
-                Controller_Myutil_Parsexml::insert_news($rssid, $item->title, $item->link, $item->guid, $imgurl, $desc, $category, $source);
+                $this->insert_news($rssid, $item->title, $item->link, $item->guid, $imgurl, $desc, $category, $source);
             }
             echo '<hr>';
         } catch (Exception $exc) {
@@ -113,7 +113,7 @@ Class Controller_Myutil_Parsexml extends Controller {
         return TRUE;
     }
 
-    private static function insert_news($rssid, $title, $url, $guid, $imgurl, $desc, $category, $source) {
+    private function insert_news($rssid, $title, $url, $guid, $imgurl, $desc, $category, $source) {
 
         $query = DB::select('id')->from('sk_news')
                 ->where_open()

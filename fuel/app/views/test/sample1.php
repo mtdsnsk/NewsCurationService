@@ -5,8 +5,10 @@
         <title>sample</title>
         <?php echo Asset::css('bootstrap.css'); ?>
         <style>
+            body{
+                max-width: 800px;
+            }
             table{
-                width: 100%;
                 border-collapse: collapse;
             }
             th {
@@ -19,13 +21,6 @@
                 border:1px solid #ccc;
                 padding:5px;
             }
-            .t01{
-                width: 50%;
-            }
-
-            .t02{
-                width: 50%;
-            }
             img{
                 max-height: 160px;
                 float: right;
@@ -34,174 +29,34 @@
                 max-height: 120px;
             }
             .midashi{
-                font-size: 22px;
+                font-size: 30px;
             }
             .teikyo{
-                
+
+            }
+            a {
+                color: black;
+                text-decoration: none;
+            }
+            a :hover{
+                color: black;
+                text-decoration: none;
+            }
+            a:link{
+                text-decoration: none;
             }
         </style>
     </head>
     <body>
         <table class="sample_01">
             <tbody>
-                <tr>
-                    <td colspan="2">
-                        <span>
-                            <img src="http://imgcc.naver.jp/kaze/mission/USER/20140602/18/167278/3/300x200xc3e2ea0963e690928f879980.jpg"/>
-                            <span class="midashi">トップニュース</span><br>
-                            <a link="#">リンクがついたニュースの概要を表示するテキスト</a>
-                            リンクがついたニュースの概要を表示するテキスト
-                            リンクがついたニュースの概要を表示するテキスト
-                            リンクがついたニュースの概要を表示するテキスト
-                            リンクがついたニュースの概要を表示するテキスト
-                            リンクがついたニュースの概要を表示するテキスト
-                            リンクがついたニュースの概要を表示するテキスト
-                            リンクがついたニュースの概要を表示するテキスト
-                            <br>
-                            <span class="teikyo">
-                            提供元:<b>トップサイト</b>
-                            </span>
-                        </span>
 
-                    </td>
-                </tr>
-                <tr>
-                    <td class="t01 sm">
-                        <img src="http://imgcc.naver.jp/kaze/mission/USER/20140602/18/167278/3/300x200xc3e2ea0963e690928f879980.jpg"/>
-                        <span class="midashi"><?= $title[0]; ?></span><br>
-                        <a link="#">リンクがついたニュースの概要を表示するテキスト</a>
-                        リンクがついたニュースの概要を表示するテキスト
-                        <br>
-                        <span>
-                            提供元:<b>トップサイト</b>
-                            </span>
-                    </td>
-                    <td class="sm">
-                        <img src="http://imgcc.naver.jp/kaze/mission/USER/20140602/18/167278/3/300x200xc3e2ea0963e690928f879980.jpg"/>
-                        <span class="midashi"><?= $title[1]; ?></span><br>
-                        <a link="#">リンクがついたニュースの概要を表示するテキスト</a>
-                        リンクがついたニュースの概要を表示するテキスト
-                        リンクがついたニュースの概要を表示するテキスト
-                        リンクがついたニュースの概要を表示するテキスト
-                        リンクがついたニュースの概要を表示するテキスト
-                        リンクがついたニュースの概要を表示するテキスト
-                        リンクがついたニュースの概要を表示するテキスト
-                        リンクがついたニュースの概要を表示するテキスト
-                        <br>
-                        提供元:<b>トップサイト</b>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="t01 sm">
-                        <img src="http://imgcc.naver.jp/kaze/mission/USER/20140602/18/167278/3/300x200xc3e2ea0963e690928f879980.jpg"/>
-                        <span class="midashi">トップニュース</span><br>
-                        <a link="#">リンクがついたニュースの概要を表示するテキスト</a>
-                        リンクがついたニュースの概要を表示するテキスト
-                        リンクがついたニュースの概要を表示するテキスト
-                        リンクがついたニュースの概要を表示するテキスト
-                        リンクがついたニュースの概要を表示するテキスト
-                        リンクがついたニュースの概要を表示するテキスト
-                        リンクがついたニュースの概要を表示するテキスト
-                        リンクがついたニュースの概要を表示するテキスト
-                        <br>
-                        提供元:<b>トップサイト</b>
-                    </td>
-                    <td class="sm">
-                        <img src="http://imgcc.naver.jp/kaze/mission/USER/20140602/18/167278/3/300x200xc3e2ea0963e690928f879980.jpg"/>
-                        <span class="midashi">トップニュース</span><br>
-                        <a link="#">リンクがついたニュースの概要を表示するテキスト</a>
-                        リンクがついたニュースの概要を表示するテキスト
-                        リンクがついたニュースの概要を表示するテキスト
-                        リンクがついたニュースの概要を表示するテキスト
-                        リンクがついたニュースの概要を表示するテキスト
-                        リンクがついたニュースの概要を表示するテキスト
-                        リンクがついたニュースの概要を表示するテキスト
-                        リンクがついたニュースの概要を表示するテキスト
-                        <br>
-                        提供元:<b>トップサイト</b>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="t01 sm">
-                        <img src="http://imgcc.naver.jp/kaze/mission/USER/20140602/18/167278/3/300x200xc3e2ea0963e690928f879980.jpg"/>
-                        <span class="midashi">トップニュース</span><br>
-                        <a link="#">リンクがついたニュースの概要を表示するテキスト</a>
-                        リンクがついたニュースの概要を表示するテキスト
-                        リンクがついたニュースの概要を表示するテキスト
-                        リンクがついたニュースの概要を表示するテキスト
-                        リンクがついたニュースの概要を表示するテキスト
-                        リンクがついたニュースの概要を表示するテキスト
-                        リンクがついたニュースの概要を表示するテキスト
-                        リンクがついたニュースの概要を表示するテキスト
-                        <br>
-                        提供元:<b>トップサイト</b>
-                    </td>
-                    <td class="sm">
-                        <img src="http://imgcc.naver.jp/kaze/mission/USER/20140602/18/167278/3/300x200xc3e2ea0963e690928f879980.jpg"/>
-                        <span class="midashi">トップニュース</span><br>
-                        <a link="#">リンクがついたニュースの概要を表示するテキスト</a>
-                        リンクがついたニュースの概要を表示するテキスト
-                        リンクがついたニュースの概要を表示するテキスト
-                        リンクがついたニュースの概要を表示するテキスト
-                        リンクがついたニュースの概要を表示するテキスト
-                        リンクがついたニュースの概要を表示するテキスト
-                        リンクがついたニュースの概要を表示するテキスト
-                        リンクがついたニュースの概要を表示するテキスト
-                        <br>
-                        提供元:<b>トップサイト</b>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="t01 sm">
-                        <img src="http://imgcc.naver.jp/kaze/mission/USER/20140602/18/167278/3/300x200xc3e2ea0963e690928f879980.jpg"/>
-                        <span class="midashi">トップニュース</span><br>
-                        <a link="#">リンクがついたニュースの概要を表示するテキスト</a>
-                        リンクがついたニュースの概要を表示するテキスト
-                        リンクがついたニュースの概要を表示するテキスト
-                        リンクがついたニュースの概要を表示するテキスト
-                        リンクがついたニュースの概要を表示するテキスト
-                        リンクがついたニュースの概要を表示するテキスト
-                        リンクがついたニュースの概要を表示するテキスト
-                        リンクがついたニュースの概要を表示するテキスト
-                        <br>
-                        提供元:<b>トップサイト</b>
-                    </td>
-                    <td class="sm">
-                        <img src="http://imgcc.naver.jp/kaze/mission/USER/20140602/18/167278/3/300x200xc3e2ea0963e690928f879980.jpg"/>
-                        <span class="midashi">トップニュース</span><br>
-                        <a link="#">リンクがついたニュースの概要を表示するテキスト</a>
-                        リンクがついたニュースの概要を表示するテキスト
-                        リンクがついたニュースの概要を表示するテキスト
-                        リンクがついたニュースの概要を表示するテキスト
-                        <br>
-                        提供元:<b>トップサイト</b>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="t01 sm">
-                        <img src="http://imgcc.naver.jp/kaze/mission/USER/20140602/18/167278/3/300x200xc3e2ea0963e690928f879980.jpg"/>
-                        <span class="midashi">トップニュース</span><br>
-                        <a link="#">リンクがついたニュースの概要を表示するテキスト</a>
-                        リンクがついたニュースの概要を表示するテキスト
-                        リンクがついたニュースの概要を表示するテキスト
-                        <br>
-                        提供元:<b>トップサイト</b>
-                    </td>
-                    <td class="sm">
-                        <img src="http://imgcc.naver.jp/kaze/mission/USER/20140602/18/167278/3/300x200xc3e2ea0963e690928f879980.jpg"/>
-                        <span class="midashi">トップニュース</span><br>
-                        <a link="#">リンクがついたニュースの概要を表示するテキスト</a>
-                        リンクがついたニュースの概要を表示するテキスト
-                        リンクがついたニュースの概要を表示するテキスト
-                        リンクがついたニュースの概要を表示するテキスト
-                        リンクがついたニュースの概要を表示するテキスト
-                        リンクがついたニュースの概要を表示するテキスト
-                        リンクがついたニュースの概要を表示するテキスト
-                        リンクがついたニュースの概要を表示するテキスト
-                        <br>
-                        提供元:<b>トップサイト</b>
-                    </td>
-                </tr>
+                <?php
+                foreach ($data as $list) {
+                    echo html_entity_decode($list['sum']);
+                }
+                ?>
+
             </tbody>
         </table>
     </body>

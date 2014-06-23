@@ -8,13 +8,13 @@
 
 Class Controller_Myutil_Parsetweet extends Controller {
 
-    public static function action_fn() {
+    public function action_fn() {
         Log::info('twitter解析開始');
         $query = DB::select('url', 'id', 'tweet_count')->from('sk_news')
-                //->where('rsslist_id', 50)
+                ->where('created_at', '>=', date("Ymd"))
                 ->execute();
         foreach ($query as $data) {
-            $count = Controller_Myutil_Parsetweet::action_tweetcount($data['url']);
+            $count = $this->tweetcount($data['url']);
             Log::info('結果:' . $count . '/対象URL:' . $data['url']);
             DB::update('sk_news')->set(array(
                 'tweet_count' => $count,
@@ -24,15 +24,15 @@ Class Controller_Myutil_Parsetweet extends Controller {
         Log::info('twitter解析終了');
         return;
     }
-    
+
     public function action_test() {
         $url = 'http://netouyonews.net/archives/8402491.html';
         $count = Controller_Myutil_Myfunc::action_tweetcount($url);
-        echo '<br>tweet回数:' .$count;
+        echo '<br>tweet回数:' . $count;
         return;
     }
 
-    public static function action_tweetcount($url) {
+    private function tweetcount($url) {
 
         $count = 0;
         try {
@@ -53,13 +53,13 @@ Class Controller_Myutil_Parsetweet extends Controller {
         } catch (Exception $exc) {
             echo '<br>get_twitter_count<br>エラーメッセージ=' . $exc->getMessage() . '<br>';
         }
-        echo 'tweet回数:' .$count;
+        echo 'tweet回数:' . $count;
         return $count;
     }
-    
-    public static function action_phpintmax(){
+
+    public static function action_phpintmax() {
         echo 'PHP_INT_MAX:';
-        var_dump(PHP_INT_MAX); 
+        var_dump(PHP_INT_MAX);
     }
 
 }
