@@ -3309,3 +3309,27 @@ INFO - 2014-06-23 18:42:04 --> Fuel\Core\Request::execute - Setting main Request
 INFO - 2014-06-23 18:42:04 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "welcome/news/sports"
 INFO - 2014-06-23 18:42:04 --> Fuel\Core\Request::execute - Called
 INFO - 2014-06-23 18:42:04 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-06-23 22:49:03 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = ""
+INFO - 2014-06-23 22:49:03 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-23 22:49:03 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-06-23 23:24:06 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = ""
+INFO - 2014-06-23 23:24:06 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-23 23:24:06 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-06-23 23:24:10 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "welcome/news/sports"
+INFO - 2014-06-23 23:24:10 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-23 23:24:10 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-06-23 23:24:14 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "welcome/news/sports/2"
+INFO - 2014-06-23 23:24:14 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-23 23:24:14 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-06-23 23:24:14 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "welcome/news/sports/1"
+INFO - 2014-06-23 23:24:14 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-23 23:24:14 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-06-23 23:24:16 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "welcome/news/sports/2"
+INFO - 2014-06-23 23:24:16 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-23 23:24:16 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-06-23 23:24:49 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "welcome/news/sports"
+INFO - 2014-06-23 23:24:49 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-23 23:24:49 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-06-23 23:24:49 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "welcome/news/sports"
+INFO - 2014-06-23 23:24:49 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-23 23:24:49 --> Fuel\Core\Request::execute - Setting main Request
