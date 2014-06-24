@@ -11,7 +11,7 @@ return array(
         'connection' => array(
             'hostname' => 'localhost',
             'database' => 'sukima',
-            'username' => 'root',
+            'username' => 'sukima',
             'password' => 'torico',
         ),
     ),

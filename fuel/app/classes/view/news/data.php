@@ -19,9 +19,15 @@ class View_News_Data extends ViewModel {
                 ->limit(20)
                 ->execute();
         foreach ($query as $data) {
+            if($data['image_url'] != '') {
+                $img = '';
+            } else {
+                $img = Html::img('http://cdn-ak.f.st-hatena.com/images/fotolife/e/emija/20140128/20140128163352.jpg');
+            }
+
             $sum = '<tr><td><a href="' . $data['url'] . '">' .
+                    $img .
                     '<p class="midashi">' . $data['title'] . '</p>' .
-                    Html::img('http://cdn-ak.f.st-hatena.com/images/fotolife/e/emija/20140128/20140128163352.jpg') .
                     '提供元:<b>' . $data['guid'] . '</b>' .
                     '</a></td></tr>';
 

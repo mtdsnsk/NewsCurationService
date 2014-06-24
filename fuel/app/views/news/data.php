@@ -17,14 +17,14 @@
                 padding:5px;
             }
             img{
-                max-height: 160px;
+                max-height: 140px;
                 float: right;
             }
             .sm img{
                 max-height: 120px;
             }
             .midashi{
-                font-size: 30px;
+                font-size: 24px;
             }
             a {
                 color: black;
