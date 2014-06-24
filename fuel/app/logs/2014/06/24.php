@@ -2646,3 +2646,36 @@ INFO - 2014-06-24 13:02:21 --> 結果:85/対象URL:http://alfalfalfa.com/archive
 INFO - 2014-06-24 13:02:21 --> twitter解析終了
 INFO - 2014-06-24 13:02:21 --> 結果:85/対象URL:http://alfalfalfa.com/archives/7352284.html
 INFO - 2014-06-24 13:02:21 --> twitter解析終了
+INFO - 2014-06-24 14:52:42 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "welcome/index"
+INFO - 2014-06-24 14:52:42 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-24 14:52:42 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-06-24 14:53:03 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = ""
+INFO - 2014-06-24 14:53:03 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-24 14:53:03 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-06-24 14:53:06 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "welcome/index"
+INFO - 2014-06-24 14:53:06 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-24 14:53:06 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-06-24 14:53:11 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "welcome/index"
+INFO - 2014-06-24 14:53:11 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-24 14:53:11 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-06-24 14:53:11 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "welcome/index"
+INFO - 2014-06-24 14:53:11 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-24 14:53:11 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-06-24 14:53:48 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "welcome/index"
+INFO - 2014-06-24 14:53:48 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "welcome/index"
+INFO - 2014-06-24 14:53:48 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-24 14:53:48 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-24 14:53:48 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-06-24 14:53:48 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-06-24 14:54:00 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "welcome/news/sports/9"
+INFO - 2014-06-24 14:54:00 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-24 14:54:00 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-06-24 14:54:02 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "welcome/news/sports/9"
+INFO - 2014-06-24 14:54:02 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-24 14:54:02 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-06-24 14:54:02 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "welcome/news/sports/9"
+INFO - 2014-06-24 14:54:02 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-24 14:54:02 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-06-24 14:54:05 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "welcome/news/sports"
+INFO - 2014-06-24 14:54:05 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-24 14:54:05 --> Fuel\Core\Request::execute - Setting main Request
