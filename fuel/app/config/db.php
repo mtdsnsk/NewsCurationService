@@ -12,7 +12,7 @@ return array(
             'hostname' => 'localhost',
             'database' => 'sukima',
             'username' => 'root',
-            'password' => 'root',
+            'password' => 'torico',
         ),
     ),
 );

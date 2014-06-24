@@ -2679,3 +2679,204 @@ INFO - 2014-06-24 14:54:02 --> Fuel\Core\Request::execute - Setting main Request
 INFO - 2014-06-24 14:54:05 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "welcome/news/sports"
 INFO - 2014-06-24 14:54:05 --> Fuel\Core\Request::execute - Called
 INFO - 2014-06-24 14:54:05 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-06-24 16:42:31 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = ""
+INFO - 2014-06-24 16:42:31 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-24 16:42:31 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-06-24 16:42:34 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = ""
+INFO - 2014-06-24 16:42:34 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-24 16:42:34 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-06-24 16:42:34 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = ""
+INFO - 2014-06-24 16:42:34 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-24 16:42:34 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-06-24 16:42:38 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "welcome/news/sports"
+INFO - 2014-06-24 16:42:38 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-24 16:42:38 --> Fuel\Core\Request::execute - Setting main Request
+ERROR - 2014-06-24 16:42:38 --> Error - No MySQLi Connection in /Applications/XAMPP/xamppfiles/htdocs/sukima_server/fuel/core/classes/database/mysqli/connection.php on line 135
+INFO - 2014-06-24 16:43:39 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "welcome/news/sports"
+INFO - 2014-06-24 16:43:39 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-24 16:43:39 --> Fuel\Core\Request::execute - Setting main Request
+ERROR - 2014-06-24 16:43:39 --> Error - No MySQLi Connection in /Applications/XAMPP/xamppfiles/htdocs/sukima_server/fuel/core/classes/database/mysqli/connection.php on line 135
+INFO - 2014-06-24 16:52:16 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = ""
+INFO - 2014-06-24 16:52:16 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-24 16:52:16 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-06-24 16:52:18 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = ""
+INFO - 2014-06-24 16:52:18 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = ""
+INFO - 2014-06-24 16:52:18 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-24 16:52:18 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-06-24 16:52:18 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-24 16:52:18 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-06-24 16:54:50 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "welcome/index"
+INFO - 2014-06-24 16:54:50 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-24 16:54:50 --> Fuel\Core\Request::execute - Setting main Request
+ERROR - 2014-06-24 16:54:50 --> Notice - Undefined variable: category in /Applications/XAMPP/xamppfiles/htdocs/sukima_server/fuel/app/classes/controller/welcome.php on line 26
+INFO - 2014-06-24 16:54:56 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "welcome/index"
+INFO - 2014-06-24 16:54:56 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-24 16:54:56 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-06-24 16:54:56 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "welcome/index"
+INFO - 2014-06-24 16:54:56 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-24 16:54:56 --> Fuel\Core\Request::execute - Setting main Request
+ERROR - 2014-06-24 16:54:56 --> Notice - Undefined variable: category in /Applications/XAMPP/xamppfiles/htdocs/sukima_server/fuel/app/classes/controller/welcome.php on line 26
+ERROR - 2014-06-24 16:54:56 --> Notice - Undefined variable: category in /Applications/XAMPP/xamppfiles/htdocs/sukima_server/fuel/app/classes/controller/welcome.php on line 26
+INFO - 2014-06-24 16:55:00 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "welcome/a"
+INFO - 2014-06-24 16:55:00 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-24 16:55:00 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-06-24 16:55:00 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "welcome/404"
+INFO - 2014-06-24 16:55:00 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-24 16:55:00 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-06-24 16:55:12 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "welcome/index"
+INFO - 2014-06-24 16:55:12 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-24 16:55:12 --> Fuel\Core\Request::execute - Setting main Request
+ERROR - 2014-06-24 16:55:12 --> Error - ViewModel "\View_News" could not be found. in /Applications/XAMPP/xamppfiles/htdocs/sukima_server/fuel/core/classes/viewmodel.php on line 73
+INFO - 2014-06-24 16:55:16 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "welcome"
+INFO - 2014-06-24 16:55:16 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-24 16:55:16 --> Fuel\Core\Request::execute - Setting main Request
+ERROR - 2014-06-24 16:55:16 --> Error - ViewModel "\View_News" could not be found. in /Applications/XAMPP/xamppfiles/htdocs/sukima_server/fuel/core/classes/viewmodel.php on line 73
+INFO - 2014-06-24 16:56:07 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "welcome"
+INFO - 2014-06-24 16:56:07 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-24 16:56:07 --> Fuel\Core\Request::execute - Setting main Request
+ERROR - 2014-06-24 16:56:07 --> Error - The requested view could not be found: news/data in /Applications/XAMPP/xamppfiles/htdocs/sukima_server/fuel/core/classes/view.php on line 388
+INFO - 2014-06-24 16:57:10 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "news"
+INFO - 2014-06-24 16:57:10 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-24 16:57:10 --> Fuel\Core\Request::execute - Setting main Request
+ERROR - 2014-06-24 16:57:10 --> Error - The requested view could not be found: news/data in /Applications/XAMPP/xamppfiles/htdocs/sukima_server/fuel/core/classes/view.php on line 388
+INFO - 2014-06-24 16:57:50 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "news"
+INFO - 2014-06-24 16:57:50 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "news"
+INFO - 2014-06-24 16:57:50 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-24 16:57:50 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-24 16:57:50 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-06-24 16:57:50 --> Fuel\Core\Request::execute - Setting main Request
+ERROR - 2014-06-24 16:57:50 --> Error - The requested view could not be found: news/data in /Applications/XAMPP/xamppfiles/htdocs/sukima_server/fuel/core/classes/view.php on line 388
+ERROR - 2014-06-24 16:57:50 --> Error - The requested view could not be found: news/data in /Applications/XAMPP/xamppfiles/htdocs/sukima_server/fuel/core/classes/view.php on line 388
+INFO - 2014-06-24 16:57:52 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "news"
+INFO - 2014-06-24 16:57:52 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-24 16:57:52 --> Fuel\Core\Request::execute - Setting main Request
+ERROR - 2014-06-24 16:57:52 --> Error - The requested view could not be found: news/data in /Applications/XAMPP/xamppfiles/htdocs/sukima_server/fuel/core/classes/view.php on line 388
+INFO - 2014-06-24 16:58:08 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "news"
+INFO - 2014-06-24 16:58:08 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-24 16:58:08 --> Fuel\Core\Request::execute - Setting main Request
+ERROR - 2014-06-24 16:58:08 --> Error - The requested view could not be found: news/data in /Applications/XAMPP/xamppfiles/htdocs/sukima_server/fuel/core/classes/view.php on line 388
+INFO - 2014-06-24 16:58:51 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "news"
+INFO - 2014-06-24 16:58:51 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-24 16:58:51 --> Fuel\Core\Request::execute - Setting main Request
+ERROR - 2014-06-24 16:58:51 --> Error - The requested view could not be found: news/data in /Applications/XAMPP/xamppfiles/htdocs/sukima_server/fuel/core/classes/view.php on line 388
+INFO - 2014-06-24 16:58:53 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "news"
+INFO - 2014-06-24 16:58:53 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-24 16:58:53 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-06-24 16:58:53 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "news"
+INFO - 2014-06-24 16:58:53 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-24 16:58:53 --> Fuel\Core\Request::execute - Setting main Request
+ERROR - 2014-06-24 16:58:53 --> Error - The requested view could not be found: news/data in /Applications/XAMPP/xamppfiles/htdocs/sukima_server/fuel/core/classes/view.php on line 388
+ERROR - 2014-06-24 16:58:53 --> Error - The requested view could not be found: news/data in /Applications/XAMPP/xamppfiles/htdocs/sukima_server/fuel/core/classes/view.php on line 388
+INFO - 2014-06-24 16:58:54 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = ""
+INFO - 2014-06-24 16:58:54 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-24 16:58:54 --> Fuel\Core\Request::execute - Setting main Request
+ERROR - 2014-06-24 16:58:54 --> Error - The requested view could not be found: news/data in /Applications/XAMPP/xamppfiles/htdocs/sukima_server/fuel/core/classes/view.php on line 388
+INFO - 2014-06-24 16:58:54 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = ""
+INFO - 2014-06-24 16:58:54 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-24 16:58:54 --> Fuel\Core\Request::execute - Setting main Request
+ERROR - 2014-06-24 16:58:54 --> Error - The requested view could not be found: news/data in /Applications/XAMPP/xamppfiles/htdocs/sukima_server/fuel/core/classes/view.php on line 388
+INFO - 2014-06-24 16:59:01 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "welcome/index"
+INFO - 2014-06-24 16:59:01 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-24 16:59:01 --> Fuel\Core\Request::execute - Setting main Request
+ERROR - 2014-06-24 16:59:01 --> Error - The requested view could not be found: news/data in /Applications/XAMPP/xamppfiles/htdocs/sukima_server/fuel/core/classes/view.php on line 388
+INFO - 2014-06-24 16:59:06 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "welcome/hello"
+INFO - 2014-06-24 16:59:06 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-24 16:59:06 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-06-24 16:59:10 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "welcome/hello"
+INFO - 2014-06-24 16:59:10 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-24 16:59:10 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-06-24 16:59:10 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "welcome/hello"
+INFO - 2014-06-24 16:59:10 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-24 16:59:10 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-06-24 16:59:11 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "welcome/index"
+INFO - 2014-06-24 16:59:11 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-24 16:59:11 --> Fuel\Core\Request::execute - Setting main Request
+ERROR - 2014-06-24 16:59:11 --> Error - The requested view could not be found: news/data in /Applications/XAMPP/xamppfiles/htdocs/sukima_server/fuel/core/classes/view.php on line 388
+INFO - 2014-06-24 16:59:12 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = ""
+INFO - 2014-06-24 16:59:12 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-24 16:59:12 --> Fuel\Core\Request::execute - Setting main Request
+ERROR - 2014-06-24 16:59:12 --> Error - The requested view could not be found: news/data in /Applications/XAMPP/xamppfiles/htdocs/sukima_server/fuel/core/classes/view.php on line 388
+INFO - 2014-06-24 16:59:13 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "news"
+INFO - 2014-06-24 16:59:13 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-24 16:59:13 --> Fuel\Core\Request::execute - Setting main Request
+ERROR - 2014-06-24 16:59:13 --> Error - The requested view could not be found: news/data in /Applications/XAMPP/xamppfiles/htdocs/sukima_server/fuel/core/classes/view.php on line 388
+INFO - 2014-06-24 16:59:37 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "news"
+INFO - 2014-06-24 16:59:37 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-24 16:59:37 --> Fuel\Core\Request::execute - Setting main Request
+ERROR - 2014-06-24 16:59:37 --> Error - The requested view could not be found: news/data in /Applications/XAMPP/xamppfiles/htdocs/sukima_server/fuel/core/classes/view.php on line 388
+INFO - 2014-06-24 16:59:37 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = ""
+INFO - 2014-06-24 16:59:37 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-24 16:59:37 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-06-24 16:59:38 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "welcome/index"
+INFO - 2014-06-24 16:59:38 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-24 16:59:38 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-06-24 16:59:42 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "welcome/index"
+INFO - 2014-06-24 16:59:42 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-24 16:59:42 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-06-24 16:59:42 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "welcome/index"
+INFO - 2014-06-24 16:59:42 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-24 16:59:42 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-06-24 16:59:43 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "welcome"
+INFO - 2014-06-24 16:59:43 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-24 16:59:43 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-06-24 16:59:47 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "news"
+INFO - 2014-06-24 16:59:47 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-24 16:59:47 --> Fuel\Core\Request::execute - Setting main Request
+ERROR - 2014-06-24 16:59:47 --> Error - The requested view could not be found: news/data in /Applications/XAMPP/xamppfiles/htdocs/sukima_server/fuel/core/classes/view.php on line 388
+INFO - 2014-06-24 17:01:50 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "news"
+INFO - 2014-06-24 17:01:50 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-24 17:01:50 --> Fuel\Core\Request::execute - Setting main Request
+ERROR - 2014-06-24 17:01:50 --> Error - No MySQLi Connection in /Applications/XAMPP/xamppfiles/htdocs/sukima_server/fuel/core/classes/database/mysqli/connection.php on line 135
+INFO - 2014-06-24 17:02:11 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "news"
+INFO - 2014-06-24 17:02:11 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-24 17:02:11 --> Fuel\Core\Request::execute - Setting main Request
+ERROR - 2014-06-24 17:02:11 --> Error - No MySQLi Connection in /Applications/XAMPP/xamppfiles/htdocs/sukima_server/fuel/core/classes/database/mysqli/connection.php on line 135
+INFO - 2014-06-24 17:02:47 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "news"
+INFO - 2014-06-24 17:02:47 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-24 17:02:47 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-06-24 17:02:54 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "news"
+INFO - 2014-06-24 17:02:54 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-24 17:02:54 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-06-24 17:03:03 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "news"
+INFO - 2014-06-24 17:03:03 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "news"
+INFO - 2014-06-24 17:03:03 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-24 17:03:03 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-06-24 17:03:03 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-24 17:03:03 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-06-24 17:03:04 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "news"
+INFO - 2014-06-24 17:03:04 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-24 17:03:04 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-06-24 17:04:05 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "news"
+INFO - 2014-06-24 17:04:05 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-24 17:04:05 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-06-24 17:04:28 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "news"
+INFO - 2014-06-24 17:04:28 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-24 17:04:28 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-06-24 17:04:48 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "news"
+INFO - 2014-06-24 17:04:48 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-24 17:04:48 --> Fuel\Core\Request::execute - Setting main Request
+ERROR - 2014-06-24 17:04:48 --> Notice - Undefined index: guide in /Applications/XAMPP/xamppfiles/htdocs/sukima_server/fuel/app/classes/view/news/data.php on line 24
+INFO - 2014-06-24 17:05:35 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "news"
+INFO - 2014-06-24 17:05:35 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-24 17:05:35 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-06-24 17:06:28 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "news"
+INFO - 2014-06-24 17:06:28 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-24 17:06:28 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-06-24 17:07:09 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "news"
+INFO - 2014-06-24 17:07:09 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-24 17:07:09 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-06-24 17:07:28 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "news"
+INFO - 2014-06-24 17:07:28 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-24 17:07:28 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-06-24 17:08:40 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "news"
+INFO - 2014-06-24 17:08:40 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-24 17:08:40 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-06-24 17:09:20 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "news"
+INFO - 2014-06-24 17:09:20 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-24 17:09:20 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-06-24 17:09:33 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "news"
+INFO - 2014-06-24 17:09:33 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-24 17:09:33 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-06-24 17:12:11 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "news"
+INFO - 2014-06-24 17:12:11 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-24 17:12:11 --> Fuel\Core\Request::execute - Setting main Request
