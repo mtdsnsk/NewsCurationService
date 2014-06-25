@@ -2,37 +2,38 @@
 
 Class Controller_Myutil_Parsexml extends Controller {
 
-    public function action_fn() {
-        echo '<h1>xml取得</h1>'
-        . '<div style="width: 900px; text-align:ceter; background-color: lightpink; margin: 0 auto;">'
-        . '<p>';
-        $rsslist = DB::select()->from('sk_rsslist')
-                ->where('id', 73)
-                ->execute();
+    public function action_fnxml() {
+
+        require_once( APPPATH . 'classes/model/Multithreading.php');
+        $array_url = array();
+
+        $rsslist = DB::select()->from('sk_rsslist')->execute();
         Log::info('xml解析開始');
         Log::info('対象RSS数:' . count($rsslist));
-        foreach ($rsslist as $value) {
 
-            $kekka = $this->func($value['id'], $value['rssurl'], $value['category']);
-            if ($kekka === FALSE) {
-                Log::info('取得失敗 RSS NO:' . $value['id'] . '/URL:' . $value['rssurl']);
-                DB::update('sk_rsslist')->set(array(
-                    'error' => 1,
-                ))->where('id', $value['id'])->execute();
-                echo '<h1>' . Html::anchor($value['rssurl'], $value['rssurl']) . '</h1>';
-                echo 'エラー発生!';
-            } else {
-                Log::info('取得成功 RSS NO:' . $value['id'] . '/URL:' . $value['rssurl']);
-                DB::update('sk_rsslist')->set(array(
-                    'error' => 0,
-                ))->where('id', $value['id'])->execute();
-            }
+        foreach ($rsslist as $value) {
+            $id = $value['id'];
+            $url = $value['rssurl'];
+            $category = $value['category'];
+            //$kekka = $this->func($value['id'], $value['rssurl'], $value['category']);
+            //$html = 'http://dev-tachiyomi.torico-tokyo.com/commic_news/public/myutil/parsexml/parsexml?' .
+            $th = 'http://localhost/sukima_server/public/myutil/parsexml/parsexml?' .
+                    "rssid=$id" . '&' . "rssurl=$url" . '&' . "category=$category";
+            array_push($array_url, $th);
         }
+
+        Multithreading::execute($array_url);
         Log::info('xml解析終了');
-        echo '</p></div>';
     }
 
-    private function func($rssid, $myurl, $category) {
+    public function action_parsexml() {
+
+        $rssid = Input::param('rssid');
+        $myurl = Input::param('rssurl');
+        $category = Input::param('category');
+
+        Log::info("xml解析対象RSS:$myurl");
+
         try {
             $context = stream_context_create(array(
                 'http' => array('ignore_errors' => true)
@@ -54,7 +55,8 @@ Class Controller_Myutil_Parsexml extends Controller {
                 echo '<hr>';
                 return FALSE;
             }
-// XML文字列に変換
+
+            // XML文字列に変換
             $myrss = simplexml_load_string($mycontents);
             foreach ($myrss->item as $item) {
                 $imgurl = '';
@@ -66,10 +68,8 @@ Class Controller_Myutil_Parsexml extends Controller {
                 }
                 $bl = preg_match('/http.*(jpe?g|png)/i', $desc, $kekka);
                 if ($bl) {
-//echo Html::anchor($kekka[0], '画像');
                     $imgurl = $kekka[0];
                 }
-                //Controller_Myutil_Parsexml::action_showimage($item->link);
                 $source = $myrss->channel->title;
                 $this->insert_news($rssid, $item->title, $item->link, $item->guid, $imgurl, $desc, $category, $source);
             }
@@ -83,10 +83,8 @@ Class Controller_Myutil_Parsexml extends Controller {
                 }
                 $bl = preg_match('/http.*(jpe?g|png)/i', $desc, $kekka);
                 if ($bl) {
-//echo Html::anchor($kekka[0], '画像');
                     $imgurl = $kekka[0];
                 }
-                //Controller_Myutil_Parsexml::action_showimage($item->link->attributes()->href);
                 $source = $myrss->channel->title;
                 $this->insert_news($rssid, $item->title, $item->link->attributes()->href, $item->guid, $imgurl, $desc, $category, $source);
             }
@@ -100,20 +98,26 @@ Class Controller_Myutil_Parsexml extends Controller {
                 }
                 $bl = preg_match('/http.*(jpe?g|png)/i', $desc, $kekka);
                 if ($bl) {
-//echo Html::anchor($kekka[0], '画像');
                     $imgurl = $kekka[0];
                 }
-                //Controller_Myutil_Parsexml::action_showimage($item->link);
                 $source = $myrss->channel['title'];
                 $this->insert_news($rssid, $item->title, $item->link, $item->guid, $imgurl, $desc, $category, $source);
             }
             echo '<hr>';
         } catch (Exception $exc) {
-            echo '<h1>致命的なエラー</h1>' . $exc->getTraceAsString() . '<br>';
-            echo '<h1>DBエラー</h1>';
-            print_r(DB::error_info());
+            // エラー
+            Log::info('取得失敗 RSS NO:' . $rssid . '/URL:' . $mysurl . ' (エラー)' . $exc->getMessage());
+            DB::update('sk_rsslist')->set(array(
+                'error' => 1,
+            ))->where('id', $rssid)->execute();
             return FALSE;
         }
+        //成功
+        Log::info('取得成功 RSS NO:' . $value['id'] . '/URL:' . $value['rssurl']);
+        DB::update('sk_rsslist')->set(array(
+            'error' => 0,
+        ))->where('id', $rssid)->execute();
+
         return TRUE;
     }
 
@@ -130,7 +134,6 @@ Class Controller_Myutil_Parsexml extends Controller {
                 'title' => $title,
                 'url' => $url,
                 'guid' => $guid,
-                'image_url' => $imgurl,
                 'description' => $desc,
                 'category' => $category,
                 'source' => $source,
@@ -152,4 +155,5 @@ Class Controller_Myutil_Parsexml extends Controller {
             ))->execute();
         }
     }
+
 }
