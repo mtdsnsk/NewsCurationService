@@ -47,20 +47,6 @@
                     echo '</li>';
                     echo '<p>記述:' . $temp . '</p>';
                     echo '<p>要約:' . $item['summary'] . '</p>';
-
-                    /*
-                      if(is_array($item['images'])) {
-                      foreach ($item['images'] as $img) {
-                      echo '<div class="imagebox">';
-                      echo '<p class="image">';
-                      echo html_tag('img', array(
-                      'src' => $img['url'],
-                      ));
-                      echo '</p>';
-                      echo '</div>';
-                      }
-                      }
-                     */
                     echo '<p style="clear: both;">後続の文章</p>';
                 }
                 ?>             

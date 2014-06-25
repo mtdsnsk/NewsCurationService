@@ -30,37 +30,7 @@ class Controller_Welcome extends Controller {
     public function action_hello() {
         return Response::forge(ViewModel::forge('welcome/hello'));
     }
-    
-    public function action_sample() {
-        return Response::forge(View::forge('test/sample'));
-    }
-    
-    public function action_sample1($category) {
-        return Response::forge(ViewModel::forge('test/sample1', $category));
-    }
-    
-        public function action_news($category) {
-        return Response::forge(ViewModel::forge('test/sample1', $category));
-    }
-    
-    public function action_sample2() {
-        //return Response::forge(view::forge('welcome/index'));
-        return Response::forge(ViewModel::forge('welcome/sample2'));
-    }
-    
-    public function action_createdb() {
-        return Response::forge(ViewModel::forge('welcome/createdb'));
-    }
-
-    public function action_rss() {
-        return Response::forge(ViewModel::forge('welcome/rss'));
-    }
-
-    public function action_getrss() {
-        $view = ViewModel::forge('welcome/getrss');
-        return $view;
-    }
-    
+        
     /**
      * The 404 action for the application.
      *

@@ -25,10 +25,25 @@ Class Controller_Myutil_Parsetweet extends Controller {
         return;
     }
 
-    public function action_test() {
-        $url = 'http://netouyonews.net/archives/8402491.html';
-        $count = Controller_Myutil_Myfunc::action_tweetcount($url);
-        echo '<br>tweet回数:' . $count;
+    public function action_fnimage() {
+        $obj = new Controller_Myutil_Getimagefromurl();
+        
+        Log::info('画像取得開始');
+        $query = DB::select('url', 'id', 'tweet_count')->from('sk_news')
+                ->where('created_at', '>=', date("Ymd"))
+                ->execute();
+        foreach ($query as $data) {
+            /*$count = $this->tweetcount($data['url']);
+            Log::info('結果:' . $count . '/対象URL:' . $data['url']);
+            DB::update('sk_news')->set(array(
+                'tweet_count' => $count,
+                'tweet_count_rise' => $count - $data['tweet_count'],
+            ))->where('id', $data['id'])->execute();
+             * 
+             */
+            $obj->action_showimage($data['url']);
+        }
+        Log::info('画像取得終了');
         return;
     }
 
@@ -55,11 +70,6 @@ Class Controller_Myutil_Parsetweet extends Controller {
         }
         echo 'tweet回数:' . $count;
         return $count;
-    }
-
-    public static function action_phpintmax() {
-        echo 'PHP_INT_MAX:';
-        var_dump(PHP_INT_MAX);
     }
 
 }

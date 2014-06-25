@@ -20,7 +20,7 @@ class View_News_Data extends ViewModel {
                 ->execute();
         foreach ($query as $data) {
             if($data['image_url'] != '') {
-                $img = '';
+                $img = Html::img($data['image_url']);
             } else {
                 $img = Html::img('http://cdn-ak.f.st-hatena.com/images/fotolife/e/emija/20140128/20140128163352.jpg');
             }

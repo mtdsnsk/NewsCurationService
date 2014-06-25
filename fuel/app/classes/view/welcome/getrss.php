@@ -165,14 +165,10 @@ class View_Welcome_Getrss extends ViewModel {
     }
 
     public static function get_image2($url) {
-
         $image_dat = array();
-
         if ($url == '') {
             return;
         }
-        echo 'データ取得先:' . $url . '<br><div><p>';
-
         $html = file_get_contents($url);
         $ex = preg_replace("/[<>]/", " ", $html);
         $sp1 = explode(" ", $ex);
@@ -205,10 +201,5 @@ class View_Welcome_Getrss extends ViewModel {
                 //file_put_contents('/Applications/XAMPP/htdocs/comicnews/xml/' . $fn[count($fn) - 1], $img);
             }
         }
-        echo '</p></div><hr>';
-        //echo '画像データ<br>';
-        //var_dump($image_dat);
-        //echo '<br>';
     }
-
 }

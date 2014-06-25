@@ -2982,3 +2982,6 @@ INFO - 2014-06-24 18:13:04 --> Fuel\Core\Request::execute - Setting main Request
 INFO - 2014-06-24 18:13:06 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "news"
 INFO - 2014-06-24 18:13:06 --> Fuel\Core\Request::execute - Called
 INFO - 2014-06-24 18:13:06 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-06-24 18:21:08 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "news"
+INFO - 2014-06-24 18:21:08 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-24 18:21:08 --> Fuel\Core\Request::execute - Setting main Request

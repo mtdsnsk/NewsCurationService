@@ -7,6 +7,7 @@ Class Controller_Myutil_Parsexml extends Controller {
         . '<div style="width: 900px; text-align:ceter; background-color: lightpink; margin: 0 auto;">'
         . '<p>';
         $rsslist = DB::select()->from('sk_rsslist')
+                ->where('id', 73)
                 ->execute();
         Log::info('xml解析開始');
         Log::info('対象RSS数:' . count($rsslist));
@@ -68,6 +69,7 @@ Class Controller_Myutil_Parsexml extends Controller {
 //echo Html::anchor($kekka[0], '画像');
                     $imgurl = $kekka[0];
                 }
+                //Controller_Myutil_Parsexml::action_showimage($item->link);
                 $source = $myrss->channel->title;
                 $this->insert_news($rssid, $item->title, $item->link, $item->guid, $imgurl, $desc, $category, $source);
             }
@@ -84,6 +86,7 @@ Class Controller_Myutil_Parsexml extends Controller {
 //echo Html::anchor($kekka[0], '画像');
                     $imgurl = $kekka[0];
                 }
+                //Controller_Myutil_Parsexml::action_showimage($item->link->attributes()->href);
                 $source = $myrss->channel->title;
                 $this->insert_news($rssid, $item->title, $item->link->attributes()->href, $item->guid, $imgurl, $desc, $category, $source);
             }
@@ -100,6 +103,7 @@ Class Controller_Myutil_Parsexml extends Controller {
 //echo Html::anchor($kekka[0], '画像');
                     $imgurl = $kekka[0];
                 }
+                //Controller_Myutil_Parsexml::action_showimage($item->link);
                 $source = $myrss->channel['title'];
                 $this->insert_news($rssid, $item->title, $item->link, $item->guid, $imgurl, $desc, $category, $source);
             }
@@ -147,7 +151,5 @@ Class Controller_Myutil_Parsexml extends Controller {
                 'rsslist_id' => $rssid,
             ))->execute();
         }
-//echo DB::last_query();
     }
-
 }

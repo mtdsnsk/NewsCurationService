@@ -26,14 +26,4 @@ class Controller_News extends Controller {
         return Response::forge(ViewModel::forge('news/data'));
     }
     
-    /**
-     * The 404 action for the application.
-     *
-     * @access  public
-     * @return  Response
-     */
-    public function action_404() {
-        return Response::forge(ViewModel::forge('welcome/404'), 404);
-    }
-
 }
