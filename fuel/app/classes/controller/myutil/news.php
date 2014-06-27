@@ -45,8 +45,11 @@ Class Controller_Myutil_News extends Controller_Rest {
             }
 
             $title = str_pad($data['title'], 120, "　");
+
             $sum = '<tr><td><a href="' . $data['url'] . '">' .
+                    '<p id="slideshow">' .
                     $img .
+                    '<p>' .
                     '<h4>' . $title . '</h4>' .
                     '<span class="news_from"><b>' . $data['from'] . '</b></span>' .
                     '</a></td></tr>';

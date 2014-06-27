@@ -2545,3 +2545,1061 @@ DEBUG - 2014-06-28 06:22:24 --> 画像が存在しない:http://sociorocketnews.
 DEBUG - 2014-06-28 06:22:30 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/2014-06-25_203239.jpg
 DEBUG - 2014-06-28 06:22:30 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/2014-06-26_153434.jpg
 DEBUG - 2014-06-28 06:22:31 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/05/hatoribrothers.jpg
+DEBUG - 2014-06-28 06:22:34 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/hope1.jpg
+DEBUG - 2014-06-28 06:22:34 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/hope2.jpg
+DEBUG - 2014-06-28 06:22:35 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/hope2.jpg
+DEBUG - 2014-06-28 06:22:36 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/hope3.jpg
+DEBUG - 2014-06-28 06:22:36 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/05/hatoribrothers.jpg
+DEBUG - 2014-06-28 06:22:37 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/hope3.jpg
+DEBUG - 2014-06-28 06:22:40 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/324.jpg
+DEBUG - 2014-06-28 06:22:41 --> getimagesize(http://sociorocketnews.files.wordpress.com/2014/06/kaijin1.jpg): failed to open stream: Operation timed out
+DEBUG - 2014-06-28 06:22:46 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/2014-06-25_203300.jpg
+DEBUG - 2014-06-28 06:22:46 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/05/2014-05-01_121223.jpg
+DEBUG - 2014-06-28 06:22:46 --> 画像が存在しない:http://i.gzn.jp/images/logo.png
+DEBUG - 2014-06-28 06:22:47 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/2014-06-25_203300.jpg
+DEBUG - 2014-06-28 06:22:47 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/420.jpg
+DEBUG - 2014-06-28 06:22:47 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/2014-06-25_202913.jpg
+DEBUG - 2014-06-28 06:22:47 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/05/2014-05-01_121223.jpg
+DEBUG - 2014-06-28 06:22:48 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/2014-06-25_202913.jpg
+DEBUG - 2014-06-28 06:22:49 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/2014-06-25_202854.jpg
+DEBUG - 2014-06-28 06:22:49 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/1812.jpg
+DEBUG - 2014-06-28 06:22:50 --> 画像が存在しない:http://pbs.twimg.com/profile_images/479314487187488768/DqTbKcHD_normal.png
+DEBUG - 2014-06-28 06:22:53 --> 画像が存在しない:http://pbs.twimg.com/profile_images/437234811724234752/F5bWMxxD_normal.png
+DEBUG - 2014-06-28 06:22:53 --> getimagesize(http://sociorocketnews.files.wordpress.com/2014/05/ookinapie.jpg): failed to open stream: Operation timed out
+DEBUG - 2014-06-28 06:22:57 --> 画像が存在しない:http://pbs.twimg.com/profile_images/629038259/21397531_229356118_normal.jpg
+DEBUG - 2014-06-28 06:22:57 --> 画像が存在しない:http://cache2.nipc.jp/mod/img/favicon-72.png
+DEBUG - 2014-06-28 06:22:58 --> getimagesize(http://natalie.mu/media/comic/1406/0627/extra/news_thumb_frau201408.jpg): failed to open stream: Operation timed out
+DEBUG - 2014-06-28 06:22:58 --> 画像が存在しない:http://afpbb.ismcdn.jp/mwimgs/9/3/280w/img_93eb543ee9f0db94fcf1d29bd6abd833113135.jpg
+DEBUG - 2014-06-28 06:22:58 --> 画像が存在しない:http://flic.kr/techcrunch.jpg
+DEBUG - 2014-06-28 06:22:58 --> 画像が存在しない:http://lpt.c.yimg.jp/im_siggNa_VAGJdPE1qlh8nAHhBeQ---x19-y60-q90/amd/20140627-00000007-ykf-000-view.jpg
+DEBUG - 2014-06-28 06:22:58 --> 画像が存在しない:http://amd.c.yimg.jp/im_sigghDv5v6IWuN6hBOG6kC07iA---x60-y52-q90/amd/20140627-00000068-dal-000-8-view.jpg
+DEBUG - 2014-06-28 06:22:58 --> 画像が存在しない:http://i2.wp.com/tctechcrunch2011.files.wordpress.com/2014/06/img_00141.jpg
+DEBUG - 2014-06-28 06:22:58 --> getimagesize(http://s0.wp.com/wp-content/themes/vip/plugins/lazy-load/images/1x1.trans.gif): failed to open stream: No route to host
+DEBUG - 2014-06-28 06:22:58 --> getimagesize(http://s0.wp.com/wp-content/themes/vip/rocketnews/img/pts_logo.png): failed to open stream: No route to host
+DEBUG - 2014-06-28 06:22:58 --> 画像が存在しない:http://contents.oricon.co.jp/upimg/news/20140627/2039134_201406270185601001403852436a.jpg
+DEBUG - 2014-06-28 06:22:58 --> getimagesize(http://lpt.c.yimg.jp/im_siggZDASR4x0WZEm1YN_OTHR_g---x47-y60-q90/amd/20140627-00000001-tospoweb-000-view.jpg): failed to open stream: Operation timed out
+DEBUG - 2014-06-28 06:22:58 --> 画像が存在しない:http://getnews.jp/wp-content/themes/getnews/img/sakidori/kiddyland.png
+DEBUG - 2014-06-28 06:22:58 --> 画像が存在しない:http://blogmaterial.nicoblomaga.jp/material/27/template/twitter_mini.png
+DEBUG - 2014-06-28 06:22:58 --> 画像が存在しない:http://toyokeizai.net/mwimgs/9/6/-/img_964447174ccf57f7612eecb91a7ade1d17508.jpg
+DEBUG - 2014-06-28 06:22:58 --> getimagesize(http://animeanime.jp/imgs/ogp_f/38764.jpg): failed to open stream: Operation timed out
+DEBUG - 2014-06-28 06:22:58 --> 画像が存在しない:http://px1img.getnews.jp/thumb/subNews/608472.jpg
+DEBUG - 2014-06-28 06:22:58 --> 画像が存在しない:http://pbs.twimg.com/profile_images/790859424/firefly01-002_normal.jpg
+DEBUG - 2014-06-28 06:22:58 --> 画像が存在しない:http://gigazine.net/apple-touch-icon.png
+DEBUG - 2014-06-28 06:22:59 --> 画像が存在しない:http://amd.c.yimg.jp/im_siggi5wx_.qAqxzjzZWIS83T8Q---x134-y200-q90/amd/20140626-00183781-health-000-1-view.jpg
+DEBUG - 2014-06-28 06:22:59 --> 画像が存在しない:http://px1img.getnews.jp/thumb/subNews/609006.jpg
+DEBUG - 2014-06-28 06:22:59 --> getimagesize(http://www.zakzak.co.jp/common20100927/images/header_logo_002.gif): failed to open stream: Operation timed out
+DEBUG - 2014-06-28 06:22:59 --> 画像が存在しない:http://s0.wp.com/wp-content/themes/vip/rocketnews/img/pts_pixel.png
+DEBUG - 2014-06-28 06:22:59 --> getimagesize(http://s0.wp.com/wp-content/themes/vip/rocketnews/img/pts_pixel.png): failed to open stream: No route to host
+DEBUG - 2014-06-28 06:22:59 --> getimagesize(http://wol.nikkeibp.co.jp/images/wol/2010/header/logo/detail_header_june.png): failed to open stream: Operation timed out
+DEBUG - 2014-06-28 06:22:59 --> 画像が存在しない:http://getnews.jp/img/archives/2014/04/12ce4d5cb1ba2ba13281c18c8c737dc5-48x48.jpg
+DEBUG - 2014-06-28 06:22:59 --> getimagesize(http://contents.oricon.co.jp/upimg/news/20140627/2039133_201406270795413001403841954c.jpg): failed to open stream: Operation timed out
+DEBUG - 2014-06-28 06:22:59 --> getimagesize(http://s0.wp.com/wp-content/themes/vip/rocketnews/img/pts_pixel.png): failed to open stream: Operation timed out
+DEBUG - 2014-06-28 06:22:59 --> 画像が存在しない:http://s0.wp.com/wp-content/themes/vip/rocketnews/img/pts_pixel.png
+DEBUG - 2014-06-28 06:23:00 --> 画像が存在しない:http://wol.nikkeibp.co.jp/article/trend/20140627/184501/thumb_200_20140627_1.jpg
+DEBUG - 2014-06-28 06:23:00 --> 画像取得OK url=http://wol.nikkeibp.co.jp/article/trend/20140627/184501/20140627_2.jpg
+DEBUG - 2014-06-28 06:23:00 --> 画像が存在しない:http://business.nikkeibp.co.jp/images/nbo/2011/common/fb_nbonline.jpg
+DEBUG - 2014-06-28 06:23:00 --> getimagesize(https://s3-ap-northeast-1.amazonaws.com/fe.bcnranking.jp/sys_imgs/news/20140627iij.jpg): failed to open stream: Operation timed out
+DEBUG - 2014-06-28 06:23:00 --> 画像が存在しない:http://getnews.jp/wp-content/themes/getnews/img/sakidori/tokyuhands.png
+DEBUG - 2014-06-28 06:23:00 --> getimagesize(http://s0.wp.com/wp-content/themes/vip/rocketnews/img/pts_pixel.png): failed to open stream: No route to host
+DEBUG - 2014-06-28 06:23:00 --> getimagesize(http://getnews.jp/img/archives/2014/06/kfc_top.jpg): failed to open stream: Operation timed out
+DEBUG - 2014-06-28 06:23:00 --> 画像が存在しない:http://getnews.jp/wp-content/themes/getnews/img/carreview/banner_audi.png
+DEBUG - 2014-06-28 06:23:00 --> getimagesize(http://b.st-hatena.com/images/entry-button/button-only.gif): failed to open stream: Operation timed out
+DEBUG - 2014-06-28 06:23:00 --> getimagesize(http://www.sankeibiz.jp/css/news_v20130527000/decoration/button_sns_002.gif): failed to open stream: Operation timed out
+DEBUG - 2014-06-28 06:23:00 --> getimagesize(http://www.zakzak.co.jp/common20100927/images/search_button_001.gif): failed to open stream: Operation timed out
+DEBUG - 2014-06-28 06:23:00 --> 画像が存在しない:http://afpbb.ismcdn.jp/mwimgs/9/3/280w/img_93eb543ee9f0db94fcf1d29bd6abd833113135.jpg
+DEBUG - 2014-06-28 06:23:00 --> getimagesize(http://www.zakzak.co.jp/common20100927/images/icon_camera.gif): failed to open stream: Operation timed out
+DEBUG - 2014-06-28 06:23:00 --> getimagesize(http://b.st-hatena.com/images/entry-button/button-only.gif): failed to open stream: Operation timed out
+DEBUG - 2014-06-28 06:23:00 --> 画像が存在しない:http://dl5k4bv9hrwqx.cloudfront.net/upload/articles/5029/17036f328adbecb24a1fa1c534e4abd3_thumb.jpg
+DEBUG - 2014-06-28 06:23:00 --> getimagesize(http://b.st-hatena.com/images/entry-button/button-only.gif): failed to open stream: Operation timed out
+DEBUG - 2014-06-28 06:23:00 --> getimagesize(http://px1img.getnews.jp/thumb/subNews/609006.jpg): failed to open stream: Operation timed out
+DEBUG - 2014-06-28 06:23:01 --> getimagesize(http://i2.wp.com/tctechcrunch2011.files.wordpress.com/2014/06/screen-shot-2014-06-24-at-8-38-58-am.png): failed to open stream: Operation timed out
+DEBUG - 2014-06-28 06:23:01 --> 画像が存在しない:http://www.ideaxidea.com/wp-content/uploads/2014/06/screen_1.png
+DEBUG - 2014-06-28 06:23:01 --> 画像が存在しない:http://pbs.twimg.com/profile_images/2027575458/Cut2011_0209_2000_36_normal.jpg
+DEBUG - 2014-06-28 06:23:01 --> 画像が存在しない:http://straightpress.jp/wp-content/themes/bee1_2/images/navi/navi4.png
+DEBUG - 2014-06-28 06:23:01 --> 画像が存在しない:http://www.zakzak.co.jp/entertainment/ent-news/images/20140627/enn1406271206011-p4.jpg
+DEBUG - 2014-06-28 06:23:01 --> 画像が存在しない:http://static.reuters.com/resources/media/editorial/20140107/tert_buttons1.png
+DEBUG - 2014-06-28 06:23:01 --> 画像が存在しない:http://s-bunshun.ismcdn.jp/mwimgs/b/1/-/img_b1a18d2597c356e9fd7faffdcb9e41af15340.png
+DEBUG - 2014-06-28 06:23:01 --> getimagesize(http://i.gzn.jp/img/2014/06/26/lg-g-watch/00_m.jpg): failed to open stream: Operation timed out
+DEBUG - 2014-06-28 06:23:01 --> 画像が存在しない:http://s-bunshun.ismcdn.jp/mwimgs/5/f/-/img_5f84705617176f8ef43a16efdf367bc161928.jpg
+DEBUG - 2014-06-28 06:23:01 --> getimagesize(http://toyokeizai.net/mwimgs/f/4/-/img_f42a302507dc5fff96d38f62df453277110556.jpg): failed to open stream: Operation timed out
+DEBUG - 2014-06-28 06:23:02 --> 画像が存在しない:http://s2.wp.com/wp-content/themes/vip/tctechcrunch2/images/site-logo-cutout.png
+DEBUG - 2014-06-28 06:23:02 --> 画像が存在しない:http://b.st-hatena.com/images/entry-button/button-only.gif
+DEBUG - 2014-06-28 06:23:02 --> 画像が存在しない:http://i.yimg.jp/images/news/v1/zoomout12.gif
+DEBUG - 2014-06-28 06:23:02 --> 画像が存在しない:http://tk.ismcdn.jp/mwimgs/3/0/250/img_30f872c055e5b024bdad546d8c8736c5264996.jpg
+DEBUG - 2014-06-28 06:23:03 --> getimagesize(http://s2.wp.com/wp-content/themes/vip/tctechcrunch2/images/site-logo-cutout.png): failed to open stream: Operation timed out
+DEBUG - 2014-06-28 06:23:03 --> 画像が存在しない:http://i.gzn.jp/img/2014/06/26/lg-g-watch/01_m.png
+DEBUG - 2014-06-28 06:23:03 --> 画像が存在しない:http://getnews.jp/wp-content/themes/getnews/img/carreview/banner_toyota.png
+DEBUG - 2014-06-28 06:23:03 --> getimagesize(http://www.desert-wolf.com/dw/images/IMG_0446-web.JPG): failed to open stream: Operation timed out
+DEBUG - 2014-06-28 06:23:03 --> 画像が存在しない:http://blogmaterial.nicoblomaga.jp/material/27/template/twitter_mini.png
+DEBUG - 2014-06-28 06:23:03 --> getimagesize(http://s2.wp.com/wp-content/themes/vip/tctechcrunch2/images/logos/green.png): failed to open stream: No route to host
+DEBUG - 2014-06-28 06:23:03 --> 画像が存在しない:http://pbs.twimg.com/profile_images/479314487187488768/DqTbKcHD_normal.png
+DEBUG - 2014-06-28 06:23:03 --> 画像が存在しない:http://b.st-hatena.com/images/entry-button/button-only.gif
+DEBUG - 2014-06-28 06:23:03 --> getimagesize(http://i.gzn.jp/img/2014/06/26/jack-hot-yakisoba/top.jpg): failed to open stream: Operation timed out
+DEBUG - 2014-06-28 06:23:03 --> getimagesize(http://i.gzn.jp/img/2014/06/26/programming-piano-keyboard/02.png): failed to open stream: Operation timed out
+DEBUG - 2014-06-28 06:23:03 --> 画像が存在しない:http://i.gzn.jp/img/2014/06/26/google-fit/snap8585.png
+DEBUG - 2014-06-28 06:23:03 --> 画像が存在しない:http://flic.kr/techcrunch.jpg
+DEBUG - 2014-06-28 06:23:03 --> 画像が存在しない:http://i.gzn.jp/img/2014/06/26/touch-time-review/P2120363_m.jpg
+DEBUG - 2014-06-28 06:23:03 --> getimagesize(http://lpt.c.yimg.jp/im_siggOP3nbM1UCZNWecyYlgRElw---x60-y40-q90/amd/20140626-00010001-gqjapan-000-view.jpg): failed to open stream: Operation timed out
+DEBUG - 2014-06-28 06:23:03 --> 画像が存在しない:http://getnews.jp/img/archives/2014/06/RIMG1861.jpg
+DEBUG - 2014-06-28 06:23:03 --> 画像が存在しない:http://s2.wp.com/wp-content/themes/vip/tctechcrunch2/images/site-logo-cutout.png
+DEBUG - 2014-06-28 06:23:03 --> getimagesize(http://s0.wp.com/wp-content/themes/vip/rocketnews/img/pts_logo.png): failed to open stream: Operation timed out
+DEBUG - 2014-06-28 06:23:03 --> 画像が存在しない:http://www.ideaxidea.com/wp-content/uploads/2014/06/screen_1.png
+DEBUG - 2014-06-28 06:23:03 --> 画像が存在しない:http://s0.wp.com/wp-content/themes/vip/plugins/lazy-load/images/1x1.trans.gif
+DEBUG - 2014-06-28 06:23:03 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/resources/img/bnr-comic-kinnikuman2.png
+DEBUG - 2014-06-28 06:23:04 --> 画像が存在しない:http://flic.kr/techcrunch.jpg
+DEBUG - 2014-06-28 06:23:04 --> 画像が存在しない:http://s2.wp.com/wp-content/themes/vip/tctechcrunch2/images/site-logo-cutout.png
+DEBUG - 2014-06-28 06:23:04 --> getimagesize(http://www.desert-wolf.com/dw/images/IMG_0446-web.JPG): failed to open stream: Operation timed out
+DEBUG - 2014-06-28 06:23:04 --> 画像が存在しない:http://b.st-hatena.com/images/entry-button/button-only.gif
+DEBUG - 2014-06-28 06:23:08 --> 画像が存在しない:http://i.yimg.jp/images/sports/worldcup/brazil/common/banner/bn_300_90.png
+DEBUG - 2014-06-28 06:23:09 --> 画像が存在しない:http://i1.wp.com/tctechcrunch2011.files.wordpress.com/2014/06/chromecast.jpg
+DEBUG - 2014-06-28 06:23:09 --> 画像が存在しない:http://tctechcrunch2011.files.wordpress.com/2013/07/youtube.png
+DEBUG - 2014-06-28 06:23:10 --> 画像が存在しない:http://pbs.twimg.com/profile_images/480994420032946176/vzstmW6B_normal.jpeg
+DEBUG - 2014-06-28 06:23:10 --> getimagesize(http://i.gzn.jp/img/2014/06/27/lametric-smart-display/04.jpg): failed to open stream: Operation timed out
+DEBUG - 2014-06-28 06:23:10 --> getimagesize(http://i.gzn.jp/img/2014/06/27/google-ara-tango-progress/a04_m.jpg): failed to open stream: Operation timed out
+DEBUG - 2014-06-28 06:23:10 --> 画像が存在しない:http://s0.wp.com/wp-content/themes/vip/rocketnews/img/pts_pixel.png
+DEBUG - 2014-06-28 06:23:10 --> getimagesize(http://i.gzn.jp/img/2014/06/26/eagle-talon-gakken-zukan-live/03_m.png): failed to open stream: Operation timed out
+DEBUG - 2014-06-28 06:23:10 --> getimagesize(http://i.gzn.jp/img/2014/06/27/lotteria-wagyu-hamburg-steak/P2120623.jpg): failed to open stream: Operation timed out
+DEBUG - 2014-06-28 06:23:10 --> getimagesize(http://i2.wp.com/techcrunchjp.files.wordpress.com/2014/06/prosheet_top.jpg): failed to open stream: Operation timed out
+DEBUG - 2014-06-28 06:23:10 --> 画像が存在しない:http://i2.wp.com/tctechcrunch2011.files.wordpress.com/2014/06/screen-shot-2014-06-26-at-3-18-01-pm.jpg
+DEBUG - 2014-06-28 06:23:11 --> getimagesize(http://i2.wp.com/tctechcrunch2011.files.wordpress.com/2014/06/screen-shot-2014-06-26-at-4-07-28-pm.png): failed to open stream: No route to host
+DEBUG - 2014-06-28 06:23:12 --> 画像が存在しない:http://i.gzn.jp/img/2014/06/26/google-drive-for-work/01_m.png
+DEBUG - 2014-06-28 06:23:12 --> getimagesize(http://i.gzn.jp/img/2014/06/27/lametric-smart-display/05.jpg): failed to open stream: Operation timed out
+DEBUG - 2014-06-28 06:23:14 --> getimagesize(http://i0.wp.com/tctechcrunch2011.files.wordpress.com/2014/05/app-store.jpg): failed to open stream: HTTP request failed! 
+DEBUG - 2014-06-28 06:23:14 --> 画像が存在しない:http://i.gzn.jp/img/2014/06/27/google-ara-tango-progress/a04_m.jpg
+DEBUG - 2014-06-28 06:23:15 --> 画像が存在しない:http://flic.kr/techcrunch.jpg
+DEBUG - 2014-06-28 06:23:16 --> 画像が存在しない:http://i2.wp.com/tctechcrunch2011.files.wordpress.com/2014/06/kindle-paperwhite.jpg
+DEBUG - 2014-06-28 06:23:19 --> 画像が存在しない:http://lpt.c.yimg.jp/im_siggnDynl8T7SnELmvbvOBjCSw---x45-y60-q90/amd/20140626-00000003-nkgendai-000-view.jpg
+DEBUG - 2014-06-28 06:23:19 --> 画像が存在しない:http://afpbb.ismcdn.jp/mwimgs/2/4/280w/img_24f0eab4217f84ad6a36d476be36ed42111866.jpg
+DEBUG - 2014-06-28 06:23:20 --> getimagesize(http://i.gzn.jp/img/2014/06/02/clone-app-store/00_m.png): failed to open stream: Operation timed out
+DEBUG - 2014-06-28 06:23:20 --> 画像が存在しない:http://pbs.twimg.com/profile_images/1634678494/1179108659366_normal.jpg
+DEBUG - 2014-06-28 06:23:20 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/resources/img/bnr-comic-otokozaka.png
+DEBUG - 2014-06-28 06:23:21 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/02/gachapin-mukku-2.jpg
+DEBUG - 2014-06-28 06:23:21 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/1812.jpg
+DEBUG - 2014-06-28 06:23:21 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/2014-06-25_202854.jpg
+DEBUG - 2014-06-28 06:23:21 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/kaijin1.jpg
+DEBUG - 2014-06-28 06:23:22 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/gargano.jpg
+DEBUG - 2014-06-28 06:23:22 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/kaijin2.jpg
+DEBUG - 2014-06-28 06:23:23 --> 画像が存在しない:http://i.gzn.jp/img/2014/06/27/android-material-design-movie/a01_m.jpg
+DEBUG - 2014-06-28 06:23:23 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/gargano.jpg
+DEBUG - 2014-06-28 06:23:23 --> 画像が存在しない:http://pbs.twimg.com/profile_images/2243097508/PICT1057_______ver2__normal.jpg
+DEBUG - 2014-06-28 06:23:24 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2013/08/podolski.png
+DEBUG - 2014-06-28 06:23:27 --> 画像が存在しない:http://pbs.twimg.com/profile_images/1735612191/Sima1_normal.png
+DEBUG - 2014-06-28 06:23:27 --> 画像が存在しない:http://cache2.nipc.jp/mod/img/favicon-114.png
+DEBUG - 2014-06-28 06:23:28 --> 画像が存在しない:http://lpt.c.yimg.jp/im_siggN1umsarDYogWDFmft7NMrw---x50-y60-q90/amd/20140626-00000002-nkgendai-000-view.jpg
+DEBUG - 2014-06-28 06:23:28 --> 画像が存在しない:http://lpt.c.yimg.jp/im_siggU2ceA73cgDAr4.2dWQO50Q---x40-y60-q90/amd/20140627-00000004-reallive-000-view.jpg
+DEBUG - 2014-06-28 06:23:28 --> 画像が存在しない:http://contents.oricon.co.jp/img/news/newsunder/osusume-sign.gif
+DEBUG - 2014-06-28 06:23:28 --> 画像が存在しない:http://tk.ismcdn.jp/common/images/v2/common/logo-article.gif
+DEBUG - 2014-06-28 06:23:28 --> 画像が存在しない:http://blogmaterial.nicoblomaga.jp/material/27/template/rss_mini.png
+DEBUG - 2014-06-28 06:23:29 --> 画像が存在しない:http://pbs.twimg.com/profile_images/458727819103596544/_reN2P2x_normal.png
+DEBUG - 2014-06-28 06:23:29 --> 画像が存在しない:http://i.yimg.jp/images/clear.gif
+DEBUG - 2014-06-28 06:23:29 --> getimagesize(http://i.gzn.jp/img/2014/06/26/android-tv/snap8420.jpg): failed to open stream: Operation timed out
+DEBUG - 2014-06-28 06:23:29 --> 画像が存在しない:http://life-cdn.oricon.co.jp/today/marged_image444.jpg
+DEBUG - 2014-06-28 06:23:29 --> 画像が存在しない:http://afpbb.ismcdn.jp/mwimgs/9/e/280w/img_9ede27b2c0dacb213ec6075af72fc486269372.jpg
+DEBUG - 2014-06-28 06:23:30 --> 画像が存在しない:http://afpbb.ismcdn.jp/mwimgs/1/a/280w/img_1a799918952114e2fbcccf01ffe1a32c96282.jpg
+DEBUG - 2014-06-28 06:23:30 --> 画像が存在しない:http://afpbb.ismcdn.jp/mwimgs/8/6/120x/img_86a48a73f9a9a832e8714ded278d995a79009.jpg
+DEBUG - 2014-06-28 06:23:31 --> 画像が存在しない:http://dl5k4bv9hrwqx.cloudfront.net/upload/articles/5038/686326e40e07413f98628064cc17ee97_thumb.jpg
+DEBUG - 2014-06-28 06:23:31 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/618.jpg
+DEBUG - 2014-06-28 06:23:31 --> 画像が存在しない:http://pbs.twimg.com/profile_images/451058748467867648/rj0LcbNF_normal.jpeg
+DEBUG - 2014-06-28 06:23:31 --> 画像が存在しない:http://mediacdn.reuters.com/resources/legacy/jp/editorial/pr_mark.gif
+DEBUG - 2014-06-28 06:23:31 --> 画像が存在しない:http://s-bunshun.ismcdn.jp/mwimgs/5/d/-/img_5de579a94eb4624704891874d7c04bd66411.jpg
+DEBUG - 2014-06-28 06:23:31 --> 画像が存在しない:http://s-bunshun.ismcdn.jp/mwimgs/6/b/-/img_6bae69f7ed96c26b6b94ab1fe14d675a1480.gif
+DEBUG - 2014-06-28 06:23:32 --> 画像が存在しない:http://amd.c.yimg.jp/im_sigglLUeHp3pQUMcec.y5ZwchQ---x450-y300-q90/amd/20140625-00184044-health-000-2-view.jpg
+DEBUG - 2014-06-28 06:23:32 --> 画像が存在しない:http://tk.ismcdn.jp/mwimgs/6/4/60x/img_64036f9d235db64614734d91fc204e5928799.jpg
+DEBUG - 2014-06-28 06:23:33 --> 画像が存在しない:http://blogmaterial.nicoblomaga.jp/material/27/template/rss_mini.png
+DEBUG - 2014-06-28 06:23:33 --> 画像が存在しない:http://pbs.twimg.com/profile_images/1634678494/1179108659366_normal.jpg
+DEBUG - 2014-06-28 06:23:35 --> 画像が存在しない:http://afpbb.ismcdn.jp/mwimgs/0/9/120x/img_0975bb2f19985610a1b4ea81a27fe67575546.jpg
+DEBUG - 2014-06-28 06:23:36 --> getimagesize(http://s1.wp.com/wp-content/themes/vip/rocketnews/img/pts_logo_95x70.png): failed to open stream: No route to host
+DEBUG - 2014-06-28 06:23:38 --> 画像が存在しない:http://amd.c.yimg.jp/im_sigghDv5v6IWuN6hBOG6kC07iA---x60-y52-q90/amd/20140627-00000068-dal-000-8-view.jpg
+DEBUG - 2014-06-28 06:23:39 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/02/gachapin-mukku-2.jpg
+DEBUG - 2014-06-28 06:23:39 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/2014-06-25_202946.jpg
+DEBUG - 2014-06-28 06:23:39 --> 画像が存在しない:http://b.st-hatena.com/images/entry-button/button-only.gif
+DEBUG - 2014-06-28 06:23:39 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/02/gachamuck1.jpg
+DEBUG - 2014-06-28 06:23:39 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/2014-06-25_202946.jpg
+DEBUG - 2014-06-28 06:23:39 --> 画像が存在しない:http://i.gzn.jp/img/2014/06/26/phantom-2-zhongnanhai/14_m.jpg
+DEBUG - 2014-06-28 06:23:39 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2013/08/14617441721790698581.jpg
+DEBUG - 2014-06-28 06:23:39 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/02/gachamuck1.jpg
+DEBUG - 2014-06-28 06:23:40 --> getimagesize(http://contents.oricon.co.jp/img/gp_22.png): failed to open stream: HTTP request failed! 
+DEBUG - 2014-06-28 06:23:40 --> 画像が存在しない:http://pbs.twimg.com/profile_images/450927149264801792/XLxPQJ02_normal.jpeg
+DEBUG - 2014-06-28 06:23:40 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2011/11/gachapin.jpg
+DEBUG - 2014-06-28 06:23:40 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2013/08/14617441721790698581.jpg
+DEBUG - 2014-06-28 06:23:40 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2011/11/gachapin.jpg
+DEBUG - 2014-06-28 06:23:40 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2012/03/animal-porch.jpg
+DEBUG - 2014-06-28 06:23:41 --> 画像が存在しない:http://s-bunshun.ismcdn.jp/mwimgs/d/e/60x/img_deabff0cde82f7a111fafa566698f2735196.jpg
+DEBUG - 2014-06-28 06:23:41 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/kaijin2.jpg
+DEBUG - 2014-06-28 06:23:41 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/kaijin4.jpg
+DEBUG - 2014-06-28 06:23:41 --> 画像が存在しない:http://tk.ismcdn.jp/mwimgs/3/3/98/img_33fa575b1521fc24767cff7b5fb0ff9b79727.jpg
+DEBUG - 2014-06-28 06:23:41 --> 画像が存在しない:http://tk.ismcdn.jp/common/images/v2/common/for-top.gif
+DEBUG - 2014-06-28 06:23:42 --> 画像が存在しない:http://tk.ismcdn.jp/mwimgs/8/1/98/img_814377d7dd3d08c60c651a04bb99b7d131053.jpg
+DEBUG - 2014-06-28 06:23:42 --> 画像が存在しない:http://tk.ismcdn.jp/mwimgs/1/4/60x/img_14ed5eb7240f3908e8deaff074fd440b13448.jpg
+DEBUG - 2014-06-28 06:23:42 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/kinect.jpg
+DEBUG - 2014-06-28 06:23:42 --> 画像が存在しない:http://tk.ismcdn.jp/mwimgs/0/a/60x/img_0a7ae46947ccf345dcc642cea33abe3114194.jpg
+DEBUG - 2014-06-28 06:23:42 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/kaijin4.jpg
+DEBUG - 2014-06-28 06:23:42 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/kaijin5.jpg
+DEBUG - 2014-06-28 06:23:42 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/kaijin5.jpg
+DEBUG - 2014-06-28 06:23:42 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2013/08/podolski.png
+DEBUG - 2014-06-28 06:23:43 --> 画像が存在しない:http:\/\/getnews.jp\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif
+DEBUG - 2014-06-28 06:23:43 --> 画像データなし url=http://getnews.jp/archives/608264
+DEBUG - 2014-06-28 06:23:43 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/kaijin6.jpg
+DEBUG - 2014-06-28 06:23:43 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/02/iransuarez.jpg
+DEBUG - 2014-06-28 06:23:43 --> 画像が存在しない:http://tk.ismcdn.jp/mwimgs/5/3/98/img_53c146f1c8a992010a37ac7cb2b6a7d542160.jpg
+DEBUG - 2014-06-28 06:23:43 --> 画像が存在しない:http://contents.oricon.co.jp/img/news/newsunder/pickup-sp01.jpg
+DEBUG - 2014-06-28 06:23:43 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/kaijin6.jpg
+DEBUG - 2014-06-28 06:23:43 --> 画像が存在しない:http://s-bunshun.ismcdn.jp/mwimgs/0/f/105h/img_0f69ccbfeb6716b56dc0bff2fec6eb4c50380.jpg
+DEBUG - 2014-06-28 06:23:43 --> 画像が存在しない:http://tk.ismcdn.jp/mwimgs/2/8/60x/img_28d55fcc6a4fefe8bc170b9c81ad256884860.jpg
+DEBUG - 2014-06-28 06:23:43 --> 画像が存在しない:http://tk.ismcdn.jp/mwimgs/4/c/60x/img_4c4412f217626c3abe9aed3c1388765175543.jpg
+DEBUG - 2014-06-28 06:23:43 --> 画像が存在しない:http://afpbb.ismcdn.jp/mwimgs/7/c/120x/img_7c908532a65510468e491ece277c7ece60606.jpg
+DEBUG - 2014-06-28 06:23:43 --> 画像が存在しない:http://s-bunshun.ismcdn.jp/mwimgs/9/3/60x/img_938bf6460beee565d74a16d605cc282151241.jpg
+DEBUG - 2014-06-28 06:23:43 --> 画像が存在しない:http://tk.ismcdn.jp/mwimgs/4/4/60x/img_44699dd5df3799295208d970df6ed12224763.jpg
+DEBUG - 2014-06-28 06:23:43 --> 画像が存在しない:http:\/\/getnews.jp\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif
+DEBUG - 2014-06-28 06:23:43 --> 画像取得OK url=http://getnews.jp/img/archives/2014/06/a297.jpg,http://getnews.jp/img/archives/2014/06/411D1V1T2QL.jpg,http://getnews.jp/img/archives/2014/06/78054919b8d0e314555e83452968fb28.jpg,http://getnews.jp/img/archives/2014/06/78054919b8d0e314555e83452968fb28.jpg
+DEBUG - 2014-06-28 06:23:43 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2011/07/trampoline.jpg
+DEBUG - 2014-06-28 06:23:43 --> 画像が存在しない:http://tk.ismcdn.jp/mwimgs/c/4/570/img_c4bbff14864550e5193a334191f8c565284989.jpg
+DEBUG - 2014-06-28 06:23:44 --> 画像が存在しない:http://s-bunshun.ismcdn.jp/mwimgs/a/0/105h/img_a09f2cb3c554ac2bbe6a13522c7570c649656.jpg
+DEBUG - 2014-06-28 06:23:44 --> 画像が存在しない:http://s-bunshun.ismcdn.jp/mwimgs/c/a/105h/img_ca02f82938f30fc21f47bdb25cad8bb037311.jpg
+DEBUG - 2014-06-28 06:23:44 --> Division by zero
+DEBUG - 2014-06-28 06:23:44 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/munenori.jpg
+DEBUG - 2014-06-28 06:23:44 --> 画像が存在しない:http://s-bunshun.ismcdn.jp/mwimgs/0/5/-/img_05b763ac52c067dfad70937cf006e7af12270.gif
+DEBUG - 2014-06-28 06:23:44 --> 画像が存在しない:http://s-bunshun.ismcdn.jp/mwimgs/2/0/60x/img_20f0cdf4556e98d7a934daafceaea0aa8866.jpg
+DEBUG - 2014-06-28 06:23:44 --> 画像が存在しない:http://s-bunshun.ismcdn.jp/mwimgs/7/2/-/img_72312edb49bfd1366a813c5179a344779068.png
+DEBUG - 2014-06-28 06:23:44 --> 画像が存在しない:http://s-bunshun.ismcdn.jp/mwimgs/b/1/-/img_b131842f3ec31685fd95799ada45f16b9474.gif
+DEBUG - 2014-06-28 06:23:44 --> 画像が存在しない:http://tk.ismcdn.jp/mwimgs/e/9/160h/img_e975aa586ab504de4fba1f304b007cb3126218.jpg
+DEBUG - 2014-06-28 06:23:44 --> 画像が存在しない:http://s-bunshun.ismcdn.jp/mwimgs/b/1/-/img_b1a18d2597c356e9fd7faffdcb9e41af15340.png
+DEBUG - 2014-06-28 06:23:45 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/munenori.jpg
+DEBUG - 2014-06-28 06:23:45 --> 画像が存在しない:http://tk.ismcdn.jp/mwimgs/3/4/60x/img_347cd6474b4a661c2cb91cf9f46ed58a6874255.jpg
+DEBUG - 2014-06-28 06:23:45 --> Division by zero
+DEBUG - 2014-06-28 06:23:45 --> 画像が存在しない:http://contents.oricon.co.jp/img/news/newsunder/pickup-sp02.jpg
+DEBUG - 2014-06-28 06:23:45 --> 画像が存在しない:http://afpbb.ismcdn.jp/mwimgs/a/0/120x/img_a09f823c7a6727c5a76a9377415487e072755.jpg
+DEBUG - 2014-06-28 06:23:45 --> 画像が存在しない:http://s-bunshun.ismcdn.jp/mwimgs/7/7/60x/img_7796e4ada2d125d6955fa51c5922bc807725.jpg
+DEBUG - 2014-06-28 06:23:45 --> 画像が存在しない:http://afpbb.ismcdn.jp/mwimgs/c/5/120x/img_c5bff55bd9421f3b7c91ef999fdd0c8477878.jpg
+DEBUG - 2014-06-28 06:23:46 --> 画像が存在しない:http://s-bunshun.ismcdn.jp/mwimgs/d/e/60x/img_deabff0cde82f7a111fafa566698f2735196.jpg
+DEBUG - 2014-06-28 06:23:46 --> 画像が存在しない:http://afpbb.ismcdn.jp/mwimgs/9/f/120x/img_9f35510bdff87d7464ca3da73789b37680991.jpg
+DEBUG - 2014-06-28 06:23:46 --> 画像が存在しない:http://afpbb.ismcdn.jp/mwimgs/b/d/120x/img_bdbde82b4303e28f48d8bd46dcbe367e79982.jpg
+DEBUG - 2014-06-28 06:23:46 --> 画像が存在しない:http://afpbb.ismcdn.jp/mwimgs/4/d/120x/img_4d4557e0167a877a3883adfc90b19f7644625.jpg
+DEBUG - 2014-06-28 06:23:46 --> 画像が存在しない:http://afpbb.ismcdn.jp/mwimgs/4/0/120x/img_40e7bdc88437743992d0312d2f9e32c2122070.jpg
+DEBUG - 2014-06-28 06:23:46 --> 画像が存在しない:http://tk.ismcdn.jp/mwimgs/2/8/60x/img_285f5638fa6a19865f005605539e7f3655468.jpg
+DEBUG - 2014-06-28 06:23:46 --> 画像が存在しない:http://contents.oricon.co.jp/targetting/img/store_news_p02.jpg
+DEBUG - 2014-06-28 06:23:46 --> 画像が存在しない:http://afpbb.ismcdn.jp/common/images/v1/apple-touch-icon.png
+DEBUG - 2014-06-28 06:23:46 --> 画像取得OK url=http://afpbb.ismcdn.jp/mwimgs/9/9/500x400/img_99276abceded7cbae5b4614fed931632205641.jpg,http://afpbb.ismcdn.jp/mwimgs/d/3/384x/img_d32a311172ae1fe7eba291afb883a03599991.jpg,http://afpbb.ismcdn.jp/mwimgs/f/3/280w/img_f3571d39f0d00cea04f03fb64e0d3ab078578.jpg,http://afpbb.ismcdn.jp/mwimgs/3/1/280w/img_31329a794f6862276af1beb85aecf8a657146.jpg,http://afpbb.ismcdn.jp/common/images/v1/apple-touch-icon.png
+DEBUG - 2014-06-28 06:23:46 --> 画像が存在しない:http://tk.ismcdn.jp/mwimgs/8/c/60x/img_8c382999c252aef78ef78032847b99aa27982.jpg
+DEBUG - 2014-06-28 06:23:46 --> 画像が存在しない:http://contents.oricon.co.jp/targetting/img/store_news_p03.jpg
+DEBUG - 2014-06-28 06:23:46 --> 画像が存在しない:http://s-bunshun.ismcdn.jp/mwimgs/4/2/60x/img_422f87f3e372b8bf4c69ab094ab3732f5963.jpg
+DEBUG - 2014-06-28 06:23:46 --> 画像が存在しない:http://tk.ismcdn.jp/common/images/v2/common/for-top.gif
+DEBUG - 2014-06-28 06:23:47 --> 画像が存在しない:http://contents.oricon.co.jp/targetting/img/store_news_p04.jpg
+DEBUG - 2014-06-28 06:23:47 --> 画像が存在しない:http://s-bunshun.ismcdn.jp/mwimgs/4/4/60x/img_443cd44a514a9192bdb054e5c54199035619.jpg
+DEBUG - 2014-06-28 06:23:47 --> 画像取得OK url=http://tk.ismcdn.jp/mwimgs/3/0/-/img_30f872c055e5b024bdad546d8c8736c5264996.jpg,http://tk.ismcdn.jp/mwimgs/c/4/570/img_c4bbff14864550e5193a334191f8c565284989.jpg
+DEBUG - 2014-06-28 06:23:47 --> 画像が存在しない:http://tk.ismcdn.jp/mwimgs/0/a/60x/img_0a7ae46947ccf345dcc642cea33abe3114194.jpg
+DEBUG - 2014-06-28 06:23:47 --> 画像が存在しない:http://yospace-cds1.reuters.com/u/resize~ad1~120x120/0/f/~image_jpeg
+DEBUG - 2014-06-28 06:23:47 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/01/aikagi.jpg
+DEBUG - 2014-06-28 06:23:48 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/kaijin8.jpg
+DEBUG - 2014-06-28 06:23:48 --> 画像が存在しない:http://tk.ismcdn.jp/mwimgs/6/2/60x/img_62cd360b38e2643282b0ace63f959a1e91399.jpg
+DEBUG - 2014-06-28 06:23:48 --> 画像が存在しない:http://tk.ismcdn.jp/mwimgs/2/8/60x/img_28d55fcc6a4fefe8bc170b9c81ad256884860.jpg
+DEBUG - 2014-06-28 06:23:48 --> 画像が存在しない:http://tk.ismcdn.jp/mwimgs/4/c/60x/img_4c4412f217626c3abe9aed3c1388765175543.jpg
+DEBUG - 2014-06-28 06:23:48 --> 画像取得OK url=http://www.ideaxidea.com/wp-content/uploads/2014/06/Product-Hunt-Statistics-2.png,http://www.ideaxidea.com/wp-content/uploads/2014/06/Product-Hunt-Statistics-1.png,http://www.ideaxidea.com/wp-content/uploads/2014/06/Product-Hunt-Statistics-3.png
+DEBUG - 2014-06-28 06:23:48 --> 画像が存在しない:http://tk.ismcdn.jp/mwimgs/4/4/60x/img_44699dd5df3799295208d970df6ed12224763.jpg
+DEBUG - 2014-06-28 06:23:48 --> 画像が存在しない:http://tk.ismcdn.jp/mwimgs/a/3/60x/img_a30332a17fdb9d403cca915cc9b7118e42649.jpg
+DEBUG - 2014-06-28 06:23:48 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/kaijin8.jpg
+DEBUG - 2014-06-28 06:23:48 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/studiam_last2.jpg
+DEBUG - 2014-06-28 06:23:48 --> 画像が存在しない:http://yospace-cds1.reuters.com/u/resize~ad1~120x120/0/f/~image_jpeg
+DEBUG - 2014-06-28 06:23:49 --> 画像が存在しない:http://tk.ismcdn.jp/mwimgs/a/6/60x/img_a6d43bd1b52b7e8be0652ea56a9205af55721.jpg
+DEBUG - 2014-06-28 06:23:49 --> 画像が存在しない:http://lpt.c.yimg.jp/im_siggB_0fTmvOcqTLioxkz5brpA---x60-y40-q90/amd/20140626-00000008-nkgendai-000-view.jpg
+DEBUG - 2014-06-28 06:23:49 --> 画像取得OK url=http://amd.c.yimg.jp/im_siggnV_EIyv7uPvMFVixRJxxBw---x165-y200-q90/amd/20140626-00000002-nkgendai-000-1-view.jpg,http://amd.c.yimg.jp/im_siggnV_EIyv7uPvMFVixRJxxBw---x165-y200-q90/amd/20140626-00000002-nkgendai-000-1-view.jpg
+DEBUG - 2014-06-28 06:23:49 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2011/07/6b6bcom.jpg
+DEBUG - 2014-06-28 06:23:49 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/kaijin9.jpg
+DEBUG - 2014-06-28 06:23:49 --> 画像が存在しない:http://tk.ismcdn.jp/mwimgs/f/9/60x/img_f99e290cba1db06323130ac8a5f3c4c518213.jpg
+DEBUG - 2014-06-28 06:23:49 --> 画像が存在しない:http://afpbb.ismcdn.jp/mwimgs/2/4/280w/img_24f0eab4217f84ad6a36d476be36ed42111866.jpg
+DEBUG - 2014-06-28 06:23:50 --> 画像が存在しない:http://tk.ismcdn.jp/mwimgs/e/9/160h/img_e975aa586ab504de4fba1f304b007cb3126218.jpg
+DEBUG - 2014-06-28 06:23:50 --> 画像が存在しない:http://afpbb.ismcdn.jp/mwimgs/9/e/280w/img_9ede27b2c0dacb213ec6075af72fc486269372.jpg
+DEBUG - 2014-06-28 06:23:50 --> 画像が存在しない:http://tk.ismcdn.jp/mwimgs/3/4/60x/img_347cd6474b4a661c2cb91cf9f46ed58a6874255.jpg
+DEBUG - 2014-06-28 06:23:50 --> 画像が存在しない:http://pbs.twimg.com/profile_images/1929907623/_______icon_normal.png
+DEBUG - 2014-06-28 06:23:50 --> 画像が存在しない:http://tk.ismcdn.jp/mwimgs/2/8/60x/img_285f5638fa6a19865f005605539e7f3655468.jpg
+DEBUG - 2014-06-28 06:23:51 --> 画像が存在しない:http://contents.oricon.co.jp/upimg/special/20140627/16606.jpg
+DEBUG - 2014-06-28 06:23:51 --> 画像データなし url=http://feeds.reuters.com/~r/reuters/JPTopNews/~3/lU7eNFDipec/idJPKBN0F20BO20140627
+DEBUG - 2014-06-28 06:23:51 --> 画像が存在しない:http://tk.ismcdn.jp/mwimgs/3/c/60x/img_3c40fec74a97ce69b80e60bf79ad218f38594.jpg
+DEBUG - 2014-06-28 06:23:51 --> 画像取得OK url=http://tk.ismcdn.jp/mwimgs/3/0/-/img_30f872c055e5b024bdad546d8c8736c5264996.jpg,http://tk.ismcdn.jp/mwimgs/3/0/250/img_30f872c055e5b024bdad546d8c8736c5264996.jpg
+DEBUG - 2014-06-28 06:23:52 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2013/09/2013-09-10_163542.jpg
+DEBUG - 2014-06-28 06:23:52 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/580px1.jpg
+DEBUG - 2014-06-28 06:23:52 --> 画像が存在しない:http://web-jp.ad-v.jp/adam/ep/click/oricon-style.News.Articles/gif
+DEBUG - 2014-06-28 06:23:52 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/kinect.jpg
+DEBUG - 2014-06-28 06:23:52 --> 画像が存在しない:http://afpbb.ismcdn.jp/mwimgs/8/6/120x/img_86a48a73f9a9a832e8714ded278d995a79009.jpg
+DEBUG - 2014-06-28 06:23:52 --> 画像が存在しない:http://s-bunshun.ismcdn.jp/mwimgs/9/8/150h/img_98b7944a6154199dbc626c5f19583712390093.jpg
+DEBUG - 2014-06-28 06:23:52 --> 画像が存在しない:http:\/\/getnews.jp\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif
+DEBUG - 2014-06-28 06:23:52 --> 画像取得OK url=http://getnews.jp/img/archives/2014/06/kfc_top.jpg,http://getnews.jp/img/archives/2014/06/kfc_top.jpg,http://getnews.jp/img/archives/2014/06/tbs_9.jpg,http://getnews.jp/img/archives/2014/06/tbs_9.jpg,http://getnews.jp/img/archives/2014/06/tbs_7.jpg,http://getnews.jp/img/archives/2014/06/tbs_7.jpg,http://getnews.jp/img/archives/2014/06/tbs_2.jpg,http://getnews.jp/img/archives/2014/06/tbs_2.jpg,http://getnews.jp/img/archives/2014/06/tbs_3.jpg,http://getnews.jp/img/archives/2014/06/tbs_3.jpg,http://getnews.jp/img/archives/2014/06/tbs_5.jpg,http://getnews.jp/img/archives/2014/06/tbs_5.jpg,http://getnews.jp/img/archives/2014/06/tbs_6.jpg,http://getnews.jp/img/archives/2014/06/tbs_6.jpg,http://getnews.jp/img/archives/2014/06/tbs_8.jpg,http://getnews.jp/img/archives/2014/06/tbs_8.jpg,http://getnews.jp/img/archives/2014/06/tbs_4.jpg,http://getnews.jp/img/archives/2014/06/tbs_4.jpg,http://getnews.jp/img/archives/2014/06/tbs_1.jpg,http://getnews.jp/img/archives/2014/06/tbs_1.jpg
+DEBUG - 2014-06-28 06:23:52 --> 画像が存在しない:http://flic.kr/techcrunch.jpg
+DEBUG - 2014-06-28 06:23:52 --> 画像取得OK url=http://marticleimage.nicoblomaga.jp/image/27/2014/4/8/481e9f5944ad28b22b71dda4c986ca4080ebe71b1403784650.jpg,http://marticleimage.nicoblomaga.jp/image/27/2014/4/8/481e9f5944ad28b22b71dda4c986ca4080ebe71b1403784650-s.jpg,http://blogmaterial.nicoblomaga.jp/material/27/template/open2ch.png,http://blogmaterial.nicoblomaga.jp/material/27/sideout/0081045001396084841.jpg,http://blogmaterial.nicoblomaga.jp/material/27/sideout/c641c465abc8b8bae13b9dc47b3b7c.JPG,http://blogmaterial.nicoblomaga.jp/material/27/sideout/0443822001380470989.jpeg,http://blogmaterial.nicoblomaga.jp/material/27/sideout/0034606001397141902.jpg,http://blogmaterial.nicoblomaga.jp/material/27/sideout/0279184001385094000.jpg,http://blogmaterial.nicoblomaga.jp/material/27/sideout/0991649001396083667.jpg,http://blogmaterial.nicoblomaga.jp/material/27/sideout/0514137001380470804.jpeg
+DEBUG - 2014-06-28 06:23:53 --> Division by zero
+DEBUG - 2014-06-28 06:23:53 --> 画像が存在しない:http://beauty-cdn.oricon.co.jp/special/luxaro/img/luxaro_bn04.gif
+DEBUG - 2014-06-28 06:23:53 --> 画像取得OK url=http://marticleimage.nicoblomaga.jp/image/27/2014/4/8/481e9f5944ad28b22b71dda4c986ca4080ebe71b1403784650.jpg,http://marticleimage.nicoblomaga.jp/image/27/2014/4/8/481e9f5944ad28b22b71dda4c986ca4080ebe71b1403784650-s.jpg,http://blogmaterial.nicoblomaga.jp/material/27/template/open2ch.png,http://blogmaterial.nicoblomaga.jp/material/27/sideout/0081045001396084841.jpg,http://blogmaterial.nicoblomaga.jp/material/27/sideout/c641c465abc8b8bae13b9dc47b3b7c.JPG,http://blogmaterial.nicoblomaga.jp/material/27/sideout/0443822001380470989.jpeg,http://blogmaterial.nicoblomaga.jp/material/27/sideout/0034606001397141902.jpg,http://blogmaterial.nicoblomaga.jp/material/27/sideout/0279184001385094000.jpg,http://blogmaterial.nicoblomaga.jp/material/27/sideout/0991649001396083667.jpg,http://blogmaterial.nicoblomaga.jp/material/27/sideout/0514137001380470804.jpeg
+DEBUG - 2014-06-28 06:23:53 --> 画像が存在しない:http://afpbb.ismcdn.jp/mwimgs/7/c/120x/img_7c908532a65510468e491ece277c7ece60606.jpg
+DEBUG - 2014-06-28 06:23:53 --> 画像が存在しない:http://pbs.twimg.com/profile_images/622622487/kao_normal.JPG
+DEBUG - 2014-06-28 06:23:54 --> 画像が存在しない:http://contents.oricon.co.jp/news/yrelation/img/tagicon16.png
+DEBUG - 2014-06-28 06:23:54 --> 画像取得OK url=http://contents.oricon.co.jp/upimg/news/20140627/2039134_201406270185725001403852436c.jpg,http://contents.oricon.co.jp/img/news/newsunder/pickup-sp03.jpg,http://contents.oricon.co.jp/targetting/img/store_news_p01.jpg,http://contents.oricon.co.jp/targetting/img/os_news_omr.jpg
+DEBUG - 2014-06-28 06:23:54 --> 画像が存在しない:http://afpbb.ismcdn.jp/mwimgs/c/5/120x/img_c5bff55bd9421f3b7c91ef999fdd0c8477878.jpg
+DEBUG - 2014-06-28 06:23:54 --> 画像が存在しない:http://s-bunshun.ismcdn.jp/mwimgs/9/9/150h/img_99730cfb1c1f0464d26f8d68538027b6181911.jpg
+DEBUG - 2014-06-28 06:23:54 --> 画像が存在しない:http://afpbb.ismcdn.jp/mwimgs/9/f/120x/img_9f35510bdff87d7464ca3da73789b37680991.jpg
+DEBUG - 2014-06-28 06:23:54 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/816.jpg
+DEBUG - 2014-06-28 06:23:55 --> 画像が存在しない:http://afpbb.ismcdn.jp/mwimgs/b/d/120x/img_bdbde82b4303e28f48d8bd46dcbe367e79982.jpg
+DEBUG - 2014-06-28 06:23:55 --> getimagesize(http://www.zakzak.co.jp/common20100927/images/sankeidigitalservive_photo_002.jpg): failed to open stream: Operation timed out
+DEBUG - 2014-06-28 06:23:55 --> 画像が存在しない:http://s-bunshun.ismcdn.jp/mwimgs/d/c/150h/img_dcf7e48a6d845679dd9d388297088a58473924.jpg
+DEBUG - 2014-06-28 06:23:55 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/ghostcar.jpg
+DEBUG - 2014-06-28 06:23:55 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/munenori.jpg
+DEBUG - 2014-06-28 06:23:55 --> getimagesize(http://www.zakzak.co.jp/common20100927/images/icon_print.gif): failed to open stream: Operation timed out
+DEBUG - 2014-06-28 06:23:55 --> Division by zero
+DEBUG - 2014-06-28 06:23:55 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/a.jpg
+DEBUG - 2014-06-28 06:23:56 --> 画像取得OK url=http://afpbb.ismcdn.jp/mwimgs/f/3/280w/img_f3571d39f0d00cea04f03fb64e0d3ab078578.jpg,http://afpbb.ismcdn.jp/mwimgs/1/a/280w/img_1a799918952114e2fbcccf01ffe1a32c96282.jpg,http://afpbb.ismcdn.jp/mwimgs/d/f/200x/img_df765c68269bc212293fc8a0896b430764764.jpg,http://afpbb.ismcdn.jp/common/images/v1/apple-touch-icon.png
+DEBUG - 2014-06-28 06:23:56 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/a.jpg
+DEBUG - 2014-06-28 06:23:56 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/kaijin10.jpg
+DEBUG - 2014-06-28 06:23:56 --> 画像が存在しない:http://pinterest.com/pin/create/button/?url=http://entabe.jp/news/article/5058&media=http://entabe.jp/upload/images/hyouketukoori.jpg
+DEBUG - 2014-06-28 06:23:56 --> 画像取得OK url=http://dl5k4bv9hrwqx.cloudfront.net/upload/images/hyouketukoori.jpg,http://dl5k4bv9hrwqx.cloudfront.net/upload/images/kakuterukoori.jpg,http://entabe.jp/upload/articles/5058/ba833c561db6035917f9c28cc4c67a66_list.jpg
+DEBUG - 2014-06-28 06:23:56 --> 画像が存在しない:http://s-bunshun.ismcdn.jp/mwimgs/9/7/150h/img_9797189ccd040c19f8f9fe0e51c1356e33980.jpg
+DEBUG - 2014-06-28 06:23:56 --> 画像が存在しない:http://s-bunshun.ismcdn.jp/mwimgs/a/8/150h/img_a826f3f750f9e7e18a58b4c943d0955429140.jpg
+DEBUG - 2014-06-28 06:23:56 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2013/11/ikkousha1.jpg
+DEBUG - 2014-06-28 06:23:56 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/238.jpg
+DEBUG - 2014-06-28 06:23:57 --> 画像が存在しない:http://s-bunshun.ismcdn.jp/mwimgs/d/e/-/img_de41653b4c5624f81adaee91d9e366d5645779.jpg
+DEBUG - 2014-06-28 06:23:57 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2013/11/ikkousha1.jpg
+DEBUG - 2014-06-28 06:23:57 --> 画像が存在しない:http://pbs.twimg.com/profile_images/666254850/chako_0022_normal.jpg
+DEBUG - 2014-06-28 06:23:57 --> 画像が存在しない:http://s-bunshun.ismcdn.jp/mwimgs/d/e/250/img_de41653b4c5624f81adaee91d9e366d5645779.jpg
+DEBUG - 2014-06-28 06:23:57 --> 画像取得OK url=http://s-bunshun.ismcdn.jp/mwimgs/0/d/-/img_0dd25565847e5cdfa9828e88816844de61430.jpg,http://s-bunshun.ismcdn.jp/mwimgs/0/9/-/img_092b4d7a53e94b849d882f87cdeb1e1259980.jpg,http://hon.bunshun.jp/mwimgs/0/4/-/img_04dcc481792b5426c9c31315a259223649437.jpg,http://s-bunshun.ismcdn.jp/mwimgs/f/4/105h/img_f458e95745fc9be2cf074ef014138a4627496.jpg
+DEBUG - 2014-06-28 06:23:57 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/01/forlan.png
+DEBUG - 2014-06-28 06:23:57 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/pic3jp6.jpg
+DEBUG - 2014-06-28 06:23:57 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/915.jpg
+DEBUG - 2014-06-28 06:23:57 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/03/kuwabara1.jpg
+DEBUG - 2014-06-28 06:23:57 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/kinect.jpg
+DEBUG - 2014-06-28 06:23:58 --> 画像が存在しない:http://s-bunshun.ismcdn.jp/mwimgs/3/3/150h/img_3330688a2fcc844d1d99c0faff74fff8373921.jpg
+DEBUG - 2014-06-28 06:23:58 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2013/08/4687691381_d00c7d5109_z.jpg
+DEBUG - 2014-06-28 06:23:58 --> 画像が存在しない:http://i2.wp.com/tctechcrunch2011.files.wordpress.com/2014/06/screen-shot-2014-06-24-at-8-38-58-am.png
+DEBUG - 2014-06-28 06:23:58 --> 画像が存在しない:http://lpt.c.yimg.jp/im_siggnzyzLm.IvqxEYTTNgHGUqQ---x45-y60-q90/amd/20140627-00000523-sanspo-000-view.jpg
+DEBUG - 2014-06-28 06:23:58 --> 画像が存在しない:http://lpt.c.yimg.jp/im_sigg5V2r7GCFX6maPAM0Br8JbA---x60-y47-q90/amd/20140626-00000002-tospoweb-000-view.jpg
+DEBUG - 2014-06-28 06:23:58 --> 画像取得OK url=http://amd.c.yimg.jp/im_sigg3lmTLyvW9_5QbxoijmihvA---x136-y200-q90/amd/20140627-00000017-nkgendai-000-1-view.jpg,http://amd.c.yimg.jp/im_sigg3lmTLyvW9_5QbxoijmihvA---x136-y200-q90/amd/20140627-00000017-nkgendai-000-1-view.jpg
+DEBUG - 2014-06-28 06:23:58 --> 画像が存在しない:http://s-bunshun.ismcdn.jp/mwimgs/d/8/150h/img_d8ccc976e3a3122bfbe15430374a5464407644.jpg
+DEBUG - 2014-06-28 06:23:58 --> 画像が存在しない:http://s2.wp.com/wp-content/themes/vip/tctechcrunch2/images/site-logo-cutout.png
+DEBUG - 2014-06-28 06:23:58 --> 画像が存在しない:http://s-bunshun.ismcdn.jp/mwimgs/0/7/150h/img_07c4b0fcb636f51a2d84e4a3d60e641d357871.jpg
+DEBUG - 2014-06-28 06:23:58 --> getimagesize(http://getnews.jp/wp-content/themes/getnews/img/sakidori/loft.png): failed to open stream: Operation timed out
+DEBUG - 2014-06-28 06:23:59 --> 画像が存在しない:http://pbs.twimg.com/profile_images/445022392935383040/prQfq4Pu_normal.jpeg
+DEBUG - 2014-06-28 06:23:59 --> 画像が存在しない:http://px1img.getnews.jp/thumb/subNews/609006.jpg
+DEBUG - 2014-06-28 06:23:59 --> 画像が存在しない:http://getnews.jp/wp-content/themes/getnews/img/carreview/banner_toyota.png
+DEBUG - 2014-06-28 06:23:59 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/pic3jp6.jpg
+DEBUG - 2014-06-28 06:23:59 --> 画像が存在しない:http://cache2.nipc.jp/mod/img/side/icon-side_travel140609.gif
+DEBUG - 2014-06-28 06:23:59 --> 画像が存在しない:http://px1img.getnews.jp/thumb/subNews/608472.jpg
+DEBUG - 2014-06-28 06:23:59 --> 画像が存在しない:http://tctechcrunch2011.files.wordpress.com/2014/06/img_00141.jpg
+DEBUG - 2014-06-28 06:23:59 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/ghostcar.jpg
+DEBUG - 2014-06-28 06:23:59 --> 画像が存在しない:http://s-bunshun.ismcdn.jp/mwimgs/d/c/150h/img_dcf7e48a6d845679dd9d388297088a58473924.jpg
+DEBUG - 2014-06-28 06:23:59 --> 画像が存在しない:http://px1img.getnews.jp/thumb/subNews/609051.jpg
+DEBUG - 2014-06-28 06:23:59 --> 画像が存在しない:http://b.st-hatena.com/images/entry-button/button-only.gif
+DEBUG - 2014-06-28 06:24:00 --> 画像が存在しない:http://business.nikkeibp.co.jp/nboimgs/top/238739.jpg
+DEBUG - 2014-06-28 06:24:00 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/10424486_675355645868858_2047883936_n_580px.jpg
+DEBUG - 2014-06-28 06:24:00 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/munenori.jpg
+DEBUG - 2014-06-28 06:24:00 --> 画像が存在しない:http://tctechcrunch2011.files.wordpress.com/2014/06/googledesign.png
+DEBUG - 2014-06-28 06:24:00 --> 画像が存在しない:http://b.st-hatena.com/images/entry-button/button-only.gif
+DEBUG - 2014-06-28 06:24:00 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/shupure20140301/images/column_gyakuni.jpg
+DEBUG - 2014-06-28 06:24:00 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/05/hatoribrothers.jpg
+DEBUG - 2014-06-28 06:24:00 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/shupure20140301/images/column_shugeki.jpg
+DEBUG - 2014-06-28 06:24:00 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/01/aikagi.jpg
+DEBUG - 2014-06-28 06:24:00 --> 画像が存在しない:http://s-bunshun.ismcdn.jp/mwimgs/d/9/150h/img_d946246c941b054cb15298de57f84cc4409086.jpg
+DEBUG - 2014-06-28 06:24:00 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/shupure20140301/images/column_girls-talk.jpg
+DEBUG - 2014-06-28 06:24:01 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2012/05/gachi1.jpg
+DEBUG - 2014-06-28 06:24:01 --> 画像データなし url=http://business.nikkeibp.co.jp/article/interview/20140624/267432/
+DEBUG - 2014-06-28 06:24:01 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/2014-06-24_170142c1.jpg
+DEBUG - 2014-06-28 06:24:01 --> 画像が存在しない:http://s-bunshun.ismcdn.jp/mwimgs/9/7/150h/img_9797189ccd040c19f8f9fe0e51c1356e33980.jpg
+DEBUG - 2014-06-28 06:24:01 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/shupure20140301/images/column_visitor.jpg
+DEBUG - 2014-06-28 06:24:01 --> 画像が存在しない:http://www.ideaxidea.com/wp-content/uploads/2014/06/screen_2.png
+DEBUG - 2014-06-28 06:24:01 --> 画像が存在しない:http://s-bunshun.ismcdn.jp/mwimgs/a/8/150h/img_a826f3f750f9e7e18a58b4c943d0955429140.jpg
+DEBUG - 2014-06-28 06:24:01 --> 画像が存在しない:http://straightpress.jp/wp-content/themes/bee1_2/images/navi/navi5.png
+DEBUG - 2014-06-28 06:24:01 --> 画像が存在しない:http://pbs.twimg.com/profile_images/1929907623/_______icon_normal.png
+DEBUG - 2014-06-28 06:24:01 --> 画像が存在しない:http://www.zakzak.co.jp/entertainment/ent-news/images/20140627/enn1406271206011-p5.jpg
+DEBUG - 2014-06-28 06:24:01 --> 画像が存在しない:http://s-bunshun.ismcdn.jp/mwimgs/9/3/120h/img_938bf6460beee565d74a16d605cc282151241.jpg
+DEBUG - 2014-06-28 06:24:01 --> 画像取得OK url=http://cache2.nipc.jp/mod/img/facebook_nikkansports_logo.jpg
+DEBUG - 2014-06-28 06:24:01 --> 画像が存在しない:http://s-bunshun.ismcdn.jp/common/images/v1/common/footer/about.jpg
+DEBUG - 2014-06-28 06:24:01 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/shupure20140301/images/column_sergio.jpg
+DEBUG - 2014-06-28 06:24:01 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/2014-06-24_170142c1.jpg
+DEBUG - 2014-06-28 06:24:01 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/shupure20140301/images/column_blue-hunter.jpg
+DEBUG - 2014-06-28 06:24:02 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/1014.jpg
+DEBUG - 2014-06-28 06:24:02 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/1119.jpg
+DEBUG - 2014-06-28 06:24:02 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/shupure20140301/images/column_kuroda.jpg
+DEBUG - 2014-06-28 06:24:02 --> 画像データなし url=http://www.ideaxidea.com/archives/2014/06/basic_android.html
+DEBUG - 2014-06-28 06:24:02 --> 画像が存在しない:http:\/\/getnews.jp\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif
+DEBUG - 2014-06-28 06:24:02 --> 画像データなし url=http://getnews.jp/archives/608264
+DEBUG - 2014-06-28 06:24:02 --> 画像が存在しない:http://flic.kr/techcrunch.jpg
+DEBUG - 2014-06-28 06:24:02 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2013/08/4687691381_d00c7d5109_z.jpg
+DEBUG - 2014-06-28 06:24:03 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/pic3jp6.jpg
+DEBUG - 2014-06-28 06:24:03 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/1119.jpg
+DEBUG - 2014-06-28 06:24:03 --> 画像が存在しない:http:\/\/getnews.jp\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif
+DEBUG - 2014-06-28 06:24:03 --> 画像取得OK url=http://getgold.jp/files/2014/06/00231.jpg,http://getnews.jp/img/archives/imp/and_608302.jpg,http://getnews.jp/img/archives/imp/and_608302.jpg
+DEBUG - 2014-06-28 06:24:03 --> 画像が存在しない:http://pbs.twimg.com/profile_images/1929907623/_______icon_normal.png
+DEBUG - 2014-06-28 06:24:03 --> 画像が存在しない:http://s-bunshun.ismcdn.jp/mwimgs/d/e/250/img_de41653b4c5624f81adaee91d9e366d5645779.jpg
+DEBUG - 2014-06-28 06:24:03 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/2014/06/e13b6a3c34a8aef1ecdcaac5259d0294_210a0a54424c621ba55e20fbe6a5eb71-100x140.jpg
+DEBUG - 2014-06-28 06:24:03 --> 画像取得OK url=http://s-bunshun.ismcdn.jp/mwimgs/d/e/-/img_de41653b4c5624f81adaee91d9e366d5645779.jpg,http://s-bunshun.ismcdn.jp/mwimgs/0/9/-/img_09404f2bd9720e43bd597b85fcc9bca665758.jpg,http://hon.bunshun.jp/mwimgs/0/4/-/img_04dcc481792b5426c9c31315a259223649437.jpg
+DEBUG - 2014-06-28 06:24:03 --> Division by zero
+DEBUG - 2014-06-28 06:24:03 --> 画像が存在しない:http://i2.wp.com/tctechcrunch2011.files.wordpress.com/2014/06/screen-shot-2014-06-24-at-8-38-58-am.png
+DEBUG - 2014-06-28 06:24:03 --> 画像が存在しない:http://getnews.jp/img/archives/2014/06/RIMG1857.jpg
+DEBUG - 2014-06-28 06:24:03 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/2014-06-24_170142c1.jpg
+DEBUG - 2014-06-28 06:24:03 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/shupure20140301/images/column_announcer.jpg
+DEBUG - 2014-06-28 06:24:03 --> 画像が存在しない:http://b.st-hatena.com/images/entry-button/button-only.gif
+DEBUG - 2014-06-28 06:24:03 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/ghostcar.jpg
+DEBUG - 2014-06-28 06:24:03 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/1219.jpg
+DEBUG - 2014-06-28 06:24:03 --> 画像が存在しない:http://www.ideaxidea.com/wp-content/uploads/2014/06/screen_2.png
+DEBUG - 2014-06-28 06:24:03 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/shupure20140301/images/column_idolevent.jpg
+DEBUG - 2014-06-28 06:24:04 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2013/08/4687691381_d00c7d5109_z.jpg
+DEBUG - 2014-06-28 06:24:04 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/resources/img/bnr-comic-makibao.png
+DEBUG - 2014-06-28 06:24:04 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/images/entry-button/button-only.gif
+DEBUG - 2014-06-28 06:24:04 --> 画像が存在しない:http://jp.techcrunch.com/2014/06/26/20140625google-io-attendees-gif
+DEBUG - 2014-06-28 06:24:04 --> getimagesize(http://getnews.jp/wp-content/themes/getnews/img/carreview/banner_mini.png): failed to open stream: Operation timed out
+DEBUG - 2014-06-28 06:24:04 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/pic23.jpg
+DEBUG - 2014-06-28 06:24:04 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2013/08/4687691381_d00c7d5109_z.jpg
+DEBUG - 2014-06-28 06:24:04 --> 画像が存在しない:http:\/\/getnews.jp\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif
+DEBUG - 2014-06-28 06:24:04 --> 画像取得OK url=http://getnews.jp/img/archives/imp/and_608207.jpg,http://getnews.jp/img/archives/imp/and_608207.jpg
+DEBUG - 2014-06-28 06:24:04 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/2014/04/e76049bd3661c13405b7a036d4cd53d9_a11af571ea86661d24d71fad52ac94d6-67x100.jpg
+DEBUG - 2014-06-28 06:24:05 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/2014-06-24_170142c1.jpg
+DEBUG - 2014-06-28 06:24:05 --> 画像データなし url=http://www.ideaxidea.com/archives/2014/06/basic_android.html
+DEBUG - 2014-06-28 06:24:05 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/10362183_1491067951125475_125495586_n_580px.jpg
+DEBUG - 2014-06-28 06:24:05 --> Division by zero
+DEBUG - 2014-06-28 06:24:05 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2012/10/daijin1.jpg
+DEBUG - 2014-06-28 06:24:05 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/2014-06-24_170142c1.jpg
+DEBUG - 2014-06-28 06:24:05 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/resources/img/bnr-setsuen01.png
+DEBUG - 2014-06-28 06:24:05 --> Division by zero
+DEBUG - 2014-06-28 06:24:06 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/2014/06/a39b37ef834f01f78b4cb465847fb01d_eadd63540c7e8f873ff98eca69c2859b.jpg
+DEBUG - 2014-06-28 06:24:06 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2013/05/alcohol.jpg
+DEBUG - 2014-06-28 06:24:06 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/02/kagari1.jpg
+DEBUG - 2014-06-28 06:24:06 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/2014-06-23_134127.jpg
+DEBUG - 2014-06-28 06:24:06 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2013/05/alcohol.jpg
+DEBUG - 2014-06-28 06:24:06 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/screenshots-2014-06-25-19-12-08_580px.jpg
+DEBUG - 2014-06-28 06:24:06 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/2014/06/e5d71fc59e7be34f3f863baf6b32e92c_6d3d4712d4179707a26c810d1e2468fd-190x287.jpg
+DEBUG - 2014-06-28 06:24:07 --> 画像が存在しない:http://flic.kr/techcrunch.jpg
+DEBUG - 2014-06-28 06:24:07 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/cleanup.jpg
+DEBUG - 2014-06-28 06:24:07 --> 画像が存在しない:http:\/\/getnews.jp\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif
+DEBUG - 2014-06-28 06:24:07 --> 画像取得OK url=http://getnews.jp/img/archives/2014/06/a297.jpg,http://getnews.jp/img/archives/2014/06/411D1V1T2QL.jpg,http://getnews.jp/img/archives/2014/06/78054919b8d0e314555e83452968fb28.jpg,http://getnews.jp/img/archives/2014/06/78054919b8d0e314555e83452968fb28.jpg
+DEBUG - 2014-06-28 06:24:07 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/2014/06/b58f46d264ad4e212aebe1894ef850ef_dscn7075-304x203.jpg
+DEBUG - 2014-06-28 06:24:07 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/cleanup.jpg
+DEBUG - 2014-06-28 06:24:08 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/shupure20140301/images/column_visitor.jpg
+DEBUG - 2014-06-28 06:24:08 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/2014/06/aaa10af313fd8c12dd5d53618c40b910_8eb7227b91b473d6d642a0ad02704b91-190x287.jpg
+DEBUG - 2014-06-28 06:24:08 --> 画像取得OK url=http://www.zakzak.co.jp/entertainment/ent-news/images/20140627/enn1406271206011-p4.jpg,http://www.zakzak.co.jp/entertainment/ent-news/images/20140627/enn1406271206011-p5.jpg,http://www.zakzak.co.jp/entertainment/ent-news/images/20140627/enn1406271206011-p6.jpg,http://www.zakzak.co.jp/entertainment/ent-news/images/20140627/enn1406271206011-p6.jpg,http://www.zakzak.co.jp/entertainment/ent-news/images/20140627/enn1406271206011-p3.jpg,http://www.zakzak.co.jp/entertainment/ent-news/images/20140627/enn1406271206011-p3.jpg,http://www.zakzak.co.jp/entertainment/ent-news/images/20140627/enn1406271206011-p2.jpg,http://www.zakzak.co.jp/entertainment/ent-news/images/20140627/enn1406271206011-p2.jpg
+DEBUG - 2014-06-28 06:24:08 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/2014/06/32a47964a7af950c9949fe4ebba8a10d_b84a8acb41212b9f2ac6812954ed312c-304x203.jpg
+DEBUG - 2014-06-28 06:24:08 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/screenshots-2014-06-25-19-12-08_580px.jpg
+DEBUG - 2014-06-28 06:24:08 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/2014/06/a103ab6952b68f3cde402f96d0d25e4d_70059c7413605540550eedaa88676b83-304x203.jpg
+DEBUG - 2014-06-28 06:24:08 --> 画像が存在しない:http://lpt.c.yimg.jp/im_siggZDASR4x0WZEm1YN_OTHR_g---x47-y60-q90/amd/20140627-00000001-tospoweb-000-view.jpg
+DEBUG - 2014-06-28 06:24:08 --> 画像が存在しない:http://flic.kr/techcrunch.jpg
+DEBUG - 2014-06-28 06:24:08 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/shupure20140301/images/column_sergio.jpg
+DEBUG - 2014-06-28 06:24:08 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2011/10/3saimade.jpg
+DEBUG - 2014-06-28 06:24:08 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/shupure20140301/images/column_blue-hunter.jpg
+DEBUG - 2014-06-28 06:24:09 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/2014/05/24d306ae49949d593eae14f99b173bb2_1386e466f05eeeb1db26a5fbe08090e8-304x203.jpg
+DEBUG - 2014-06-28 06:24:09 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/shupure20140301/images/column_moemoe-club.jpg
+DEBUG - 2014-06-28 06:24:09 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/b.jpg
+DEBUG - 2014-06-28 06:24:09 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/shupure20140301/images/column_kuroda.jpg
+DEBUG - 2014-06-28 06:24:10 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/2014/06/bb3365d55ebdca888bf527dc2f4b582e_5971685ee929908c84d782551fa0810e-47x70.jpg
+DEBUG - 2014-06-28 06:24:10 --> 画像が存在しない:http://pbs.twimg.com/profile_images/1929907623/_______icon_normal.png
+DEBUG - 2014-06-28 06:24:10 --> Division by zero
+DEBUG - 2014-06-28 06:24:10 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/2014/06/e273a8d32a911252bc72bb22fb64c62f_4efc87d6b7e63858a8837dff81658715-70x47.jpg
+DEBUG - 2014-06-28 06:24:10 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/kinect.jpg
+DEBUG - 2014-06-28 06:24:10 --> 画像が存在しない:http://s2.wp.com/wp-content/themes/vip/tctechcrunch2/images/site-logo-cutout.png
+DEBUG - 2014-06-28 06:24:10 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/2014/06/f99dc8994ad5ad9507cd5c1091d3c673_bd2acf6e07fd8296a6556034384fbc8a-70x47.jpg
+DEBUG - 2014-06-28 06:24:11 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/kinect.jpg
+DEBUG - 2014-06-28 06:24:11 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/shupure20140301/images/column_announcer.jpg
+DEBUG - 2014-06-28 06:24:11 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/shupure20140301/images/column_idolevent.jpg
+DEBUG - 2014-06-28 06:24:11 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/2014/06/61592120eace7d6769811902e6f0ba5f_f2a302db6d3e4dbdc4f6120ec3186eb6-106x150.jpg
+DEBUG - 2014-06-28 06:24:11 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/05/2014-05-27_144549.jpg
+DEBUG - 2014-06-28 06:24:11 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/342.jpg
+DEBUG - 2014-06-28 06:24:12 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/05/2014-05-27_144549.jpg
+DEBUG - 2014-06-28 06:24:12 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/images/entry-button/button-only.gif
+DEBUG - 2014-06-28 06:24:12 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/342.jpg
+DEBUG - 2014-06-28 06:24:12 --> 画像が存在しない:http://news.c.yimg.jp/images/media_module/health.jpg
+DEBUG - 2014-06-28 06:24:12 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/2014/06/96df84ed9059412d971885d1d25acad8_5b7ac8ee1eee9723155947bc4c39075b.jpg
+DEBUG - 2014-06-28 06:24:12 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/2014/05/d8919103e04f1c4be5c2c5c9eeb28384_b90569a7b434db4c9d5f092753bebe9f-106x150.jpg
+DEBUG - 2014-06-28 06:24:12 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/2014/06/7e7471330b8083d03acf7bbeb10cd5b8_09c0aa57d74aeea9620304f70a0b1b3b-67x100.jpg
+DEBUG - 2014-06-28 06:24:12 --> 画像が存在しない:http://amd.c.yimg.jp/im_siggi5wx_.qAqxzjzZWIS83T8Q---x134-y200-q90/amd/20140626-00183781-health-000-1-view.jpg
+DEBUG - 2014-06-28 06:24:12 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/1415.jpg
+DEBUG - 2014-06-28 06:24:12 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/815.jpg
+DEBUG - 2014-06-28 06:24:12 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/2014/06/d0344b2ba82a1efba3425f4500ccf1c2_93f2afaf4f23bcc033928ef39fc7773e-67x100.jpg
+DEBUG - 2014-06-28 06:24:13 --> 画像が存在しない:http://pbs.twimg.com/profile_images/629038259/21397531_229356118_normal.jpg
+DEBUG - 2014-06-28 06:24:13 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/munenori.jpg
+DEBUG - 2014-06-28 06:24:14 --> Division by zero
+DEBUG - 2014-06-28 06:24:14 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/03/twitter4.jpg
+DEBUG - 2014-06-28 06:24:14 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/05/efbc932.jpg
+DEBUG - 2014-06-28 06:24:14 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/munenori.jpg
+DEBUG - 2014-06-28 06:24:15 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/01/aikagi.jpg
+DEBUG - 2014-06-28 06:24:15 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/011.jpg
+DEBUG - 2014-06-28 06:24:15 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/01/aikagi.jpg
+DEBUG - 2014-06-28 06:24:15 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/05/efbc932.jpg
+DEBUG - 2014-06-28 06:24:16 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/01/aikagi.jpg
+DEBUG - 2014-06-28 06:24:16 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/01/6948a548jw1e84x4qyuwqj21kw21mamm.jpg
+DEBUG - 2014-06-28 06:24:16 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/01/aikagi.jpg
+DEBUG - 2014-06-28 06:24:16 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/skypego11.jpg
+DEBUG - 2014-06-28 06:24:16 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/01/6948a548jw1e84x4qyuwqj21kw21mamm.jpg
+DEBUG - 2014-06-28 06:24:17 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/05/terrible_tattoos_640_13.jpg
+DEBUG - 2014-06-28 06:24:17 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2011/10/ikemen12.jpg
+DEBUG - 2014-06-28 06:24:18 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/05/aiko0.jpg
+DEBUG - 2014-06-28 06:24:18 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/skypego11.jpg
+DEBUG - 2014-06-28 06:24:19 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/1013.jpg
+DEBUG - 2014-06-28 06:24:19 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/skypego11.jpg
+DEBUG - 2014-06-28 06:24:20 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/ghostcar.jpg
+DEBUG - 2014-06-28 06:24:20 --> 画像が存在しない:http://pbs.twimg.com/profile_images/457225658460946432/_uRvFjO6_normal.jpeg
+DEBUG - 2014-06-28 06:24:21 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/ghostcar.jpg
+DEBUG - 2014-06-28 06:24:21 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/cleanup.jpg
+DEBUG - 2014-06-28 06:24:21 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/pic3jp6.jpg
+DEBUG - 2014-06-28 06:24:21 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/kinect.jpg
+DEBUG - 2014-06-28 06:24:22 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/352.jpg
+DEBUG - 2014-06-28 06:24:22 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/kinect.jpg
+DEBUG - 2014-06-28 06:24:22 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/pic3jp6.jpg
+DEBUG - 2014-06-28 06:24:22 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/02.jpg
+DEBUG - 2014-06-28 06:24:22 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/munenori.jpg
+DEBUG - 2014-06-28 06:24:23 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2013/08/4687691381_d00c7d5109_z.jpg
+DEBUG - 2014-06-28 06:24:23 --> 画像が存在しない:http://pbs.twimg.com/profile_images/1081039691/kaki_normal.png
+DEBUG - 2014-06-28 06:24:23 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/02.jpg
+DEBUG - 2014-06-28 06:24:23 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2013/08/4687691381_d00c7d5109_z.jpg
+DEBUG - 2014-06-28 06:24:23 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/munenori.jpg
+DEBUG - 2014-06-28 06:24:23 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/03.jpg
+DEBUG - 2014-06-28 06:24:23 --> 画像が存在しない:http://pbs.twimg.com/profile_images/1382144156/runeharst_ver-noa_normal.jpg
+DEBUG - 2014-06-28 06:24:24 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/01/aikagi.jpg
+DEBUG - 2014-06-28 06:24:24 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/03.jpg
+DEBUG - 2014-06-28 06:24:24 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/01/aikagi.jpg
+DEBUG - 2014-06-28 06:24:24 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/2014-06-24_170142c1.jpg
+DEBUG - 2014-06-28 06:24:24 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/04.jpg
+DEBUG - 2014-06-28 06:24:24 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/skypego11.jpg
+DEBUG - 2014-06-28 06:24:26 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/1514.jpg
+DEBUG - 2014-06-28 06:24:27 --> 画像が存在しない:http://pbs.twimg.com/profile_images/2256052790/circuit-motherboard-wallpapers-backgrounds-for-powerpoint_normal.jpeg
+DEBUG - 2014-06-28 06:24:27 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/1514.jpg
+DEBUG - 2014-06-28 06:24:27 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/113.jpg
+DEBUG - 2014-06-28 06:24:27 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/362.jpg
+DEBUG - 2014-06-28 06:24:27 --> Division by zero
+DEBUG - 2014-06-28 06:24:28 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/2014-06-24_170142c1.jpg
+DEBUG - 2014-06-28 06:24:28 --> 画像が存在しない:http://pbs.twimg.com/profile_images/2967706133/4a6ae49d8ed5f7e7a26af8617aca8f4c_normal.jpeg
+DEBUG - 2014-06-28 06:24:28 --> 画像が存在しない:http://lpt.c.yimg.jp/im_siggHQNBkW7FQcyG7mqcLGwt1Q---x60-y60-q90/amd/20140626-00000004-nkgendai-000-view.jpg
+DEBUG - 2014-06-28 06:24:29 --> 画像が存在しない:http://pbs.twimg.com/profile_images/477117357291081729/NWgshoLu_normal.jpeg
+DEBUG - 2014-06-28 06:24:29 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/1515.jpg
+DEBUG - 2014-06-28 06:24:29 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/cleanup.jpg
+DEBUG - 2014-06-28 06:24:29 --> Division by zero
+DEBUG - 2014-06-28 06:24:29 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/2014-06-23_134127.jpg
+DEBUG - 2014-06-28 06:24:30 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/113.jpg
+DEBUG - 2014-06-28 06:24:30 --> 画像が存在しない:http://straightpress.jp/wp-content/themes/bee1_2/images/sp_27.png
+DEBUG - 2014-06-28 06:24:30 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/1515.jpg
+DEBUG - 2014-06-28 06:24:31 --> 画像が存在しない:http://pbs.twimg.com/profile_images/814493894/100216_232859_ed_ed_normal.jpg
+DEBUG - 2014-06-28 06:24:32 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/screenshots-2014-06-25-19-12-08_580px.jpg
+DEBUG - 2014-06-28 06:24:32 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/05/terrible_tattoos_640_13.jpg
+DEBUG - 2014-06-28 06:24:33 --> 画像が存在しない:http://pbs.twimg.com/profile_images/457225658460946432/_uRvFjO6_normal.jpeg
+DEBUG - 2014-06-28 06:24:33 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/2014/06/c2ca641ae610c49c9e7f3197381de2b4_c67421881d27e1e534efadf012a9650f-67x100.jpg
+DEBUG - 2014-06-28 06:24:33 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/05/aiko0.jpg
+DEBUG - 2014-06-28 06:24:34 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/05/aiko0.jpg
+DEBUG - 2014-06-28 06:24:34 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/cleanup.jpg
+DEBUG - 2014-06-28 06:24:35 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/cleanup.jpg
+DEBUG - 2014-06-28 06:24:35 --> 画像が存在しない:http://pbs.twimg.com/profile_images/2967706133/4a6ae49d8ed5f7e7a26af8617aca8f4c_normal.jpeg
+DEBUG - 2014-06-28 06:24:37 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/113.jpg
+DEBUG - 2014-06-28 06:24:37 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/ghostcar.jpg
+DEBUG - 2014-06-28 06:24:37 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/113.jpg
+DEBUG - 2014-06-28 06:24:38 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/05/2014-05-27_144549.jpg
+DEBUG - 2014-06-28 06:24:38 --> 画像が存在しない:http://lpt.c.yimg.jp/im_sigg7N9r_14vq.VvBWq0odo__Q---x60-y45-q90/amd/20140627-00000049-mycomj-000-view.jpg
+DEBUG - 2014-06-28 06:24:39 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/05/2014-05-27_144549.jpg
+DEBUG - 2014-06-28 06:24:40 --> 画像が存在しない:http://pbs.twimg.com/profile_images/459670775/images_normal.jpg
+DEBUG - 2014-06-28 06:24:40 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/1614.jpg
+DEBUG - 2014-06-28 06:24:40 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/05/terrible_tattoos_640_13.jpg
+DEBUG - 2014-06-28 06:24:41 --> 画像が存在しない:http://pbs.twimg.com/profile_images/472978895004647425/xozTr30C_normal.png
+DEBUG - 2014-06-28 06:24:42 --> 画像が存在しない:http://lpt.c.yimg.jp/im_siggIw7kMVbnPB8ewMVWGBndwA---x47-y60-q90/amd/20140627-00004613-shueishaz-000-view.jpg
+DEBUG - 2014-06-28 06:24:42 --> 画像が存在しない:http://pbs.twimg.com/profile_images/1081039691/kaki_normal.png
+DEBUG - 2014-06-28 06:24:42 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/1712.jpg
+DEBUG - 2014-06-28 06:24:42 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/05/terrible_tattoos_640_13.jpg
+DEBUG - 2014-06-28 06:24:43 --> 画像が存在しない:http://amd.c.yimg.jp/amd/20140626-00183781-health-000-1-view.jpg
+DEBUG - 2014-06-28 06:24:43 --> 画像が存在しない:http://pbs.twimg.com/profile_images/1735612191/Sima1_normal.png
+DEBUG - 2014-06-28 06:24:43 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/362.jpg
+DEBUG - 2014-06-28 06:24:43 --> getimagesize(http://sociorocketnews.files.wordpress.com/2014/05/140516mizugi_03.jpg): failed to open stream: Operation timed out
+DEBUG - 2014-06-28 06:24:44 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/05/aiko0.jpg
+DEBUG - 2014-06-28 06:24:44 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/372.jpg
+DEBUG - 2014-06-28 06:24:45 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/517.jpg
+DEBUG - 2014-06-28 06:24:45 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/517.jpg
+DEBUG - 2014-06-28 06:24:46 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/1910.jpg
+DEBUG - 2014-06-28 06:24:47 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/1910.jpg
+DEBUG - 2014-06-28 06:24:47 --> 画像が存在しない:http://pbs.twimg.com/profile_images/437234811724234752/F5bWMxxD_normal.png
+DEBUG - 2014-06-28 06:24:47 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/209.jpg
+DEBUG - 2014-06-28 06:24:49 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/209.jpg
+DEBUG - 2014-06-28 06:24:49 --> 画像が存在しない:http://pbs.twimg.com/profile_images/437234811724234752/F5bWMxxD_normal.png
+DEBUG - 2014-06-28 06:24:50 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/2113.jpg
+DEBUG - 2014-06-28 06:24:50 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/05/2014-05-27_144549.jpg
+DEBUG - 2014-06-28 06:24:50 --> 画像が存在しない:http://pbs.twimg.com/profile_images/2243097508/PICT1057_______ver2__normal.jpg
+DEBUG - 2014-06-28 06:24:52 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/2212.jpg
+DEBUG - 2014-06-28 06:24:53 --> 画像が存在しない:http://pbs.twimg.com/profile_images/466956745735036928/dg258g4D_normal.jpeg
+DEBUG - 2014-06-28 06:24:53 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/2212.jpg
+DEBUG - 2014-06-28 06:24:53 --> 画像が存在しない:http://pbs.twimg.com/profile_images/453758112877408256/BtpkeA5K_normal.png
+DEBUG - 2014-06-28 06:24:53 --> 画像が存在しない:http://pbs.twimg.com/profile_images/480994420032946176/vzstmW6B_normal.jpeg
+DEBUG - 2014-06-28 06:24:53 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/05/2014-05-27_144549.jpg
+DEBUG - 2014-06-28 06:24:53 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/ghostcar.jpg
+DEBUG - 2014-06-28 06:24:54 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/2310.jpg
+DEBUG - 2014-06-28 06:24:54 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/05/140516mizugi_03.jpg
+DEBUG - 2014-06-28 06:24:54 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2013/08/4687691381_d00c7d5109_z.jpg
+DEBUG - 2014-06-28 06:24:55 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/2310.jpg
+DEBUG - 2014-06-28 06:24:55 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/04/2014-04-24_203707.jpg
+DEBUG - 2014-06-28 06:24:55 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2013/08/4687691381_d00c7d5109_z.jpg
+DEBUG - 2014-06-28 06:24:55 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/246.jpg
+DEBUG - 2014-06-28 06:24:55 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/04/2014-04-24_203707.jpg
+DEBUG - 2014-06-28 06:24:56 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/2014-06-24_170142c1.jpg
+DEBUG - 2014-06-28 06:24:56 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/pic3jp6.jpg
+DEBUG - 2014-06-28 06:24:56 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2013/08/4687691381_d00c7d5109_z.jpg
+DEBUG - 2014-06-28 06:24:57 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/05/terrible_tattoos_640_13.jpg
+DEBUG - 2014-06-28 06:24:57 --> 画像が存在しない:http://pbs.twimg.com/profile_images/1144557758/twiprogramming_normal.gif
+DEBUG - 2014-06-28 06:24:57 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/05/terrible_tattoos_640_13.jpg
+DEBUG - 2014-06-28 06:24:57 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2013/08/4687691381_d00c7d5109_z.jpg
+DEBUG - 2014-06-28 06:24:57 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/2014-06-24_170142c1.jpg
+DEBUG - 2014-06-28 06:24:58 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/2014-06-24_170142c1.jpg
+DEBUG - 2014-06-28 06:24:58 --> 画像が存在しない:http://pbs.twimg.com/profile_images/468371548705800193/2HGF2837_normal.jpeg
+DEBUG - 2014-06-28 06:24:58 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/2014-06-24_170142c1.jpg
+DEBUG - 2014-06-28 06:24:58 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/05/aiko0.jpg
+DEBUG - 2014-06-28 06:24:58 --> 画像が存在しない:http://lpt.c.yimg.jp/im_siggnDynl8T7SnELmvbvOBjCSw---x45-y60-q90/amd/20140626-00000003-nkgendai-000-view.jpg
+DEBUG - 2014-06-28 06:24:58 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/05/873068081d5b48f38975534dda96a9bf1.jpg
+DEBUG - 2014-06-28 06:24:59 --> 画像が存在しない:http://pbs.twimg.com/profile_images/473703492121411585/17BHhYBI_normal.jpeg
+DEBUG - 2014-06-28 06:24:59 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/2014-06-23_134127.jpg
+DEBUG - 2014-06-28 06:24:59 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/05/aiko0.jpg
+DEBUG - 2014-06-28 06:25:00 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/05/aiko0.jpg
+DEBUG - 2014-06-28 06:25:00 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/2014-06-23_134127.jpg
+DEBUG - 2014-06-28 06:25:00 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/05/keylor1.jpg
+DEBUG - 2014-06-28 06:25:00 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/2014-06-23_134127.jpg
+DEBUG - 2014-06-28 06:25:01 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/screenshots-2014-06-25-19-12-08_580px.jpg
+DEBUG - 2014-06-28 06:25:01 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/screenshots-2014-06-25-19-12-08_580px.jpg
+DEBUG - 2014-06-28 06:25:01 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/05/keylor1.jpg
+DEBUG - 2014-06-28 06:25:01 --> 画像が存在しない:http://pbs.twimg.com/profile_images/378800000601147031/0a8a128d79676e30ebc9910d8bd7f800_normal.jpeg
+DEBUG - 2014-06-28 06:25:03 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/screenshots-2014-06-25-19-12-08_580px.jpg
+DEBUG - 2014-06-28 06:25:03 --> 画像が存在しない:http://pbs.twimg.com/profile_images/2243097508/PICT1057_______ver2__normal.jpg
+DEBUG - 2014-06-28 06:25:03 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/2012/11/769de76513459b3dfd0525a8ea015fd2_mjbllyjean_335_1-67x100.jpg
+DEBUG - 2014-06-28 06:25:04 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/ochoa.jpg
+DEBUG - 2014-06-28 06:25:04 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/cleanup.jpg
+DEBUG - 2014-06-28 06:25:05 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/ochoa.jpg
+DEBUG - 2014-06-28 06:25:05 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/cleanup.jpg
+DEBUG - 2014-06-28 06:25:05 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/2013/04/d0d8434bcea955f1147c39a7dede2f12_2d204918d045a0c698341c9676db5331-100x67.jpg
+DEBUG - 2014-06-28 06:25:05 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2013/12/suarez.png
+DEBUG - 2014-06-28 06:25:05 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/05/140516mizugi_03.jpg
+DEBUG - 2014-06-28 06:25:05 --> 画像が存在しない:http://pbs.twimg.com/profile_images/468371548705800193/2HGF2837_normal.jpeg
+DEBUG - 2014-06-28 06:25:06 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/05/140516mizugi_03.jpg
+DEBUG - 2014-06-28 06:25:06 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/05/140516mizugi_03.jpg
+DEBUG - 2014-06-28 06:25:06 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/113.jpg
+DEBUG - 2014-06-28 06:25:06 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/04/2014-04-24_203707.jpg
+DEBUG - 2014-06-28 06:25:07 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/04/2014-04-24_203707.jpg
+DEBUG - 2014-06-28 06:25:07 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/04/2014-04-24_203707.jpg
+DEBUG - 2014-06-28 06:25:07 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/05/873068081d5b48f38975534dda96a9bf1.jpg
+DEBUG - 2014-06-28 06:25:08 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/05/873068081d5b48f38975534dda96a9bf1.jpg
+DEBUG - 2014-06-28 06:25:08 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/04/2014-04-24_203707.jpg
+DEBUG - 2014-06-28 06:25:08 --> 画像が存在しない:http://lpt.c.yimg.jp/im_siggYpwk8f6BiAnRJX9p.wdw9Q---x60-y45-q90/amd/20140627-00000001-modelpn-000-view.jpg
+DEBUG - 2014-06-28 06:25:09 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/372.jpg
+DEBUG - 2014-06-28 06:25:09 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2011/05/ririsiifox1.jpg
+DEBUG - 2014-06-28 06:25:09 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/266.jpg
+DEBUG - 2014-06-28 06:25:09 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2013/12/nikecm.png
+DEBUG - 2014-06-28 06:25:09 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/05/873068081d5b48f38975534dda96a9bf1.jpg
+DEBUG - 2014-06-28 06:25:10 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/d.jpg
+DEBUG - 2014-06-28 06:25:10 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2013/12/nikecm.png
+DEBUG - 2014-06-28 06:25:10 --> 画像が存在しない:http://pbs.twimg.com/profile_images/378800000010999946/d6c55bc8de1754c27849838b73f04670_normal.jpeg
+DEBUG - 2014-06-28 06:25:10 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/266.jpg
+DEBUG - 2014-06-28 06:25:10 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/2014/04/8bfdd87ca779fe24d4e44c77b9755c5f_206bb2eec0b70aac4af11c4c13730942-67x100.jpg
+DEBUG - 2014-06-28 06:25:10 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/05/873068081d5b48f38975534dda96a9bf1.jpg
+DEBUG - 2014-06-28 06:25:11 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/04/akubi.jpg
+DEBUG - 2014-06-28 06:25:11 --> 画像が存在しない:http://pbs.twimg.com/profile_images/479843166812528643/71Cxzf5g_normal.png
+DEBUG - 2014-06-28 06:25:12 --> 画像が存在しない:http://lpt.c.yimg.jp/im_siggLhvkCaG9T1CSqcs34uZZIA---x60-y42-q90/amd/20140627-00000017-the_tv-000-thumb.jpg
+DEBUG - 2014-06-28 06:25:12 --> 画像が存在しない:http://pbs.twimg.com/profile_images/453758112877408256/BtpkeA5K_normal.png
+DEBUG - 2014-06-28 06:25:12 --> getimagesize(http://i1.wp.com/tctechcrunch2011.files.wordpress.com/2014/06/chromecast.jpg): failed to open stream: No route to host
+DEBUG - 2014-06-28 06:25:12 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/2014/06/e13b6a3c34a8aef1ecdcaac5259d0294_210a0a54424c621ba55e20fbe6a5eb71-93x140.jpg
+DEBUG - 2014-06-28 06:25:13 --> 画像が存在しない:http://i.yimg.jp/images/news/cobranding/health.gif
+DEBUG - 2014-06-28 06:25:13 --> 画像が存在しない:http://pbs.twimg.com/profile_images/666254850/chako_0022_normal.jpg
+DEBUG - 2014-06-28 06:25:14 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/suarez1.jpg
+DEBUG - 2014-06-28 06:25:15 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/budesrank.jpg
+DEBUG - 2014-06-28 06:25:15 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/2011/02/a07e0ffecb260e2cf3a7dd05a946dccc-51x75.jpg
+DEBUG - 2014-06-28 06:25:15 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/budesrank.jpg
+DEBUG - 2014-06-28 06:25:16 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/274.jpg
+DEBUG - 2014-06-28 06:25:16 --> 画像が存在しない:http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110309_m.jpg
+DEBUG - 2014-06-28 06:25:16 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/282.jpg
+DEBUG - 2014-06-28 06:25:17 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/screenshots-2014-06-25-19-12-08_580px.jpg
+DEBUG - 2014-06-28 06:25:17 --> 画像が存在しない:http://pbs.twimg.com/profile_images/1252422598/32183083_1722553313_normal.jpg
+DEBUG - 2014-06-28 06:25:17 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/2014/06/864b8902e77cb9fb1600a3489d1eb51b_0b8438efc1f32dff5919b7db1422e10c-93x140.jpg
+DEBUG - 2014-06-28 06:25:17 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/cleanup.jpg
+DEBUG - 2014-06-28 06:25:18 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2011/07/ryama.jpg
+DEBUG - 2014-06-28 06:25:18 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/282.jpg
+DEBUG - 2014-06-28 06:25:18 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/cleanup.jpg
+DEBUG - 2014-06-28 06:25:19 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2011/07/ryama.jpg
+DEBUG - 2014-06-28 06:25:19 --> 画像が存在しない:http://pbs.twimg.com/profile_images/1252422598/32183083_1722553313_normal.jpg
+DEBUG - 2014-06-28 06:25:20 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/04/akubi.jpg
+DEBUG - 2014-06-28 06:25:20 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/10268989_281918155321752_1116640284_n1.jpg
+DEBUG - 2014-06-28 06:25:20 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/2012/04/8bfbe668e13f96da9e977899d4079676_yke_8358_1-51x75.jpg
+DEBUG - 2014-06-28 06:25:20 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/4110.jpg
+DEBUG - 2014-06-28 06:25:20 --> 画像が存在しない:http://pbs.twimg.com/profile_images/470957776802299904/yuWhvYNW_normal.jpeg
+DEBUG - 2014-06-28 06:25:21 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2011/07/kurokitsune.jpg
+DEBUG - 2014-06-28 06:25:21 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/10268989_281918155321752_1116640284_n1.jpg
+DEBUG - 2014-06-28 06:25:21 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/4110.jpg
+DEBUG - 2014-06-28 06:25:21 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/04/7.jpg
+DEBUG - 2014-06-28 06:25:21 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/02/restaurant_giraffe140206_01.jpg
+DEBUG - 2014-06-28 06:25:21 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/04/7.jpg
+DEBUG - 2014-06-28 06:25:22 --> getimagesize(http://sociorocketnews.files.wordpress.com/2014/06/113.jpg): failed to open stream: Operation timed out
+DEBUG - 2014-06-28 06:25:22 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2013/02/kid.jpg
+DEBUG - 2014-06-28 06:25:23 --> 画像が存在しない:http://pbs.twimg.com/profile_images/453424145057861632/kDFrN0Yc_normal.jpeg
+DEBUG - 2014-06-28 06:25:23 --> 画像が存在しない:http://pbs.twimg.com/profile_images/470790122418352128/LV-Mic4b_normal.png
+DEBUG - 2014-06-28 06:25:23 --> 画像が存在しない:http://pbs.twimg.com/profile_images/450927149264801792/XLxPQJ02_normal.jpeg
+DEBUG - 2014-06-28 06:25:25 --> 画像が存在しない:http://pbs.twimg.com/profile_images/3261920842/594faa625ef7ff573794bf155c141037_normal.jpeg
+DEBUG - 2014-06-28 06:25:26 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/2014/06/fbeb39e9d4810051bb7082efdf8b9a3e_a35dc4b6b846e1b90927516f0412f95a-93x140.jpg
+DEBUG - 2014-06-28 06:25:26 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2013/02/kid.jpg
+DEBUG - 2014-06-28 06:25:27 --> 画像が存在しない:http://pbs.twimg.com/profile_images/3387173270/6ba7443bf654e7f4d30243656bb038ef_normal.png
+DEBUG - 2014-06-28 06:25:27 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/02/ganja.jpg
+DEBUG - 2014-06-28 06:25:27 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/2014/06/c86ec60dcf11a4b94e35a850d123798d_9e69e607738af372907ef7100659b220-93x140.jpg
+DEBUG - 2014-06-28 06:25:28 --> 画像が存在しない:http://pbs.twimg.com/profile_images/2316004655/3pwiltz1clxjau20n0r0_normal.jpeg
+DEBUG - 2014-06-28 06:25:28 --> 画像が存在しない:http://lpt.c.yimg.jp/im_siggxC5eehO7ND.vPtCHM_6UnQ---x37-y60-q90/amd/20140626-00000085-spnannex-000-thumb.jpg
+DEBUG - 2014-06-28 06:25:28 --> 画像取得OK url=http://amd.c.yimg.jp/im_siggvuccw7MZO3mw0hmMwajMIg---x156-y200-q90/amd/20140626-00000001-nkgendai-000-1-view.jpg,http://amd.c.yimg.jp/im_siggvuccw7MZO3mw0hmMwajMIg---x156-y200-q90/amd/20140626-00000001-nkgendai-000-1-view.jpg
+DEBUG - 2014-06-28 06:25:29 --> 画像が存在しない:http://pbs.twimg.com/profile_images/1459807414/image_normal.png
+DEBUG - 2014-06-28 06:25:31 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/04/screenshots-2014-04-21-17-32-10_580px.jpg
+DEBUG - 2014-06-28 06:25:31 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/04/screenshots-2014-04-21-17-32-10_580px.jpg
+DEBUG - 2014-06-28 06:25:31 --> 画像が存在しない:http://pbs.twimg.com/profile_images/3197097173/dc43dcb29af86364efda98873ebe8ebd_normal.jpeg
+DEBUG - 2014-06-28 06:25:32 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2012/01/bigdogdad.jpg
+DEBUG - 2014-06-28 06:25:32 --> 画像が存在しない:http://getnews.jp/wp-content/themes/getnews/img/sakidori/tsutayabooks.png
+DEBUG - 2014-06-28 06:25:32 --> getimagesize(http://jp.techcrunch.com/2014/06/20/20140619gasp-twitter-gifs-arent-actually-gif): failed to open stream: Operation timed out
+DEBUG - 2014-06-28 06:25:33 --> 画像が存在しない:http://pbs.twimg.com/profile_images/2316004655/3pwiltz1clxjau20n0r0_normal.jpeg
+DEBUG - 2014-06-28 06:25:33 --> 画像が存在しない:http://pbs.twimg.com/profile_images/470957776802299904/yuWhvYNW_normal.jpeg
+DEBUG - 2014-06-28 06:25:35 --> 画像が存在しない:http://pbs.twimg.com/profile_images/2316004655/3pwiltz1clxjau20n0r0_normal.jpeg
+DEBUG - 2014-06-28 06:25:36 --> 画像が存在しない:http:\/\/getnews.jp\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif
+DEBUG - 2014-06-28 06:25:36 --> 画像取得OK url=http://getnews.jp/img/archives/2014/06/foodpic5060077.jpg,http://getnews.jp/img/archives/2014/06/foodpic5060077.jpg,http://getnews.jp/img/archives/2014/06/RIMG1858.jpg,http://getnews.jp/img/archives/2014/06/RIMG1866.jpg,http://getnews.jp/img/archives/2014/06/RIMG1864.jpg,http://getnews.jp/img/archives/2014/06/RIMG1865.jpg
+DEBUG - 2014-06-28 06:25:37 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/382.jpg
+DEBUG - 2014-06-28 06:25:37 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/02/restaurant_giraffe140206_01.jpg
+DEBUG - 2014-06-28 06:25:37 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/292.jpg
+DEBUG - 2014-06-28 06:25:37 --> getimagesize(http://sociorocketnews.files.wordpress.com/2014/06/113.jpg): failed to open stream: Operation timed out
+DEBUG - 2014-06-28 06:25:37 --> getimagesize(http://sociorocketnews.files.wordpress.com/2014/06/niseronal.jpg): failed to open stream: Operation timed out
+DEBUG - 2014-06-28 06:25:38 --> 画像が存在しない:http://lpt.c.yimg.jp/im_siggwQRR9liHZrE0k7L6Vslsfw---x60-y60-q90/amd/20140627-00000034-mycomj-000-view.jpg
+DEBUG - 2014-06-28 06:25:39 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/02/kitune.jpg
+DEBUG - 2014-06-28 06:25:39 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/301.jpg
+DEBUG - 2014-06-28 06:25:40 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/02/kitune.jpg
+DEBUG - 2014-06-28 06:25:40 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/301.jpg
+DEBUG - 2014-06-28 06:25:40 --> 画像が存在しない:http://pbs.twimg.com/profile_images/478531384630181888/CwDnUvBr_normal.jpeg
+DEBUG - 2014-06-28 06:25:40 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2011/08/tamazoo1.jpg
+DEBUG - 2014-06-28 06:25:40 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/3111.jpg
+DEBUG - 2014-06-28 06:25:41 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/2014/06/8002f7e3757c3b6a72d7bf59d113b97d_83d6c08a80b519e11627dac0b0baa82e-93x140.jpg
+DEBUG - 2014-06-28 06:25:41 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/2014/06/b15138faa33c7703c9c3c7258c930c2c_e1ce7d3300cab7b11a84d0171a9ed509-106x150.jpg
+DEBUG - 2014-06-28 06:25:41 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/3111.jpg
+DEBUG - 2014-06-28 06:25:41 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/2014/06/366ea6bd3a1de95e78c11c20c4108350_e5fd5e52153fa7f563762cfcd524164e-93x140.jpg
+DEBUG - 2014-06-28 06:25:41 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/2014/06/f429f00878fbde159baa7289f0500152_f984a5d0a44a3c33c95deecb1c5c3c10.jpg
+DEBUG - 2014-06-28 06:25:41 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/2014/06/cc968d8019da754f95d46dca591d6616_600_80b.jpg
+DEBUG - 2014-06-28 06:25:41 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/2014/06/e5d71fc59e7be34f3f863baf6b32e92c_6d3d4712d4179707a26c810d1e2468fd-190x287.jpg
+DEBUG - 2014-06-28 06:25:41 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2012/01/gakkou.jpg
+DEBUG - 2014-06-28 06:25:41 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/2014/06/3a416fc9ad080ef9b7397fbc5ddedbd7_kasai01-190x287.jpg
+DEBUG - 2014-06-28 06:25:41 --> 画像が存在しない:http://pbs.twimg.com/profile_images/448694969880948736/DqfGwtSG_normal.png
+DEBUG - 2014-06-28 06:25:41 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/2014/06/31955f2d692c6146601d0d5b7acfe8a4_a1fb2c0ccdfad3b10867a776348f6530-93x140.jpg
+DEBUG - 2014-06-28 06:25:41 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/325.jpg
+DEBUG - 2014-06-28 06:25:41 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/2014/06/b58f46d264ad4e212aebe1894ef850ef_dscn7075-304x203.jpg
+DEBUG - 2014-06-28 06:25:41 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/2014/05/9292af72ec6475b943247e5871324214_7a6c47fc8c0810a74f8d8d79c6da0cc5.jpg
+DEBUG - 2014-06-28 06:25:41 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/2014/06/aaa10af313fd8c12dd5d53618c40b910_8eb7227b91b473d6d642a0ad02704b91-190x287.jpg
+DEBUG - 2014-06-28 06:25:41 --> 画像取得OK url=http://straightpress.jp/wp-content/uploads/2014/06/0d40a5e4a645fc6b96e767d64ac0878e27.png,http://straightpress.jp/wp-content/uploads/2014/06/main4.jpg,http://straightpress.jp/wp-content/uploads/2014/06/f4125ca8925ef64d135d263758b1e191.jpg,http://straightpress.jp/wp-content/uploads/2014/06/749eaca8348f4a4365398ab4592a4216.jpg,http://straightpress.jp/wp-content/uploads/2014/06/72181b27257d22c6f7e51f69b17b7b49.jpg,http://straightpress.jp/wp-content/uploads/2014/05/df6f9a8619e023a3c8f9fc5d2d0d46d6.jpg,http://straightpress.jp/wp-content/uploads/2014/06/86283f4290c8786a13684f089001aa53.jpg,http://straightpress.jp/wp-content/uploads/2014/06/panda01-150x150.png,http://straightpress.jp/wp-content/uploads/2014/06/6ee65a01f5d85c7c5fb79e073f2ec7fe.jpg,http://straightpress.jp/wp-content/uploads/2014/06/0d40a5e4a645fc6b96e767d64ac0878e53-150x150.png,http://straightpress.jp/wp-content/uploads/2014/06/0d40a5e4a645fc6b96e767d64ac0878e34-150x150.png,http://straightpress.jp/wp-content/uploads/2014/06/0d40a5e4a645fc6b96e767d64ac0878e49-150x150.png,http://straightpress.jp/wp-content/uploads/2014/06/0d40a5e4a645fc6b96e767d64ac0878e51-150x150.png,http://straightpress.jp/wp-content/uploads/2014/06/749eaca8348f4a4365398ab4592a4216-150x150.jpg,http://straightpress.jp/wp-content/uploads/2014/06/749eaca8348f4a4365398ab4592a4216-150x150.jpg,http://straightpress.jp/wp-content/uploads/2014/06/main31-150x150.jpg,http://straightpress.jp/wp-content/uploads/2014/06/342ca93c04e58d7f7339b86fc30599c8-150x150.jpg,http://straightpress.jp/wp-content/uploads/2014/06/main41-150x150.jpg,http://straightpress.jp/wp-content/uploads/2014/06/main45-150x150.jpg,http://straightpress.jp/wp-content/uploads/2014/06/9cc55e3a40c4d6af85523cbe00e6fe1b-150x150.jpg
+DEBUG - 2014-06-28 06:25:41 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/2014/06/32a47964a7af950c9949fe4ebba8a10d_b84a8acb41212b9f2ac6812954ed312c-304x203.jpg
+DEBUG - 2014-06-28 06:25:41 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/2014/06/a103ab6952b68f3cde402f96d0d25e4d_70059c7413605540550eedaa88676b83-304x203.jpg
+DEBUG - 2014-06-28 06:25:41 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/325.jpg
+DEBUG - 2014-06-28 06:25:41 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/2014/05/c209c1e5ac369c2c26ccf857b93eea56_0d2f680d3de9d79ccb3b3c5b5cac3708-190x287.jpg
+DEBUG - 2014-06-28 06:25:42 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/2014/05/24d306ae49949d593eae14f99b173bb2_1386e466f05eeeb1db26a5fbe08090e8-304x203.jpg
+DEBUG - 2014-06-28 06:25:42 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/2014/06/6dd673be401479aa3ef33ef2d51ddb8e_55eefc1ee61146bdaef33257bb0e0f5e-67x100.jpg
+DEBUG - 2014-06-28 06:25:42 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/resources/img/commicbanner/kinnikuman2.jpg
+DEBUG - 2014-06-28 06:25:42 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/2014/06/ef4f5732a18d524b17eee5429c610f60_thumb.jpg
+DEBUG - 2014-06-28 06:25:42 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/2014/06/1cbd88791e83bbae0b7788d4c5bf07f1_sawada02-47x70.jpg
+DEBUG - 2014-06-28 06:25:42 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/resources/img/commicbanner/makibao.jpg
+DEBUG - 2014-06-28 06:25:42 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/2014/06/e273a8d32a911252bc72bb22fb64c62f_4efc87d6b7e63858a8837dff81658715-70x47.jpg
+DEBUG - 2014-06-28 06:25:42 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/2014/06/97113d6c96833d55554cb29a7c49bba4_thumb.jpg
+DEBUG - 2014-06-28 06:25:42 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/2014/06/f99dc8994ad5ad9507cd5c1091d3c673_bd2acf6e07fd8296a6556034384fbc8a-70x47.jpg
+DEBUG - 2014-06-28 06:25:42 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/382.jpg
+DEBUG - 2014-06-28 06:25:42 --> 画像が存在しない:http://amd.c.yimg.jp/im_sigghDv5v6IWuN6hBOG6kC07iA---x60-y52-q90/amd/20140627-00000068-dal-000-8-view.jpg
+DEBUG - 2014-06-28 06:25:42 --> 画像が存在しない:http://pbs.twimg.com/profile_images/470790122418352128/LV-Mic4b_normal.png
+DEBUG - 2014-06-28 06:25:42 --> 画像取得OK url=http://amd.c.yimg.jp/im_siggr2CrnmseHdvDrUuIAmXqJg---x200-y133-q90/amd/20140625-00184044-health-000-2-view.jpg
+DEBUG - 2014-06-28 06:25:42 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/2014/06/61592120eace7d6769811902e6f0ba5f_f2a302db6d3e4dbdc4f6120ec3186eb6-106x150.jpg
+DEBUG - 2014-06-28 06:25:42 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/333.jpg
+DEBUG - 2014-06-28 06:25:42 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/2014/06/7af534c413a67526259287ca380b4843_thumb.jpg
+DEBUG - 2014-06-28 06:25:43 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2013/11/hatoribrothers.jpg
+DEBUG - 2014-06-28 06:25:43 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/resources/img/commicbanner/ayumi.jpg
+DEBUG - 2014-06-28 06:25:43 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/2014/05/d8919103e04f1c4be5c2c5c9eeb28384_b90569a7b434db4c9d5f092753bebe9f-106x150.jpg
+DEBUG - 2014-06-28 06:25:43 --> 画像が存在しない:http://pbs.twimg.com/profile_images/2256052790/circuit-motherboard-wallpapers-backgrounds-for-powerpoint_normal.jpeg
+DEBUG - 2014-06-28 06:25:43 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/2014/06/67274e32c8ad2dd4b5233bce73978d8b_32b37588f0683df1f5c320ddec7c1ee2-93x140.jpg
+DEBUG - 2014-06-28 06:25:43 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/2014/06/e13b6a3c34a8aef1ecdcaac5259d0294_210a0a54424c621ba55e20fbe6a5eb71-93x140.jpg
+DEBUG - 2014-06-28 06:25:43 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/2014/06/864b8902e77cb9fb1600a3489d1eb51b_0b8438efc1f32dff5919b7db1422e10c-93x140.jpg
+DEBUG - 2014-06-28 06:25:43 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/2014/06/fbeb39e9d4810051bb7082efdf8b9a3e_a35dc4b6b846e1b90927516f0412f95a-93x140.jpg
+DEBUG - 2014-06-28 06:25:43 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2011/08/nozokikomi.jpg
+DEBUG - 2014-06-28 06:25:43 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/2014/06/c86ec60dcf11a4b94e35a850d123798d_9e69e607738af372907ef7100659b220-93x140.jpg
+DEBUG - 2014-06-28 06:25:43 --> 画像取得OK url=http://cdn.wpb.shueisha.co.jp/img/2014/06/ef4f5732a18d524b17eee5429c610f60_thumb.jpg,http://cdn.wpb.shueisha.co.jp/img/2014/06/59afad378fa01eb93567c41b06202fe2_thumb.jpg,http://cdn.wpb.shueisha.co.jp/img/2014/06/59afad378fa01eb93567c41b06202fe2_thumb.jpg,http://cdn.wpb.shueisha.co.jp/img/2014/06/7af534c413a67526259287ca380b4843_thumb.jpg,http://cdn.wpb.shueisha.co.jp/img/resources/img/commicbanner/otokozaka.jpg,http://cdn.wpb.shueisha.co.jp/img/2014/05/c209c1e5ac369c2c26ccf857b93eea56_0d2f680d3de9d79ccb3b3c5b5cac3708-190x287.jpg,http://cdn.wpb.shueisha.co.jp/img/2014/06/3a416fc9ad080ef9b7397fbc5ddedbd7_kasai01-190x287.jpg
+DEBUG - 2014-06-28 06:25:43 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/2014/06/8002f7e3757c3b6a72d7bf59d113b97d_83d6c08a80b519e11627dac0b0baa82e-93x140.jpg
+DEBUG - 2014-06-28 06:25:43 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/2014/06/366ea6bd3a1de95e78c11c20c4108350_e5fd5e52153fa7f563762cfcd524164e-93x140.jpg
+DEBUG - 2014-06-28 06:25:44 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/2014/06/68b8b5309013ba8ebf397960cfff3ad2_90c2f1fba92e87fd60205eb4c0bb9f7a-93x140.jpg
+DEBUG - 2014-06-28 06:25:44 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/392.jpg
+DEBUG - 2014-06-28 06:25:44 --> 画像が存在しない:http://news.c.yimg.jp/images/media_module/health.jpg
+DEBUG - 2014-06-28 06:25:44 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/2014/06/a39b37ef834f01f78b4cb465847fb01d_eadd63540c7e8f873ff98eca69c2859b.jpg
+DEBUG - 2014-06-28 06:25:44 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2012/09/2524524.jpg
+DEBUG - 2014-06-28 06:25:44 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/2014/05/9292af72ec6475b943247e5871324214_7a6c47fc8c0810a74f8d8d79c6da0cc5.jpg
+DEBUG - 2014-06-28 06:25:44 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/2014/05/3a05b2f574422869646ffbbbdb8c8373_f27d1279fed4b9266a75ecfdc22fdd96.jpg
+DEBUG - 2014-06-28 06:25:44 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/2014/05/7faf0d9dde63fcea6dd595f4ca79014b_seyama02.jpg
+DEBUG - 2014-06-28 06:25:44 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/resources/img/commicbanner/kinnikuman2.jpg
+DEBUG - 2014-06-28 06:25:44 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/2014/06/ef4f5732a18d524b17eee5429c610f60_thumb.jpg
+DEBUG - 2014-06-28 06:25:44 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/resources/img/commicbanner/makibao.jpg
+DEBUG - 2014-06-28 06:25:44 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/2014/06/97113d6c96833d55554cb29a7c49bba4_thumb.jpg
+DEBUG - 2014-06-28 06:25:44 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/05/203.jpg
+DEBUG - 2014-06-28 06:25:44 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/01/guges2.jpg
+DEBUG - 2014-06-28 06:25:44 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/resources/img/commicbanner/otokozaka.jpg
+DEBUG - 2014-06-28 06:25:45 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/2014/06/7af534c413a67526259287ca380b4843_thumb.jpg
+DEBUG - 2014-06-28 06:25:45 --> 画像が存在しない:http://stats.wordpress.com/g.gif
+DEBUG - 2014-06-28 06:25:45 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/resources/img/commicbanner/ayumi.jpg
+DEBUG - 2014-06-28 06:25:45 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/2014/06/59afad378fa01eb93567c41b06202fe2_thumb.jpg
+DEBUG - 2014-06-28 06:25:45 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/05/203.jpg
+DEBUG - 2014-06-28 06:25:45 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/01/guges2.jpg
+DEBUG - 2014-06-28 06:25:45 --> 画像が存在しない:http://cdn.wpb.shueisha.co.jp/img/resources/img/banners/mailmagenq.jpg
+DEBUG - 2014-06-28 06:25:45 --> 画像取得OK url=http://cdn.wpb.shueisha.co.jp/img/2014/06/ef4f5732a18d524b17eee5429c610f60_thumb.jpg,http://cdn.wpb.shueisha.co.jp/img/2014/06/7af534c413a67526259287ca380b4843_thumb.jpg,http://cdn.wpb.shueisha.co.jp/img/2014/06/96df84ed9059412d971885d1d25acad8_5b7ac8ee1eee9723155947bc4c39075b.jpg,http://cdn.wpb.shueisha.co.jp/img/2014/06/97113d6c96833d55554cb29a7c49bba4_thumb.jpg
+DEBUG - 2014-06-28 06:25:45 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/02/194.jpg
+DEBUG - 2014-06-28 06:25:45 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2012/11/120.jpg
+DEBUG - 2014-06-28 06:25:45 --> 画像取得OK url=http://sociorocketnews.files.wordpress.com/2014/02/ganja.jpg,http://sociorocketnews.files.wordpress.com/2014/06/10362183_1491067951125475_125495586_n_580px.jpg,http://sociorocketnews.files.wordpress.com/2014/06/10424486_675355645868858_2047883936_n_580px.jpg,http://sociorocketnews.files.wordpress.com/2014/06/10424486_675355645868858_2047883936_n_580px.jpg,http://sociorocketnews.files.wordpress.com/2014/05/hatoribrothers.jpg,http://sociorocketnews.files.wordpress.com/2012/01/bigdogdad.jpg,http://sociorocketnews.files.wordpress.com/2013/11/hatoribrothers.jpg,http://sociorocketnews.files.wordpress.com/2014/06/skypego11.jpg,http://sociorocketnews.files.wordpress.com/2012/01/gakkou.jpg,http://sociorocketnews.files.wordpress.com/2014/06/kinect.jpg,http://sociorocketnews.files.wordpress.com/2011/10/3saimade.jpg,http://sociorocketnews.files.wordpress.com/2011/08/nozokikomi.jpg,http://s0.wp.com/wp-content/themes/vip/rocketnews/img/pts_logo.png
+DEBUG - 2014-06-28 06:25:46 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/02/194.jpg
+DEBUG - 2014-06-28 06:25:46 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2012/11/120.jpg
+DEBUG - 2014-06-28 06:25:46 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/03/313.jpg
+DEBUG - 2014-06-28 06:25:46 --> 画像が存在しない:http://stats.wordpress.com/g.gif
+DEBUG - 2014-06-28 06:25:47 --> 画像取得OK url=http://sociorocketnews.files.wordpress.com/2014/05/140516mizugi_03.jpg,http://sociorocketnews.files.wordpress.com/2013/08/4687691381_d00c7d5109_z.jpg,http://sociorocketnews.files.wordpress.com/2014/06/cleanup.jpg,http://sociorocketnews.files.wordpress.com/2012/09/2524524.jpg,http://sociorocketnews.files.wordpress.com/2011/08/tamazoo1.jpg,http://sociorocketnews.files.wordpress.com/2014/01/aikagi.jpg,http://sociorocketnews.files.wordpress.com/2014/05/2014-05-27_144549.jpg,http://sociorocketnews.files.wordpress.com/2014/06/skypego11.jpg,http://sociorocketnews.files.wordpress.com/2011/05/ririsiifox1.jpg,http://sociorocketnews.files.wordpress.com/2014/06/kinect.jpg,http://sociorocketnews.files.wordpress.com/2012/03/animal-porch.jpg,http://sociorocketnews.files.wordpress.com/2014/06/2014-06-24_170142c1.jpg,http://sociorocketnews.files.wordpress.com/2011/07/6b6bcom.jpg,http://sociorocketnews.files.wordpress.com/2011/07/kurokitsune.jpg,http://sociorocketnews.files.wordpress.com/2011/07/trampoline.jpg,http://s0.wp.com/wp-content/themes/vip/rocketnews/img/pts_logo.png
+DEBUG - 2014-06-28 06:25:47 --> 画像が存在しない:http://pbs.twimg.com/profile_images/481930517923647489/Nc_Q9jqq_normal.jpeg
+DEBUG - 2014-06-28 06:25:48 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/07.jpg
+DEBUG - 2014-06-28 06:25:48 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/05/1410.jpg
+DEBUG - 2014-06-28 06:25:48 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/05/1410.jpg
+DEBUG - 2014-06-28 06:25:49 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/05/140.jpg
+DEBUG - 2014-06-28 06:25:49 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/05/140.jpg
+DEBUG - 2014-06-28 06:25:49 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/kinect.jpg
+DEBUG - 2014-06-28 06:25:49 --> 画像が存在しない:http://pbs.twimg.com/profile_images/481930517923647489/Nc_Q9jqq_normal.jpeg
+DEBUG - 2014-06-28 06:25:49 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2011/09/stocklogos1.jpg
+DEBUG - 2014-06-28 06:25:51 --> 画像が存在しない:http://pbs.twimg.com/profile_images/378800000428188204/5955bc961383c0e251e1d9b1578b856b_normal.jpeg
+DEBUG - 2014-06-28 06:25:51 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/munenori.jpg
+DEBUG - 2014-06-28 06:25:51 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/04/4415454232534-41204.jpg
+DEBUG - 2014-06-28 06:25:51 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/munenori.jpg
+DEBUG - 2014-06-28 06:25:52 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/01/aikagi.jpg
+DEBUG - 2014-06-28 06:25:52 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/01/aikagi.jpg
+DEBUG - 2014-06-28 06:25:53 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/skypego11.jpg
+DEBUG - 2014-06-28 06:25:53 --> 画像が存在しない:http://pbs.twimg.com/profile_images/412095914497421312/x1gmD2o6_normal.png
+DEBUG - 2014-06-28 06:25:53 --> 画像が存在しない:http://pbs.twimg.com/profile_images/378800000414897252/6e3bdcb4653463e86aaf454f86b1091f_normal.jpeg
+DEBUG - 2014-06-28 06:25:53 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/skypego11.jpg
+DEBUG - 2014-06-28 06:25:53 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2013/11/2013-11-01_213651.jpg
+DEBUG - 2014-06-28 06:25:53 --> 画像が存在しない:http://pbs.twimg.com/profile_images/1929907623/_______icon_normal.png
+DEBUG - 2014-06-28 06:25:53 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2011/06/rivalogo7.jpg
+DEBUG - 2014-06-28 06:25:53 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/ghostcar.jpg
+DEBUG - 2014-06-28 06:25:54 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2011/06/rivalogo7.jpg
+DEBUG - 2014-06-28 06:25:54 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2012/02/tatoo1.jpg
+DEBUG - 2014-06-28 06:25:55 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2012/02/tatoo1.jpg
+DEBUG - 2014-06-28 06:25:55 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/pic3jp6.jpg
+DEBUG - 2014-06-28 06:25:55 --> 画像が存在しない:http://pbs.twimg.com/profile_images/437234811724234752/F5bWMxxD_normal.png
+DEBUG - 2014-06-28 06:25:55 --> 画像が存在しない:http://pbs.twimg.com/profile_images/2316004655/3pwiltz1clxjau20n0r0_normal.jpeg
+DEBUG - 2014-06-28 06:25:56 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/kinect.jpg
+DEBUG - 2014-06-28 06:25:57 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/munenori.jpg
+DEBUG - 2014-06-28 06:25:57 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2013/08/4687691381_d00c7d5109_z.jpg
+DEBUG - 2014-06-28 06:25:57 --> 画像が存在しない:http://pbs.twimg.com/profile_images/1295877337/oesfgif_normal.gif
+DEBUG - 2014-06-28 06:25:57 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/munenori.jpg
+DEBUG - 2014-06-28 06:25:57 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2013/08/4687691381_d00c7d5109_z.jpg
+DEBUG - 2014-06-28 06:25:57 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/2014-06-24_170142c1.jpg
+DEBUG - 2014-06-28 06:25:58 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/2014-06-24_170142c1.jpg
+DEBUG - 2014-06-28 06:25:58 --> 画像が存在しない:http://pbs.twimg.com/profile_images/1203567738/Profile_05Autumn__normal.jpg
+DEBUG - 2014-06-28 06:25:58 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/2014-06-23_134127.jpg
+DEBUG - 2014-06-28 06:25:59 --> 画像が存在しない:http://pbs.twimg.com/profile_images/1789848293/Stanley_Kubrick_normal.jpg
+DEBUG - 2014-06-28 06:25:59 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/01/aikagi.jpg
+DEBUG - 2014-06-28 06:25:59 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/skypego11.jpg
+DEBUG - 2014-06-28 06:26:00 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/screenshots-2014-06-25-19-12-08_580px.jpg
+DEBUG - 2014-06-28 06:26:00 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/skypego11.jpg
+DEBUG - 2014-06-28 06:26:00 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/ghostcar.jpg
+DEBUG - 2014-06-28 06:26:00 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/ghostcar.jpg
+DEBUG - 2014-06-28 06:26:01 --> 画像が存在しない:http://pbs.twimg.com/profile_images/470440858253144066/b7v4Phw__normal.png
+DEBUG - 2014-06-28 06:26:01 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/cleanup.jpg
+DEBUG - 2014-06-28 06:26:02 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/cleanup.jpg
+DEBUG - 2014-06-28 06:26:02 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/113.jpg
+DEBUG - 2014-06-28 06:26:02 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/pic3jp6.jpg
+DEBUG - 2014-06-28 06:26:02 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/113.jpg
+DEBUG - 2014-06-28 06:26:03 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/05/2014-05-27_144549.jpg
+DEBUG - 2014-06-28 06:26:03 --> 画像が存在しない:http://pbs.twimg.com/profile_images/463282286327123968/4ppPeqEE_normal.jpeg
+DEBUG - 2014-06-28 06:26:03 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/05/2014-05-27_144549.jpg
+DEBUG - 2014-06-28 06:26:03 --> 画像が存在しない:http://pbs.twimg.com/profile_images/378800000428188204/5955bc961383c0e251e1d9b1578b856b_normal.jpeg
+DEBUG - 2014-06-28 06:26:03 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/05/terrible_tattoos_640_13.jpg
+DEBUG - 2014-06-28 06:26:04 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/05/terrible_tattoos_640_13.jpg
+DEBUG - 2014-06-28 06:26:04 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/05/aiko0.jpg
+DEBUG - 2014-06-28 06:26:04 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2013/08/4687691381_d00c7d5109_z.jpg
+DEBUG - 2014-06-28 06:26:05 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/05/aiko0.jpg
+DEBUG - 2014-06-28 06:26:05 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/2014-06-24_170142c1.jpg
+DEBUG - 2014-06-28 06:26:05 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/05/140516mizugi_03.jpg
+DEBUG - 2014-06-28 06:26:05 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/2014-06-24_170142c1.jpg
+DEBUG - 2014-06-28 06:26:05 --> 画像が存在しない:http://pbs.twimg.com/profile_images/1203567738/Profile_05Autumn__normal.jpg
+DEBUG - 2014-06-28 06:26:06 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/2014-06-23_134127.jpg
+DEBUG - 2014-06-28 06:26:07 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/screenshots-2014-06-25-19-12-08_580px.jpg
+DEBUG - 2014-06-28 06:26:07 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/screenshots-2014-06-25-19-12-08_580px.jpg
+DEBUG - 2014-06-28 06:26:07 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/cleanup.jpg
+DEBUG - 2014-06-28 06:26:07 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/04/2014-04-24_203707.jpg
+DEBUG - 2014-06-28 06:26:08 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/04/2014-04-24_203707.jpg
+DEBUG - 2014-06-28 06:26:08 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/cleanup.jpg
+DEBUG - 2014-06-28 06:26:08 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/05/873068081d5b48f38975534dda96a9bf1.jpg
+DEBUG - 2014-06-28 06:26:08 --> 画像が存在しない:http://lpt.c.yimg.jp/im_siggaIHyrCUvzb43w9sRJpccEA---x50-y60-q90/amd/20140627-00000002-nkgendai-000-view.jpg
+DEBUG - 2014-06-28 06:26:08 --> 画像取得OK url=http://amd.c.yimg.jp/im_siggAg9N6aBIf6lSH2e9.ralgw---x133-y200-q90/amd/20140627-00000001-nkgendai-000-1-view.jpg,http://amd.c.yimg.jp/im_siggAg9N6aBIf6lSH2e9.ralgw---x133-y200-q90/amd/20140627-00000001-nkgendai-000-1-view.jpg
+DEBUG - 2014-06-28 06:26:08 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/113.jpg
+DEBUG - 2014-06-28 06:26:09 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/113.jpg
+DEBUG - 2014-06-28 06:26:09 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/05/873068081d5b48f38975534dda96a9bf1.jpg
+DEBUG - 2014-06-28 06:26:09 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/05/2014-05-27_144549.jpg
+DEBUG - 2014-06-28 06:26:09 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/01/210.jpg
+DEBUG - 2014-06-28 06:26:09 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/05/2014-05-27_144549.jpg
+DEBUG - 2014-06-28 06:26:09 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/01/210.jpg
+DEBUG - 2014-06-28 06:26:10 --> 画像が存在しない:http://pbs.twimg.com/profile_images/1299956899/aoixbeta128hatebulife_normal.jpg
+DEBUG - 2014-06-28 06:26:10 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2013/02/yoga_is_effortless_when_youre_drunk_03.jpeg
+DEBUG - 2014-06-28 06:26:10 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/05/terrible_tattoos_640_13.jpg
+DEBUG - 2014-06-28 06:26:10 --> 画像が存在しない:http://pbs.twimg.com/profile_images/475231188206882816/QLGubqqw_normal.jpeg
+DEBUG - 2014-06-28 06:26:10 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2013/02/yoga_is_effortless_when_youre_drunk_03.jpeg
+DEBUG - 2014-06-28 06:26:10 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/05/terrible_tattoos_640_13.jpg
+DEBUG - 2014-06-28 06:26:11 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/04/51.jpg
+DEBUG - 2014-06-28 06:26:11 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/05/aiko0.jpg
+DEBUG - 2014-06-28 06:26:11 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/05/aiko0.jpg
+DEBUG - 2014-06-28 06:26:11 --> 画像が存在しない:http://pbs.twimg.com/profile_images/480031417653399552/wYXxzMdb_normal.png
+DEBUG - 2014-06-28 06:26:11 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/04/51.jpg
+DEBUG - 2014-06-28 06:26:11 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/04/85.jpg
+DEBUG - 2014-06-28 06:26:11 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/05/140516mizugi_03.jpg
+DEBUG - 2014-06-28 06:26:12 --> 画像が存在しない:http://pbs.twimg.com/profile_images/378800000414897252/6e3bdcb4653463e86aaf454f86b1091f_normal.jpeg
+DEBUG - 2014-06-28 06:26:13 --> 画像が存在しない:http://pbs.twimg.com/profile_images/1144557758/twiprogramming_normal.gif
+DEBUG - 2014-06-28 06:26:13 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/05/614.jpg
+DEBUG - 2014-06-28 06:26:13 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/05/614.jpg
+DEBUG - 2014-06-28 06:26:14 --> 画像が存在しない:http://amd.c.yimg.jp/im_sigg0APsozHw2praa6pG1s0SPQ---x60-y40-q90/amd/20140626-00106719-jspa-000-3-view.jpg
+DEBUG - 2014-06-28 06:26:14 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/04/2014-04-24_203707.jpg
+DEBUG - 2014-06-28 06:26:14 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2013/07/kid1.jpg
+DEBUG - 2014-06-28 06:26:14 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/04/2014-04-24_203707.jpg
+DEBUG - 2014-06-28 06:26:14 --> 画像が存在しない:http://amd.c.yimg.jp/im_siggsqUi_BD9UookgCDM5bVB8Q---x60-y60-q90/amd/20140627-00000162-mycomj-000-1-view.jpg
+DEBUG - 2014-06-28 06:26:14 --> 画像データなし url=http://rdsig.yahoo.co.jp/rss/l/zasshi/life/health/RV=1/RU=aHR0cDovL3phc3NoaS5uZXdzLnlhaG9vLmNvLmpwL2FydGljbGU_YT0yMDE0MDYyNi0wMDE4Mzc4MS1oZWFsdGgtbGlmZQ--
+DEBUG - 2014-06-28 06:26:15 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/05/873068081d5b48f38975534dda96a9bf1.jpg
+DEBUG - 2014-06-28 06:26:16 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2013/11/dp17.jpg
+DEBUG - 2014-06-28 06:26:16 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2013/11/dp17.jpg
+DEBUG - 2014-06-28 06:26:16 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2011/12/christmastoy.jpg
+DEBUG - 2014-06-28 06:26:17 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2011/12/christmastoy.jpg
+DEBUG - 2014-06-28 06:26:17 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2013/04/thai031.jpg
+DEBUG - 2014-06-28 06:26:17 --> 画像が存在しない:http://pbs.twimg.com/profile_images/2816798726/b3deab2ee13925cefaa8c264cfdefc2f_normal.png
+DEBUG - 2014-06-28 06:26:17 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2013/04/thai031.jpg
+DEBUG - 2014-06-28 06:26:18 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2012/02/img_3102.jpg
+DEBUG - 2014-06-28 06:26:18 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2012/02/img_3102.jpg
+DEBUG - 2014-06-28 06:26:19 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2013/08/starbucks-002-08212013_580.jpg
+DEBUG - 2014-06-28 06:26:19 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/53.jpg
+DEBUG - 2014-06-28 06:26:19 --> 画像が存在しない:http://pbs.twimg.com/profile_images/2816798726/b3deab2ee13925cefaa8c264cfdefc2f_normal.png
+DEBUG - 2014-06-28 06:26:20 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/06/53.jpg
+DEBUG - 2014-06-28 06:26:20 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/03/92.jpg
+DEBUG - 2014-06-28 06:26:20 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/03/92.jpg
+DEBUG - 2014-06-28 06:26:21 --> 画像が存在しない:http://pbs.twimg.com/profile_images/450927149264801792/XLxPQJ02_normal.jpeg
+DEBUG - 2014-06-28 06:26:21 --> 画像が存在しない:http://pbs.twimg.com/profile_images/2316004655/3pwiltz1clxjau20n0r0_normal.jpeg
+DEBUG - 2014-06-28 06:26:21 --> 画像が存在しない:http://stats.wordpress.com/g.gif
+DEBUG - 2014-06-28 06:26:22 --> 画像が存在しない:http://pbs.twimg.com/profile_images/2840849340/1af203d650f3f974f54154f31c687cc1_normal.jpeg
+DEBUG - 2014-06-28 06:26:22 --> 画像取得OK url=http://sociorocketnews.files.wordpress.com/2014/05/140516mizugi_03.jpg,http://sociorocketnews.files.wordpress.com/2014/06/717.jpg,http://sociorocketnews.files.wordpress.com/2014/06/717.jpg,http://sociorocketnews.files.wordpress.com/2014/06/256.jpg,http://sociorocketnews.files.wordpress.com/2014/06/292.jpg,http://sociorocketnews.files.wordpress.com/2014/06/1712.jpg,http://sociorocketnews.files.wordpress.com/2014/06/240.jpg,http://sociorocketnews.files.wordpress.com/2014/06/1219.jpg,http://sociorocketnews.files.wordpress.com/2014/06/816.jpg,http://sociorocketnews.files.wordpress.com/2014/06/420.jpg,http://sociorocketnews.files.wordpress.com/2014/06/1317.jpg,http://sociorocketnews.files.wordpress.com/2014/06/1317.jpg,http://sociorocketnews.files.wordpress.com/2014/06/333.jpg,http://sociorocketnews.files.wordpress.com/2014/06/1415.jpg,http://sociorocketnews.files.wordpress.com/2014/05/12.jpg,http://sociorocketnews.files.wordpress.com/2014/05/12.jpg,http://sociorocketnews.files.wordpress.com/2014/06/1014.jpg,http://sociorocketnews.files.wordpress.com/2014/04/85.jpg,http://sociorocketnews.files.wordpress.com/2014/06/915.jpg,http://sociorocketnews.files.wordpress.com/2014/06/1100.jpg,http://sociorocketnews.files.wordpress.com/2014/06/618.jpg,http://sociorocketnews.files.wordpress.com/2014/03/313.jpg,http://sociorocketnews.files.wordpress.com/2014/06/274.jpg,http://sociorocketnews.files.wordpress.com/2014/06/2113.jpg,http://sociorocketnews.files.wordpress.com/2014/06/kinect.jpg,http://sociorocketnews.files.wordpress.com/2013/07/kid1.jpg,http://s0.wp.com/wp-content/themes/vip/rocketnews/img/pts_logo.png
+DEBUG - 2014-06-28 06:26:22 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2013/04/balistarb1.jpg
+DEBUG - 2014-06-28 06:26:23 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2013/06/p1040086.jpg
+DEBUG - 2014-06-28 06:26:23 --> 画像が存在しない:http://pbs.twimg.com/profile_images/2316004655/3pwiltz1clxjau20n0r0_normal.jpeg
+DEBUG - 2014-06-28 06:26:23 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2013/06/p1040086.jpg
+DEBUG - 2014-06-28 06:26:23 --> 画像が存在しない:http://pbs.twimg.com/profile_images/378800000296372988/87cf6d0552a6dbf345ad0092f8c28e18_normal.png
+DEBUG - 2014-06-28 06:26:23 --> 画像が存在しない:http://pbs.twimg.com/profile_images/459670775/images_normal.jpg
+DEBUG - 2014-06-28 06:26:25 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2012/10/454245252525.jpg
+DEBUG - 2014-06-28 06:26:25 --> 画像が存在しない:http://pbs.twimg.com/profile_images/3089793420/25738879c14ebb5d202ddb7db4686cef_normal.png
+DEBUG - 2014-06-28 06:26:25 --> 画像が存在しない:http://pbs.twimg.com/profile_images/1483602133/ruwon_normal.jpg
+DEBUG - 2014-06-28 06:26:25 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2013/10/4415454232534-41204.jpg
+DEBUG - 2014-06-28 06:26:26 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2013/10/4415454232534-41204.jpg
+DEBUG - 2014-06-28 06:26:26 --> 画像が存在しない:http://sociorocketnews.files.wordpress.com/2014/05/bd2ffb506c9e11e282fd22000a9d0df2_7_580px.jpg
+DEBUG - 2014-06-28 06:26:27 --> 画像が存在しない:http://pbs.twimg.com/profile_images/477811558089629696/4FE4QfvQ_normal.jpeg
+DEBUG - 2014-06-28 06:26:28 --> 画像が存在しない:http://pbs.twimg.com/profile_images/378800000184868056/4165e09358c24934929f8611a00c5c03_normal.jpeg
+DEBUG - 2014-06-28 06:26:29 --> 画像が存在しない:http://pbs.twimg.com/profile_images/457225658460946432/_uRvFjO6_normal.jpeg
+DEBUG - 2014-06-28 06:26:29 --> 画像取得OK url=http://sociorocketnews.files.wordpress.com/2014/05/140516mizugi_03.jpg,http://sociorocketnews.files.wordpress.com/2013/04/balistarb1.jpg,http://sociorocketnews.files.wordpress.com/2013/08/4687691381_d00c7d5109_z.jpg,http://sociorocketnews.files.wordpress.com/2014/05/bd2ffb506c9e11e282fd22000a9d0df2_7_580px.jpg,http://sociorocketnews.files.wordpress.com/2014/04/4415454232534-41204.jpg,http://sociorocketnews.files.wordpress.com/2014/01/aikagi.jpg,http://sociorocketnews.files.wordpress.com/2012/10/454245252525.jpg,http://sociorocketnews.files.wordpress.com/2013/08/starbucks-002-08212013_580.jpg,http://sociorocketnews.files.wordpress.com/2011/09/stocklogos1.jpg,http://sociorocketnews.files.wordpress.com/2013/11/2013-11-01_213651.jpg,http://sociorocketnews.files.wordpress.com/2014/05/873068081d5b48f38975534dda96a9bf1.jpg,http://sociorocketnews.files.wordpress.com/2014/06/kinect.jpg,http://s0.wp.com/wp-content/themes/vip/rocketnews/img/pts_logo.png
+DEBUG - 2014-06-28 06:26:31 --> 画像が存在しない:http://pbs.twimg.com/profile_images/790859424/firefly01-002_normal.jpg
+DEBUG - 2014-06-28 06:26:33 --> 画像が存在しない:http://pbs.twimg.com/profile_images/440303677757067264/ZtbIX4NL_normal.jpeg
+DEBUG - 2014-06-28 06:26:33 --> 画像が存在しない:http://pbs.twimg.com/profile_images/450927149264801792/XLxPQJ02_normal.jpeg
+DEBUG - 2014-06-28 06:26:36 --> 画像が存在しない:http://pbs.twimg.com/profile_images/378800000184868056/4165e09358c24934929f8611a00c5c03_normal.jpeg
+DEBUG - 2014-06-28 06:26:40 --> 画像が存在しない:http://pbs.twimg.com/profile_images/2840849340/1af203d650f3f974f54154f31c687cc1_normal.jpeg
+DEBUG - 2014-06-28 06:26:40 --> 画像が存在しない:http://pbs.twimg.com/profile_images/378800000510591610/48aa4fa99c7d3756ded8f05dbd6a6f27_normal.png
+DEBUG - 2014-06-28 06:26:41 --> 画像が存在しない:http://pbs.twimg.com/profile_images/1662420221/twit_normal.jpg
+DEBUG - 2014-06-28 06:26:42 --> 画像が存在しない:http://pbs.twimg.com/profile_images/378800000296372988/87cf6d0552a6dbf345ad0092f8c28e18_normal.png
+DEBUG - 2014-06-28 06:26:43 --> 画像が存在しない:http://pbs.twimg.com/profile_images/3387173270/6ba7443bf654e7f4d30243656bb038ef_normal.png
+DEBUG - 2014-06-28 06:26:47 --> 画像が存在しない:http://pbs.twimg.com/profile_images/457345306405765120/dJ_-PA-b_normal.jpeg
+DEBUG - 2014-06-28 06:26:49 --> 画像が存在しない:http://pbs.twimg.com/profile_images/457345306405765120/dJ_-PA-b_normal.jpeg
+DEBUG - 2014-06-28 06:26:51 --> 画像が存在しない:http://pbs.twimg.com/profile_images/475231188206882816/QLGubqqw_normal.jpeg
+DEBUG - 2014-06-28 06:26:51 --> 画像が存在しない:http://pbs.twimg.com/profile_images/463282286327123968/4ppPeqEE_normal.jpeg
+DEBUG - 2014-06-28 06:26:52 --> 画像が存在しない:http://pbs.twimg.com/profile_images/472016322860032001/HYDh-wd0_normal.jpeg
+DEBUG - 2014-06-28 06:26:53 --> 画像が存在しない:http://pbs.twimg.com/profile_images/378800000485688847/0a77d9f1d329b2234630d9252a660d7d_normal.png
+DEBUG - 2014-06-28 06:26:53 --> 画像が存在しない:http://pbs.twimg.com/profile_images/476734118827282434/I4CbQn2z_normal.jpeg
+DEBUG - 2014-06-28 06:26:53 --> 画像が存在しない:http://pbs.twimg.com/profile_images/378800000010999946/d6c55bc8de1754c27849838b73f04670_normal.jpeg
+DEBUG - 2014-06-28 06:26:55 --> 画像が存在しない:http://pbs.twimg.com/profile_images/453178935040163841/_l_fwB9V_normal.png
+DEBUG - 2014-06-28 06:26:55 --> 画像が存在しない:http://pbs.twimg.com/profile_images/454815356972851200/SP1v_8Nc_normal.jpeg
+DEBUG - 2014-06-28 06:26:57 --> 画像が存在しない:http://pbs.twimg.com/profile_images/454396132857098240/OBVWIWAH_normal.png
+DEBUG - 2014-06-28 06:26:58 --> 画像が存在しない:http://pbs.twimg.com/profile_images/3227725943/c822f71963cb1196b9fb447170e1e3b0_normal.png
+DEBUG - 2014-06-28 06:26:59 --> 画像が存在しない:http://pbs.twimg.com/profile_images/420554797939314688/yG9AwrA2_normal.jpeg
+DEBUG - 2014-06-28 06:27:01 --> 画像が存在しない:http://pbs.twimg.com/profile_images/458727819103596544/_reN2P2x_normal.png
+DEBUG - 2014-06-28 06:27:03 --> 画像が存在しない:http://pbs.twimg.com/profile_images/468757952988323841/IVPD_nsE_normal.jpeg
+DEBUG - 2014-06-28 06:27:03 --> 画像が存在しない:http://pbs.twimg.com/profile_images/475231188206882816/QLGubqqw_normal.jpeg
+DEBUG - 2014-06-28 06:27:06 --> 画像が存在しない:http://pbs.twimg.com/profile_images/3227725943/c822f71963cb1196b9fb447170e1e3b0_normal.png
+DEBUG - 2014-06-28 06:27:10 --> 画像が存在しない:http://pbs.twimg.com/profile_images/378800000710801039/43347a24542e14ddbbf22f0ce3345b49_normal.jpeg
+DEBUG - 2014-06-28 06:27:10 --> 画像が存在しない:http://pbs.twimg.com/profile_images/1099727654/hemolabs_prof_normal.JPG
+DEBUG - 2014-06-28 06:27:11 --> 画像が存在しない:http://pbs.twimg.com/profile_images/1121287089/DSC_7418_s_normal.jpg
+DEBUG - 2014-06-28 06:27:12 --> 画像が存在しない:http://pbs.twimg.com/profile_images/476734118827282434/I4CbQn2z_normal.jpeg
+DEBUG - 2014-06-28 06:27:13 --> 画像が存在しない:http://pbs.twimg.com/profile_images/1295877337/oesfgif_normal.gif
+DEBUG - 2014-06-28 06:27:18 --> 画像が存在しない:http://pbs.twimg.com/profile_images/3156646368/6f1dc79cac7e5673c7d8d426066d011c_normal.jpeg
+DEBUG - 2014-06-28 06:27:19 --> 画像が存在しない:http://pbs.twimg.com/profile_images/3156646368/6f1dc79cac7e5673c7d8d426066d011c_normal.jpeg
+DEBUG - 2014-06-28 06:27:21 --> 画像が存在しない:http://pbs.twimg.com/profile_images/378800000090048535/ce92759e92d48b057afd50dcaae0a170_normal.jpeg
+DEBUG - 2014-06-28 06:27:21 --> 画像が存在しない:http://pbs.twimg.com/profile_images/440303677757067264/ZtbIX4NL_normal.jpeg
+DEBUG - 2014-06-28 06:27:22 --> 画像が存在しない:http://pbs.twimg.com/profile_images/476593950044585985/mRFhYmUn_normal.png
+DEBUG - 2014-06-28 06:27:23 --> 画像が存在しない:http://pbs.twimg.com/profile_images/479422856934064128/2Fy-Fgnb_normal.png
+DEBUG - 2014-06-28 06:27:23 --> 画像が存在しない:http://pbs.twimg.com/profile_images/2418552674/image_normal.jpg
+DEBUG - 2014-06-28 06:27:24 --> 画像が存在しない:http://pbs.twimg.com/profile_images/478531384630181888/CwDnUvBr_normal.jpeg
+DEBUG - 2014-06-28 06:27:25 --> 画像が存在しない:http://pbs.twimg.com/profile_images/453424145057861632/kDFrN0Yc_normal.jpeg
+DEBUG - 2014-06-28 06:27:25 --> 画像が存在しない:http://pbs.twimg.com/profile_images/477480504250212352/q5ZTRWRh_normal.png
+DEBUG - 2014-06-28 06:27:27 --> 画像が存在しない:http://pbs.twimg.com/profile_images/378800000048939783/dfdf4a4eaf6d21859f5808ce52548bfd_normal.jpeg
+DEBUG - 2014-06-28 06:27:27 --> 画像が存在しない:http://pbs.twimg.com/profile_images/378800000865896019/2hsNKRQw_normal.jpeg
+DEBUG - 2014-06-28 06:27:28 --> 画像が存在しない:http://pbs.twimg.com/profile_images/3129651510/f07e86a3367f6855fa8f508479085ba7_normal.png
+DEBUG - 2014-06-28 06:27:29 --> 画像が存在しない:http://pbs.twimg.com/profile_images/3539286300/8a9f9309adc6a7444dd8a4005eae69fd_normal.jpeg
+DEBUG - 2014-06-28 06:27:31 --> 画像が存在しない:http://pbs.twimg.com/profile_images/445022392935383040/prQfq4Pu_normal.jpeg
+DEBUG - 2014-06-28 06:27:33 --> 画像が存在しない:http://pbs.twimg.com/profile_images/378800000485688847/0a77d9f1d329b2234630d9252a660d7d_normal.png
+DEBUG - 2014-06-28 06:27:33 --> 画像が存在しない:http://pbs.twimg.com/profile_images/378800000090048535/ce92759e92d48b057afd50dcaae0a170_normal.jpeg
+DEBUG - 2014-06-28 06:27:36 --> 画像が存在しない:http://pbs.twimg.com/profile_images/3129651510/f07e86a3367f6855fa8f508479085ba7_normal.png
+DEBUG - 2014-06-28 06:27:40 --> 画像が存在しない:http://pbs.twimg.com/profile_images/426727976864976896/LGNNiB74_normal.png
+DEBUG - 2014-06-28 06:27:40 --> 画像が存在しない:http://pbs.twimg.com/profile_images/1853035792/Image1_normal.png
+DEBUG - 2014-06-28 06:27:41 --> 画像が存在しない:http://pbs.twimg.com/profile_images/378800000865896019/2hsNKRQw_normal.jpeg
+DEBUG - 2014-06-28 06:27:41 --> 画像が存在しない:http://pbs.twimg.com/profile_images/416582350122676225/Dzz4Y--__normal.jpeg
+DEBUG - 2014-06-28 06:27:42 --> 画像が存在しない:http://pbs.twimg.com/profile_images/2418552674/image_normal.jpg
+DEBUG - 2014-06-28 06:27:43 --> 画像が存在しない:http://pbs.twimg.com/profile_images/477811558089629696/4FE4QfvQ_normal.jpeg
+DEBUG - 2014-06-28 06:27:48 --> 画像が存在しない:http://pbs.twimg.com/profile_images/437080155807178752/wWFoijiH_normal.png
+DEBUG - 2014-06-28 06:27:50 --> 画像が存在しない:http://pbs.twimg.com/profile_images/437080155807178752/wWFoijiH_normal.png
+DEBUG - 2014-06-28 06:27:51 --> 画像が存在しない:http://pbs.twimg.com/profile_images/1774985549/logo_normal.jpg
+DEBUG - 2014-06-28 06:27:51 --> 画像が存在しない:http://pbs.twimg.com/profile_images/468757952988323841/IVPD_nsE_normal.jpeg
+DEBUG - 2014-06-28 06:27:52 --> 画像が存在しない:http://pbs.twimg.com/profile_images/481448426719019009/iKHA3A_n_normal.jpeg
+DEBUG - 2014-06-28 06:27:53 --> 画像が存在しない:http://pbs.twimg.com/profile_images/471559503704367104/WjtQpa-0_normal.jpeg
+DEBUG - 2014-06-28 06:27:53 --> 画像が存在しない:http://pbs.twimg.com/profile_images/453424145057861632/kDFrN0Yc_normal.jpeg
+DEBUG - 2014-06-28 06:27:54 --> 画像が存在しない:http://pbs.twimg.com/profile_images/475231188206882816/QLGubqqw_normal.jpeg
+DEBUG - 2014-06-28 06:27:55 --> 画像が存在しない:http://pbs.twimg.com/profile_images/2243097508/PICT1057_______ver2__normal.jpg
+DEBUG - 2014-06-28 06:27:55 --> 画像が存在しない:http://pbs.twimg.com/profile_images/1151937092/______seco_normal.jpg
+DEBUG - 2014-06-28 06:27:57 --> 画像が存在しない:http://pbs.twimg.com/profile_images/1093108201/user_normal.jpg
+DEBUG - 2014-06-28 06:27:57 --> 画像が存在しない:http://pbs.twimg.com/profile_images/481562749638434817/LJpfsgw9_normal.png
+DEBUG - 2014-06-28 06:27:58 --> 画像が存在しない:http://pbs.twimg.com/profile_images/378800000786349213/3ba3b4e2e21e60dade1b3504da1465ca_normal.png
+DEBUG - 2014-06-28 06:27:59 --> 画像が存在しない:http://pbs.twimg.com/profile_images/378800000866489368/YGmH5zk6_normal.png
+DEBUG - 2014-06-28 06:28:01 --> 画像が存在しない:http://pbs.twimg.com/profile_images/477117357291081729/NWgshoLu_normal.jpeg
+DEBUG - 2014-06-28 06:28:03 --> 画像が存在しない:http://pbs.twimg.com/profile_images/378800000173482745/020469df386691e0b1d50b168a186e4a_normal.jpeg
+DEBUG - 2014-06-28 06:28:03 --> 画像が存在しない:http://pbs.twimg.com/profile_images/1774985549/logo_normal.jpg
+DEBUG - 2014-06-28 06:28:06 --> 画像が存在しない:http://pbs.twimg.com/profile_images/378800000786349213/3ba3b4e2e21e60dade1b3504da1465ca_normal.png
+DEBUG - 2014-06-28 06:28:10 --> 画像が存在しない:http://pbs.twimg.com/profile_images/476336856754163713/2J0rXJzC_normal.png
+DEBUG - 2014-06-28 06:28:10 --> 画像が存在しない:http://pbs.twimg.com/profile_images/429670482917347328/QrIq2KcU_normal.png
+DEBUG - 2014-06-28 06:28:11 --> 画像が存在しない:http://pbs.twimg.com/profile_images/481562749638434817/LJpfsgw9_normal.png
+DEBUG - 2014-06-28 06:28:11 --> 画像が存在しない:http://pbs.twimg.com/profile_images/477271469123067904/4286jZE3_normal.png
+DEBUG - 2014-06-28 06:28:12 --> 画像が存在しない:http://pbs.twimg.com/profile_images/453424145057861632/kDFrN0Yc_normal.jpeg
+DEBUG - 2014-06-28 06:28:13 --> 画像が存在しない:http://pbs.twimg.com/profile_images/454396132857098240/OBVWIWAH_normal.png
+DEBUG - 2014-06-28 06:28:18 --> 画像が存在しない:http://pbs.twimg.com/profile_images/378800000024490574/59ef145184539b8051fc6e706e2ed4f6_normal.png
+DEBUG - 2014-06-28 06:28:20 --> 画像が存在しない:http://pbs.twimg.com/profile_images/378800000024490574/59ef145184539b8051fc6e706e2ed4f6_normal.png
+DEBUG - 2014-06-28 06:28:21 --> 画像が存在しない:http://pbs.twimg.com/profile_images/3116374956/04198cad19dea2ca93c3d8bc992a9e2a_normal.jpeg
+DEBUG - 2014-06-28 06:28:21 --> 画像が存在しない:http://pbs.twimg.com/profile_images/378800000485688847/0a77d9f1d329b2234630d9252a660d7d_normal.png
+DEBUG - 2014-06-28 06:28:22 --> 画像が存在しない:http://pbs.twimg.com/profile_images/1079726201/profile_normal.png
+DEBUG - 2014-06-28 06:28:23 --> 画像が存在しない:http://pbs.twimg.com/profile_images/457403650936037376/smx4SkrV_normal.jpeg
+DEBUG - 2014-06-28 06:28:23 --> 画像が存在しない:http://pbs.twimg.com/profile_images/1193079811/469b094f_normal.jpg
+DEBUG - 2014-06-28 06:28:24 --> 画像が存在しない:http://pbs.twimg.com/profile_images/378800000510591610/48aa4fa99c7d3756ded8f05dbd6a6f27_normal.png
+DEBUG - 2014-06-28 06:28:25 --> Division by zero
+DEBUG - 2014-06-28 06:28:26 --> 画像取得OK url=http://i.gzn.jp/img/2014/06/27/pacific-rim-continuations/00.jpg
+DEBUG - 2014-06-28 06:28:26 --> 画像取得OK url=http://i.gzn.jp/img/2014/06/27/chromecast-ultrasonic-authorization/google-io-2014-770.jpg,http://i.gzn.jp/img/2014/06/27/chromecast-ultrasonic-authorization/023.jpg,http://i.gzn.jp/img/2014/06/27/chromecast-ultrasonic-authorization/023_m.jpg,http://i.gzn.jp/img/2014/06/27/chromecast-ultrasonic-authorization/google-io-2014-770_m.jpg,http://i.gzn.jp/img/2014/06/27/chromecast-ultrasonic-authorization/chromecast.jpg
+DEBUG - 2014-06-28 06:28:26 --> 画像が存在しない:http://pbs.twimg.com/profile_images/378800000825301117/bf581c8421fe92139a80d32e3e0e6dbd_normal.jpeg
+DEBUG - 2014-06-28 06:28:26 --> 画像が存在しない:http://pbs.twimg.com/profile_images/479616526220148736/_-YdP2E2_normal.jpeg
+DEBUG - 2014-06-28 06:28:26 --> 画像が存在しない:http://pbs.twimg.com/profile_images/455375390609928192/4UxPVWLQ_normal.jpeg
+DEBUG - 2014-06-28 06:28:26 --> Division by zero
+DEBUG - 2014-06-28 06:28:26 --> 画像取得OK url=http://i.gzn.jp/img/2014/06/26/headline/d810.jpg
+DEBUG - 2014-06-28 06:28:26 --> 画像が存在しない:http://pbs.twimg.com/profile_images/1686947216/512_normal.png
+DEBUG - 2014-06-28 06:28:26 --> Division by zero
+DEBUG - 2014-06-28 06:28:26 --> 画像が存在しない:http://pbs.twimg.com/profile_images/479264031971098624/JBLZpu9z_normal.png
+DEBUG - 2014-06-28 06:28:26 --> 画像が存在しない:http://pbs.twimg.com/profile_images/378800000835899484/0fcb7981074d55acb2b103c26e1a5f52_normal.png
+DEBUG - 2014-06-28 06:28:26 --> 画像取得OK url=http://i.gzn.jp/img/2014/06/26/headline/d810.jpg
+DEBUG - 2014-06-28 06:28:26 --> 画像取得OK url=http://i.gzn.jp/img/2014/06/27/chromecast-ultrasonic-authorization/google-io-2014-770.jpg,http://i.gzn.jp/img/2014/06/27/chromecast-ultrasonic-authorization/023.jpg,http://i.gzn.jp/img/2014/06/27/chromecast-ultrasonic-authorization/023_m.jpg,http://i.gzn.jp/img/2014/06/27/chromecast-ultrasonic-authorization/google-io-2014-770_m.jpg,http://i.gzn.jp/img/2014/06/27/chromecast-ultrasonic-authorization/chromecast.jpg
+DEBUG - 2014-06-28 06:28:26 --> 画像が存在しない:http://pbs.twimg.com/profile_images/464813357933944832/oRsKvy1Z_normal.jpeg
+DEBUG - 2014-06-28 06:28:26 --> 画像取得OK url=http://i.gzn.jp/img/2014/06/26/nasa-vacuum-transistor/001_m.jpg,http://i.gzn.jp/img/2014/06/26/nasa-vacuum-transistor/002.jpg,http://i.gzn.jp/img/2014/06/26/nasa-vacuum-transistor/002_m.jpg,http://i.gzn.jp/img/2014/06/26/nasa-vacuum-transistor/004_m.jpg,http://i.gzn.jp/img/2014/06/26/nasa-vacuum-transistor/003_m.jpg
+DEBUG - 2014-06-28 06:28:27 --> 画像取得OK url=http://i.gzn.jp/img/2014/06/27/pacific-rim-continuations/00.jpg
+DEBUG - 2014-06-28 06:28:27 --> 画像が存在しない:http://pbs.twimg.com/profile_images/2094683580/middle_1212592588_normal.jpg
+DEBUG - 2014-06-28 06:28:27 --> 画像データなし url=http://gigazine.net/news/20140627-android-material-design-movie/
+DEBUG - 2014-06-28 06:28:27 --> 画像が存在しない:http://pbs.twimg.com/profile_images/2094683580/middle_1212592588_normal.jpg
+DEBUG - 2014-06-28 06:28:27 --> 画像データなし url=http://gigazine.net/news/20140627-android-material-design-movie/
+DEBUG - 2014-06-28 06:28:27 --> 画像取得OK url=http://i.gzn.jp/img/2014/06/26/nasa-vacuum-transistor/001_m.jpg,http://i.gzn.jp/img/2014/06/26/nasa-vacuum-transistor/002.jpg,http://i.gzn.jp/img/2014/06/26/nasa-vacuum-transistor/002_m.jpg,http://i.gzn.jp/img/2014/06/26/nasa-vacuum-transistor/004_m.jpg,http://i.gzn.jp/img/2014/06/26/nasa-vacuum-transistor/003_m.jpg
+DEBUG - 2014-06-28 06:28:27 --> 画像データなし url=http://gigazine.net/news/20140626-google-drive-for-work/
+DEBUG - 2014-06-28 06:28:27 --> 画像が存在しない:http://pbs.twimg.com/profile_images/1142236471/51664687_normal.jpg
+DEBUG - 2014-06-28 06:28:27 --> 画像データなし url=http://gigazine.net/news/20140626-google-drive-for-work/
+DEBUG - 2014-06-28 06:28:27 --> 画像取得OK url=http://i.gzn.jp/img/2014/06/26/phantom-2-zhongnanhai/37.jpg,http://i.gzn.jp/img/2014/06/26/phantom-2-zhongnanhai/37_m.jpg,http://i.gzn.jp/img/2014/06/26/phantom-2-zhongnanhai/37_m.jpg
+DEBUG - 2014-06-28 06:28:27 --> 画像が存在しない:http://pbs.twimg.com/profile_images/378800000801567578/4811987f802a4a10672a1931b9ae72ba_normal.png
+DEBUG - 2014-06-28 06:28:27 --> 画像取得OK url=http://i.gzn.jp/img/2014/06/26/lg-g-watch/02.png,http://i.gzn.jp/img/2014/06/26/lg-g-watch/01.png,http://i.gzn.jp/img/2014/06/26/lg-g-watch/02_m.png,http://i.gzn.jp/img/2014/06/26/lg-g-watch/07.png,http://i.gzn.jp/img/2014/06/26/lg-g-watch/03.png,http://i.gzn.jp/img/2014/06/26/lg-g-watch/11.jpg,http://i.gzn.jp/img/2014/06/26/lg-g-watch/10.jpg,http://i.gzn.jp/img/2014/06/26/lg-g-watch/14.jpg,http://i.gzn.jp/img/2014/06/26/lg-g-watch/12.jpg,http://i.gzn.jp/img/2014/06/26/lg-g-watch/03_m.png,http://i.gzn.jp/img/2014/06/26/lg-g-watch/09.jpg,http://i.gzn.jp/img/2014/06/26/lg-g-watch/06_m.png,http://i.gzn.jp/img/2014/06/26/lg-g-watch/11_m.jpg,http://i.gzn.jp/img/2014/06/26/lg-g-watch/11_m.jpg,http://i.gzn.jp/img/2014/06/26/lg-g-watch/08.jpg,http://i.gzn.jp/img/2014/06/26/lg-g-watch/10_m.jpg,http://i.gzn.jp/img/2014/06/26/lg-g-watch/10_m.jpg,http://i.gzn.jp/img/2014/06/26/lg-g-watch/13.jpg,http://i.gzn.jp/img/2014/06/26/lg-g-watch/07_m.png,http://i.gzn.jp/img/2014/06/26/lg-g-watch/14_m.jpg,http://i.gzn.jp/img/2014/06/26/lg-g-watch/14_m.jpg,http://i.gzn.jp/img/2014/06/26/lg-g-watch/09_m.jpg,http://i.gzn.jp/img/2014/06/26/lg-g-watch/12_m.jpg,http://i.gzn.jp/img/2014/06/26/lg-g-watch/12_m.jpg,http://i.gzn.jp/img/2014/06/26/lg-g-watch/06.png,http://i.gzn.jp/img/2014/06/26/lg-g-watch/08_m.jpg,http://i.gzn.jp/img/2014/06/26/lg-g-watch/13_m.jpg,http://i.gzn.jp/img/2014/06/26/lg-g-watch/13_m.jpg
+DEBUG - 2014-06-28 06:28:27 --> 画像データなし url=http://gigazine.net/news/20140626-google-fit/
+DEBUG - 2014-06-28 06:28:27 --> 画像取得OK url=http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110310.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110311.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110303.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110307.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110321.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110320.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110295.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110291.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110322.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110297.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110294.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110323.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110285.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110310_m.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110310_m.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110311_m.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110298.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110303_m.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110321_m.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110321_m.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110307_m.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110307_m.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110320_m.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110295_m.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110295_m.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110291_m.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110294_m.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110294_m.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110322_m.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110322_m.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110297_m.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110297_m.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110323_m.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110323_m.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110285_m.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110298_m.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110298_m.jpg
+DEBUG - 2014-06-28 06:28:27 --> 画像取得OK url=http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110310.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110311.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110303.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110307.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110321.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110320.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110295.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110291.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110322.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110297.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110294.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110323.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110285.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110310_m.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110310_m.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110311_m.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110298.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110303_m.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110321_m.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110321_m.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110307_m.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110307_m.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110320_m.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110295_m.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110295_m.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110291_m.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110294_m.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110294_m.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110322_m.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110322_m.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110297_m.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110297_m.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110323_m.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110323_m.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110285_m.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110298_m.jpg,http://i.gzn.jp/img/2014/06/26/kinoko-takenoko-banana-ichigo/P2110298_m.jpg
+DEBUG - 2014-06-28 06:28:27 --> 画像データなし url=http://gigazine.net/news/20140626-google-fit/
+INFO - 2014-06-28 06:28:27 --> 画像取得終了
+DEBUG - 2014-06-28 06:28:27 --> 画像取得OK url=http://i.gzn.jp/img/2014/06/26/jack-hot-yakisoba/P2110334.jpg,http://i.gzn.jp/img/2014/06/26/jack-hot-yakisoba/P2110317.jpg,http://i.gzn.jp/img/2014/06/26/jack-hot-yakisoba/P2110328.jpg,http://i.gzn.jp/img/2014/06/26/jack-hot-yakisoba/P2110316.jpg,http://i.gzn.jp/img/2014/06/26/jack-hot-yakisoba/P2110336.jpg,http://i.gzn.jp/img/2014/06/26/jack-hot-yakisoba/P2110315.jpg,http://i.gzn.jp/img/2014/06/26/jack-hot-yakisoba/P2110335.jpg,http://i.gzn.jp/img/2014/06/26/jack-hot-yakisoba/P2110312.jpg,http://i.gzn.jp/img/2014/06/26/jack-hot-yakisoba/P2110327.jpg,http://i.gzn.jp/img/2014/06/26/jack-hot-yakisoba/P2110341.jpg,http://i.gzn.jp/img/2014/06/26/jack-hot-yakisoba/P2110313.jpg,http://i.gzn.jp/img/2014/06/26/jack-hot-yakisoba/P2110325.jpg,http://i.gzn.jp/img/2014/06/26/jack-hot-yakisoba/P2110333.jpg,http://i.gzn.jp/img/2014/06/26/jack-hot-yakisoba/P2110319.jpg,http://i.gzn.jp/img/2014/06/26/jack-hot-yakisoba/P2110330.jpg,http://i.gzn.jp/img/2014/06/26/jack-hot-yakisoba/P2110343.jpg,http://i.gzn.jp/img/2014/06/26/jack-hot-yakisoba/P2110339.jpg,http://i.gzn.jp/img/2014/06/26/jack-hot-yakisoba/P2110342.jpg,http://i.gzn.jp/img/2014/06/26/jack-hot-yakisoba/P2110332.jpg,http://i.gzn.jp/img/2014/06/26/jack-hot-yakisoba/P2110318.jpg,http://i.gzn.jp/img/2014/06/26/jack-hot-yakisoba/P2110326.jpg,http://i.gzn.jp/img/2014/06/26/jack-hot-yakisoba/P2110331.jpg,http://i.gzn.jp/img/2014/06/26/jack-hot-yakisoba/P2110346.jpg,http://i.gzn.jp/img/2014/06/26/jack-hot-yakisoba/P2110334_m.jpg,http://i.gzn.jp/img/2014/06/26/jack-hot-yakisoba/P2110334_m.jpg,http://i.gzn.jp/img/2014/06/26/jack-hot-yakisoba/P2110317_m.jpg,http://i.gzn.jp/img/2014/06/26/jack-hot-yakisoba/P2110315_m.jpg,http://i.gzn.jp/img/2014/06/26/jack-hot-yakisoba/P2110328_m.jpg,http://i.gzn.jp/img/2014/06/26/jack-hot-yakisoba/P2110328_m.jpg,http://i.gzn.jp/img/2014/06/26/jack-hot-yakisoba/P2110316_m.jpg,http://i.gzn.jp/img/2014/06/26/jack-hot-yakisoba/P2110327_m.jpg,http://i.gzn.jp/img/2014/06/26/jack-hot-yakisoba/P2110327_m.jpg,http://i.gzn.jp/img/2014/06/26/jack-hot-yakisoba/P2110335_m.jpg,http://i.gzn.jp/img/2014/06/26/jack-hot-yakisoba/P2110335_m.jpg,http://i.gzn.jp/img/2014/06/26/jack-hot-yakisoba/P2110336_m.jpg,http://i.gzn.jp/img/2014/06/26/jack-hot-yakisoba/P2110336_m.jpg,http://i.gzn.jp/img/2014/06/26/jack-hot-yakisoba/P2110312_m.jpg,http://i.gzn.jp/img/2014/06/26/jack-hot-yakisoba/P2110313_m.jpg,http://i.gzn.jp/img/2014/06/26/jack-hot-yakisoba/P2110325_m.jpg,http://i.gzn.jp/img/2014/06/26/jack-hot-yakisoba/P2110333_m.jpg,http://i.gzn.jp/img/2014/06/26/jack-hot-yakisoba/P2110333_m.jpg,http://i.gzn.jp/img/2014/06/26/jack-hot-yakisoba/P2110341_m.jpg,http://i.gzn.jp/img/2014/06/26/jack-hot-yakisoba/P2110341_m.jpg,http://i.gzn.jp/img/2014/06/26/jack-hot-yakisoba/P2110319_m.jpg,http://i.gzn.jp/img/2014/06/26/jack-hot-yakisoba/P2110339_m.jpg,http://i.gzn.jp/img/2014/06/26/jack-hot-yakisoba/P2110339_m.jpg,http://i.gzn.jp/img/2014/06/26/jack-hot-yakisoba/P2110330_m.jpg,http://i.gzn.jp/img/2014/06/26/jack-hot-yakisoba/P2110330_m.jpg,http://i.gzn.jp/img/2014/06/26/jack-hot-yakisoba/P2110342_m.jpg,http://i.gzn.jp/img/2014/06/26/jack-hot-yakisoba/P2110342_m.jpg,http://i.gzn.jp/img/2014/06/26/jack-hot-yakisoba/P2110318_m.jpg,http://i.gzn.jp/img/2014/06/26/jack-hot-yakisoba/P2110332_m.jpg,http://i.gzn.jp/img/2014/06/26/jack-hot-yakisoba/P2110332_m.jpg,http://i.gzn.jp/img/2014/06/26/jack-hot-yakisoba/P2110331_m.jpg,http://i.gzn.jp/img/2014/06/26/jack-hot-yakisoba/P2110331_m.jpg,http://i.gzn.jp/img/2014/06/26/jack-hot-yakisoba/P2110326_m.jpg,http://i.gzn.jp/img/2014/06/26/jack-hot-yakisoba/P2110343_m.jpg,http://i.gzn.jp/img/2014/06/26/jack-hot-yakisoba/P2110343_m.jpg,http://i.gzn.jp/img/2014/06/26/jack-hot-yakisoba/P2110346_m.jpg,http://i.gzn.jp/img/2014/06/26/jack-hot-yakisoba/P2110346_m.jpg
+DEBUG - 2014-06-28 06:28:27 --> 画像取得OK url=http://i.gzn.jp/img/2014/06/27/lotteria-wagyu-hamburg-steak/P2120623.jpg,http://i.gzn.jp/img/2014/06/27/lotteria-wagyu-hamburg-steak/P2120633.jpg,http://i.gzn.jp/img/2014/06/27/lotteria-wagyu-hamburg-steak/P2120631.jpg,http://i.gzn.jp/img/2014/06/27/lotteria-wagyu-hamburg-steak/P2120624.jpg,http://i.gzn.jp/img/2014/06/27/lotteria-wagyu-hamburg-steak/P2120639.jpg,http://i.gzn.jp/img/2014/06/27/lotteria-wagyu-hamburg-steak/P2120692.jpg,http://i.gzn.jp/img/2014/06/27/lotteria-wagyu-hamburg-steak/P2120635.jpg,http://i.gzn.jp/img/2014/06/27/lotteria-wagyu-hamburg-steak/P2120689.jpg,http://i.gzn.jp/img/2014/06/27/lotteria-wagyu-hamburg-steak/P2120641.jpg,http://i.gzn.jp/img/2014/06/27/lotteria-wagyu-hamburg-steak/P2120644.jpg,http://i.gzn.jp/img/2014/06/27/lotteria-wagyu-hamburg-steak/P2120636.jpg,http://i.gzn.jp/img/2014/06/27/lotteria-wagyu-hamburg-steak/P2120699.jpg,http://i.gzn.jp/img/2014/06/27/lotteria-wagyu-hamburg-steak/P2120623_m.jpg,http://i.gzn.jp/img/2014/06/27/lotteria-wagyu-hamburg-steak/P2120633_m.jpg,http://i.gzn.jp/img/2014/06/27/lotteria-wagyu-hamburg-steak/P2120624_m.jpg,http://i.gzn.jp/img/2014/06/27/lotteria-wagyu-hamburg-steak/P2120631_m.jpg,http://i.gzn.jp/img/2014/06/27/lotteria-wagyu-hamburg-steak/P2120692_m.jpg,http://i.gzn.jp/img/2014/06/27/lotteria-wagyu-hamburg-steak/P2120692_m.jpg,http://i.gzn.jp/img/2014/06/27/lotteria-wagyu-hamburg-steak/P2120635_m.jpg,http://i.gzn.jp/img/2014/06/27/lotteria-wagyu-hamburg-steak/P2120689_m.jpg,http://i.gzn.jp/img/2014/06/27/lotteria-wagyu-hamburg-steak/P2120689_m.jpg,http://i.gzn.jp/img/2014/06/27/lotteria-wagyu-hamburg-steak/P2120639_m.jpg,http://i.gzn.jp/img/2014/06/27/lotteria-wagyu-hamburg-steak/P2120639_m.jpg,http://i.gzn.jp/img/2014/06/27/lotteria-wagyu-hamburg-steak/P2120641_m.jpg,http://i.gzn.jp/img/2014/06/27/lotteria-wagyu-hamburg-steak/P2120641_m.jpg,http://i.gzn.jp/img/2014/06/27/lotteria-wagyu-hamburg-steak/P2120644_m.jpg,http://i.gzn.jp/img/2014/06/27/lotteria-wagyu-hamburg-steak/P2120644_m.jpg,http://i.gzn.jp/img/2014/06/27/lotteria-wagyu-hamburg-steak/P2120636_m.jpg,http://i.gzn.jp/img/2014/06/27/lotteria-wagyu-hamburg-steak/P2120699_m.jpg,http://i.gzn.jp/img/2014/06/27/lotteria-wagyu-hamburg-steak/P2120699_m.jpg
+DEBUG - 2014-06-28 06:28:27 --> 画像取得OK url=http://i.gzn.jp/img/2014/06/27/google-ara-tango-progress/c20_m.png,http://i.gzn.jp/img/2014/06/27/google-ara-tango-progress/c20_m.png
+INFO - 2014-06-28 06:28:27 --> 画像取得終了
