@@ -14,16 +14,17 @@ Class Controller_Myutil_Getimagefromurl extends Controller {
         $array_url = array();
 
         Log::info('画像取得開始');
+        //前日
+        $date = strtotime("-1 day", date("Ymd"));
         $query = DB::select('url', 'id', 'tweet_count')->from('sk_news')
-                ->where('created_at', '>=', date("Ymd"))
+                ->where('created_at', '>=', "20140627")
                 ->and_where_open()
                 ->where('image_url', '')
                 ->or_where('image_url', NULL)
                 ->and_where_close()
                 ->execute();
         Log::info('対象データ:' . count($query));
-        echo '対象データ' . count($query) . '<br>';
-        echo DB::last_query() . '<br>';
+        Log::info('SQL:' . DB::last_query());
 
         foreach ($query as $key => $data) {
 

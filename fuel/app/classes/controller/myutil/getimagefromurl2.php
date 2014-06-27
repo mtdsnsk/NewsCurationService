@@ -170,7 +170,7 @@ Class Controller_Myutil_Getimagefromurl2 extends Controller {
             Log::debug("画像が存在しない:" . $kekka[0]);
             return NULL;
         }
-        Log::debug("画像あり" . $kekka[0]);
+        //Log::debug("画像あり" . $kekka[0]);
         $size = ceil(strlen($exist) / 1024); // ファイルサイズ
         list($width, $height) = getimagesize($kekka[0]); // 大きさ
 
