@@ -29,7 +29,7 @@ Class Controller_Myutil_Getimagefromurl extends Controller {
             $id = $data['id'];
             $url = $data['url'];
             //$html = 'http://dev-tachiyomi.torico-tokyo.com/commic_news/public/myutil/getimagefromurl/getimagefromurl?' .
-            $th = 'http://localhost/sukima_server/public/myutil/getimagefromurl/getimagefromurl?' .
+            $th = 'http://localhost/sukima_server/public/myutil/getimagefromurl2/getimage?' .
                     "id=$id" . '&' . "url=$url";
             array_push($array_url, $th);
         }
@@ -45,7 +45,6 @@ Class Controller_Myutil_Getimagefromurl extends Controller {
             Log::info("画像登録 ID=$id");
             // URL先のページにある一番大きな画像URLが返る      
             $image_url = $this->getimage($url);
-
             DB::update('sk_news')->set(array(
                         'image_url' => $image_url,
                         'updated_at' => date("Y-m-d H:i:s"),

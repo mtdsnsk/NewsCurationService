@@ -9,13 +9,18 @@
 Class Controller_Myutil_Getimagefromurl2 extends Controller {
 
     // テスト用
-    public function action_testseikihyogen() {
-        echo '開始<br>';
-        //$url = 'http://techbooster.jpn.org/andriod/application/2199/';
-        //$url = 'http://biz-journal.jp/business-topic/working/2014/03/post_13.html';
-        //$url = 'http://gigazine.net';
-        //$url = 'http://gigazine.net/news/20140627-lametric-smart-display/';
-        $url = 'http://blog.livedoor.jp/dqnplus/';
+    public function action_getimage() {
+
+        $id = Input::param('id');
+        $url = Input::param('url');
+        $str_url = array();
+
+        if ($url == '') {
+            Log::info('(エラー)　画像取得開始 url=' . $url);
+            return;
+        }
+
+        Log::info('画像取得開始 url=' . $url);
         $image_array = $this->getimage_array($url);
 
         foreach ($image_array as $key => $row) {
@@ -24,17 +29,24 @@ Class Controller_Myutil_Getimagefromurl2 extends Controller {
             echo 'size=' . $row['size'];
         }
 
-        if (count($image_url) > 0) {
+        if (count($image_array) > 0) {
             array_multisort($image_size, SORT_DESC, $image_url, SORT_ASC, $image_array);
         }
 
-        echo '結果表示<br>';
         foreach ($image_array as $data) {
-            if ($data['url'] != NULL) {
-                echo $data['size'] . '<br>';
-                echo Html::img($data['url']);
-                echo '<br>';
-            }
+            array_push($str_url, $data);
+        }
+
+        if (count($str_url) > 0) {
+            $img_url = implode(",", $str_url);
+            Log::info('画像取得OK url=' . $img_url);
+            DB::update('sk_news')->set(array(
+                        'image_url' => $img_url,
+                        'updated_at' => date("Y-m-d H:i:s"),
+                    ))->where('id', $id)
+                    ->execute();
+        } else {
+            Log::info('画像データなし url=' . $img_url);
         }
     }
 
