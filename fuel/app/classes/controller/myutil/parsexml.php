@@ -4,8 +4,8 @@ Class Controller_Myutil_Parsexml extends Controller {
 
     public function action_fnxml() {
 
-        require_once( APPPATH . 'classes/model/Multithreading.php');
-        $array_url = array();
+        //require_once( APPPATH . 'classes/model/Multithreading.php');
+        //$array_url = array();
 
         $rsslist = DB::select()->from('sk_rsslist')->execute();
         Log::info('xml解析開始');
@@ -15,22 +15,22 @@ Class Controller_Myutil_Parsexml extends Controller {
             $id = $value['id'];
             $url = $value['rssurl'];
             $category = $value['category'];
-            //$kekka = $this->func($value['id'], $value['rssurl'], $value['category']);
+            $kekka = $this->action_parsexml($id, $url, $category);
             //$html = 'http://dev-tachiyomi.torico-tokyo.com/commic_news/public/myutil/parsexml/parsexml?' .
-            $th = 'http://localhost/sukima_server/public/myutil/parsexml/parsexml?' .
-                    "rssid=$id" . '&' . "rssurl=$url" . '&' . "category=$category";
-            array_push($array_url, $th);
+            //$th = 'http://localhost/sukima_server/public/myutil/parsexml/parsexml?' .
+            //        "rssid=$id" . '&' . "rssurl=$url" . '&' . "category=$category";
+            //array_push($array_url, $th);
         }
 
-        Multithreading::execute($array_url);
+        //Multithreading::execute($array_url);
         Log::info('xml解析終了');
     }
 
-    public function action_parsexml() {
+    public function action_parsexml($rssid, $myurl, $category) {
 
-        $rssid = Input::param('rssid');
-        $myurl = Input::param('rssurl');
-        $category = Input::param('category');
+        //$rssid = Input::param('rssid');
+        //$myurl = Input::param('rssurl');
+        //$category = Input::param('category');
 
         Log::info("xml解析対象RSS:$myurl");
 
@@ -40,19 +40,22 @@ Class Controller_Myutil_Parsexml extends Controller {
             ));
             $mycontents = file_get_contents($myurl, false, $context); // RSSの内容を取得
             if ($mycontents === 'false') {
-                echo '<h3>エラー</h3>contents false[' . $myurl . ']<br>';
-                echo '<hr>';
+                //echo '<h3>エラー</h3>contents false[' . $myurl . ']<br>';
+                //echo '<hr>';
+                Log::info("file_get_contents エラー url:$myurl");
                 return FALSE;
             }
             $pos = strpos($http_response_header[0], '200'); // レスポンス取得
             if ($pos === false) {
-                echo '<h3>エラー</h3>response false[' . $myurl . ']<br>';
-                echo '<hr>';
+                //echo '<h3>エラー</h3>response false[' . $myurl . ']<br>';
+                //echo '<hr>';
+                Log::info("http_response_header エラー url:$myurl");
                 return FALSE;
             }
             if ($mycontents == NULL) {
-                echo '<h3>エラー</h3>no-contents! [' . $myurl . ']<br>';
-                echo '<hr>';
+                //echo '<h3>エラー</h3>no-contents! [' . $myurl . ']<br>';
+                //echo '<hr>';
+                Log::info("mycontents Null エラー url:$myurl");
                 return FALSE;
             }
 
@@ -106,14 +109,14 @@ Class Controller_Myutil_Parsexml extends Controller {
             echo '<hr>';
         } catch (Exception $exc) {
             // エラー
-            Log::info('取得失敗 RSS NO:' . $rssid . '/URL:' . $mysurl . ' (エラー)' . $exc->getMessage());
+            Log::info('取得失敗 RSS NO:' . $rssid . '/URL:' . $myurl . ' (エラー)' . $exc->getMessage());
             DB::update('sk_rsslist')->set(array(
                 'error' => 1,
             ))->where('id', $rssid)->execute();
             return FALSE;
         }
         //成功
-        Log::info('取得成功 RSS NO:' . $value['id'] . '/URL:' . $value['rssurl']);
+        Log::info('取得成功 RSS NO:' . $rssid . '/URL:' . $myurl);
         DB::update('sk_rsslist')->set(array(
             'error' => 0,
         ))->where('id', $rssid)->execute();

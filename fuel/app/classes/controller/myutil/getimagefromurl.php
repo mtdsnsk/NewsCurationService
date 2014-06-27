@@ -57,14 +57,9 @@ Class Controller_Myutil_Getimagefromurl extends Controller {
         }
     }
 
-    public function action_testseikihyogen() {
-        $max_size_url = $this->getimage('http://biz-journal.jp/business-topic/working/2014/03/post_13.html');
-    }
-
     private function getimage($url) {
         $max_size = 0; // サイズを格納する
         $max_size_url = ''; //画像URLを格納する
-        $image_dat = array(); // リンクの画像データの配列を格納する
         if ($url == '') {
             return NULL;
         }
@@ -72,53 +67,27 @@ Class Controller_Myutil_Getimagefromurl extends Controller {
         if (!$exist) {
             return NULL;
         }
+        // URL先のHTMLファイルから必要なデータを残す
+        $parse_data = $this->html_string_parse($url);
 
-        $html = file_get_contents($url); // リンク先のデータを取得する
-        $ex = preg_replace("/<a +.*?>.*?<\/a>/", "", $html); // データ文字列を置換
-        $ex = preg_replace("/[<>]/", " ", $html); // データ文字列を置換
-        $sp1 = explode(" ", $ex); // 文字列を分割
-        $sp2 = array_unique($sp1); // 重複排除
-        $sp3 = array_filter($sp2, 'strlen'); // null削除
-
-        foreach ($sp3 as $data) {
-            try {
-                $this->push_image_data($data, $max_size_url, $max_size);
-            } catch (Exception $exc) {
-                echo $exc->getMessage();
-            }
+        foreach ($parse_data as $data) {
+            $this->push_image_data($data, $max_size_url, $max_size);
         }
-        //echo Html::img($max_size_url);
         Log::info("画像取得元URL：$url 最大サイズURL：$max_size_url");
         return $max_size_url;
     }
 
-    private function getimage_old($url) {
-        $max_size = 0; // サイズを格納する
-        $max_size_url = ''; //画像URLを格納する
-        $image_dat = array(); // リンクの画像データの配列を格納する
-        if ($url == '') {
-            return NULL;
-        }
-        $exist = @file_get_contents($url, NULL, NULL, 1, 1);
-        if (!$exist) {
-            return NULL;
-        }
-
+    private function html_string_parse($url) {
+        echo '文字列分割<br>';
         $html = file_get_contents($url); // リンク先のデータを取得する
-        $ex = preg_replace("/<a>*.</a>/", " ", $html); // データ文字列を置換
-        $ex = preg_replace("/[<>]/", " ", $html); // データ文字列を置換
-        $sp1 = explode(" ", $ex); // 文字列を分割
+        $ex0 = preg_replace("/<a .*?(amazon|rakuten).*?>.*?<\/a>/i", "", $html);
+        $ex1 = preg_replace("/<a .*?(html.*?|.*?\.js).*?>.*?<\/a>/i", "", $ex0);
+        $ex2 = preg_replace("/[<>]/", " ", $ex1); // データ文字列を置換
+        $sp1 = explode(" ", $ex2); // 文字列を分割
         $sp2 = array_unique($sp1); // 重複排除
         $sp3 = array_filter($sp2, 'strlen'); // null削除
-        foreach ($sp3 as $data) {
-            try {
-                $this->push_image_data($data, $max_size_url, $max_size);
-            } catch (Exception $exc) {
-                echo $exc->getMessage();
-            }
-        }
-        Log::info("画像取得元URL：$url 最大サイズURL：$max_size_url");
-        return $max_size_url;
+        print_r($sp3);
+        return $sp3;
     }
 
     private function push_image_data($data, &$max_size_url, &$max_size) {
@@ -137,8 +106,6 @@ Class Controller_Myutil_Getimagefromurl extends Controller {
 
         $dat['url'] = $kekka[0];
         $dat['size'] = $size;
-        $dat['width'] = $width;
-        $dat['height'] = $height;
         $dat['ratio'] = $height / $width;
 
         if (($dat['ratio'] > 0.6 && $dat['ratio'] < 3) && $dat['width'] > 120) {
@@ -148,31 +115,6 @@ Class Controller_Myutil_Getimagefromurl extends Controller {
                 $max_size_url = $dat['url'];
             }
         }
-    }
-
-    public function action_showimage($url) {
-        $image_dat = $this->getimage($url, $max_size_url);
-        return $max_size_url;
-    }
-
-    public function action_showimage2($url) {
-        $image_dat = $this->getimage($url, $max_size_url);
-        if ($image_dat == NULL) {
-            echo "error:$url<br>";
-            return NULL;
-        }
-        foreach ($image_dat as $data) {
-            echo html_tag('img', array(
-                'src' => $data['url'],
-            ));
-            echo 'url:<b>' . $data['url'] . '</b><br>';
-            echo 'size:<b>' . $data['size'] . '</b><br>';
-            echo 'width:<b>' . $data['width'] . '</b><br>';
-            echo 'height:<b>' . $data['height'] . '</b><br>';
-            echo 'ratio:<b>' . $data['ratio'] . '</b><br>';
-            echo '<hr>';
-        }
-        return $max_size_url;
     }
 
 }

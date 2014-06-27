@@ -9263,3 +9263,36 @@ INFO - 2014-06-26 07:26:02 --> Fuel\Core\Request::execute - Setting main Request
 INFO - 2014-06-26 07:26:16 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "news"
 INFO - 2014-06-26 07:26:16 --> Fuel\Core\Request::execute - Called
 INFO - 2014-06-26 07:26:16 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-06-26 13:18:12 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = ""
+INFO - 2014-06-26 13:18:12 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-26 13:18:12 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-06-26 13:18:15 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "news"
+INFO - 2014-06-26 13:18:15 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-26 13:18:15 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-06-26 13:18:15 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = ""
+INFO - 2014-06-26 13:18:15 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-26 13:18:15 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-06-26 13:18:15 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = ""
+INFO - 2014-06-26 13:18:15 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-26 13:18:15 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-06-26 13:18:16 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "news"
+INFO - 2014-06-26 13:18:16 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-26 13:18:16 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-06-26 13:21:51 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "news"
+INFO - 2014-06-26 13:21:51 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-26 13:21:51 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-06-26 13:21:51 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "news"
+INFO - 2014-06-26 13:21:51 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-26 13:21:51 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-06-26 13:21:52 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "news"
+INFO - 2014-06-26 13:21:52 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-26 13:21:52 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-06-26 13:21:52 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "news"
+INFO - 2014-06-26 13:21:52 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-26 13:21:52 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-06-26 13:21:56 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "news"
+INFO - 2014-06-26 13:21:56 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-26 13:21:56 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-06-26 13:21:56 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "news"
+INFO - 2014-06-26 13:21:56 --> Fuel\Core\Request::execute - Called
+INFO - 2014-06-26 13:21:56 --> Fuel\Core\Request::execute - Setting main Request

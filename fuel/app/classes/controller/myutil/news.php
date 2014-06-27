@@ -6,9 +6,9 @@
  * and open the template in the editor.
  */
 
-class View_News_Data extends ViewModel {
+Class Controller_Myutil_News extends Controller_Rest {
 
-    public function view() {
+    public function get_news() {
 
         $no = Input::param('no');
         $array = array();
@@ -54,7 +54,11 @@ class View_News_Data extends ViewModel {
                 'sum' => $sum
             ));
         }
-        $this->data = $array;
+        //return $array;
+        $this->response(array(
+            'data' => $array,
+            'empty' => null)
+        );
     }
 
 }
