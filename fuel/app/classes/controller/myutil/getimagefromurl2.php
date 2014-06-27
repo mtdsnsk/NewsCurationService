@@ -162,11 +162,6 @@ Class Controller_Myutil_Getimagefromurl2 extends Controller {
         // jpeg,png,gifを探す
         $bl = preg_match('/http.*(jpe?g|pne?g|gif)/i', $data, $kekka);
         if (!$bl) {
-            //Log::debug("無視するデータ");
-            return NULL;
-        }
-        if (!is_array($kekka)) {
-            //Log::debug("無視するデータ");
             return NULL;
         }
 
