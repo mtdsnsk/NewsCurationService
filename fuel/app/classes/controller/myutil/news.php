@@ -8,10 +8,14 @@
 
 Class Controller_Myutil_News extends Controller_Rest {
 
+    public function get_data() {
+        echo 'QWERTY';
+    }
+
     public function get_news() {
 
         $no = Input::param('no');
-        $array = array();
+
         $query = DB::select()->from('view_news_and_from')
                 ->where('created_at', '>=', date("Ymd"))
                 ->and_where('category', $no)
@@ -32,11 +36,12 @@ Class Controller_Myutil_News extends Controller_Rest {
         }
 
         foreach ($query as $data) {
+            $img = '';
             if ($data['image_url'] != '') {
-                $img = Html::img($data['image_url']);
-            } else {
-                $img = '';
-                //$img = Html::img('http://cdn-ak.f.st-hatena.com/images/fotolife/e/emija/20140128/20140128163352.jpg');
+                $img_array = explode(',', $data['image_url']);
+                foreach ($img_array as $key => $value) {
+                    $img = Html::img($value) . '<br>' . $img;
+                }
             }
 
             $title = str_pad($data['title'], 120, "　");
@@ -46,19 +51,19 @@ Class Controller_Myutil_News extends Controller_Rest {
                     '<span class="news_from"><b>' . $data['from'] . '</b></span>' .
                     '</a></td></tr>';
 
-            array_push($array, array(
+            $id = $data['id'];
+            $array[$id] = array(
+                'title' => $id,
                 'title' => $data['title'],
                 'url' => $data['url'],
                 'image_url' => $data['image_url'],
                 'description' => $data['description'],
                 'sum' => $sum
-            ));
+            );
         }
+
         //return $array;
-        $this->response(array(
-            'data' => $array,
-            'empty' => null)
-        );
+        return $query->as_array();
     }
 
 }

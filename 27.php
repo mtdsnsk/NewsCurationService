@@ -864,3 +864,5 @@ ERROR - 2014-06-27 17:43:43 --> Notice - Array to string conversion in /Applicat
 ERROR - 2014-06-27 17:44:01 --> Notice - Array to string conversion in /Applications/XAMPP/xamppfiles/htdocs/sukima_server/fuel/app/classes/controller/myutil/getimagefromurl2.php on line 41
 ERROR - 2014-06-27 17:44:07 --> Notice - Array to string conversion in /Applications/XAMPP/xamppfiles/htdocs/sukima_server/fuel/app/classes/controller/myutil/getimagefromurl2.php on line 41
 ERROR - 2014-06-27 17:44:28 --> Notice - Array to string conversion in /Applications/XAMPP/xamppfiles/htdocs/sukima_server/fuel/app/classes/controller/myutil/getimagefromurl2.php on line 41
+ERROR - 2014-06-27 17:45:40 --> Notice - Array to string conversion in /Applications/XAMPP/xamppfiles/htdocs/sukima_server/fuel/app/classes/controller/myutil/getimagefromurl2.php on line 41
+INFO - 2014-06-27 17:45:40 --> 画像取得終了

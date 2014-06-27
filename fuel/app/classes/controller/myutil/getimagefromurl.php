@@ -26,11 +26,15 @@ Class Controller_Myutil_Getimagefromurl extends Controller {
         echo DB::last_query() . '<br>';
 
         foreach ($query as $key => $data) {
+
             $id = $data['id'];
             $url = $data['url'];
+            $url_encode = urlencode($url);
+
             //$html = 'http://dev-tachiyomi.torico-tokyo.com/commic_news/public/myutil/getimagefromurl/getimagefromurl?' .
-            $th = 'http://localhost/sukima_server/public/myutil/getimagefromurl2/getimage?' .
-                    "id=$id" . '&' . "url=$url";
+            $th = 'http://localhost/sukima_server/public/myutil/getimagefromurl2/fn?' .
+                    "id=$id" . '&' . "url=$url_encode";
+            Log::info('対象URL追加:' . urlencode($url_encode));
             array_push($array_url, $th);
         }
         Multithreading::execute($array_url);
