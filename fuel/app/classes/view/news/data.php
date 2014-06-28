@@ -11,7 +11,7 @@ class View_News_Data extends ViewModel {
     public function view() {
 
         $no = Input::param('no');
-        $array = array();
+        
         $query = DB::select()->from('view_news_and_from')
                 ->where('created_at', '>=', date("Ymd"))
                 ->and_where('category', $no)
@@ -30,18 +30,28 @@ class View_News_Data extends ViewModel {
                     ->limit(50)
                     ->execute();
         }
+        
+        $this->data = $this->create_html($query);
+    }
 
+    private function create_html($query) {
+        
+        $array = array();
+        
         foreach ($query as $data) {
+
+            $img = '';
+            $title = $data['title'];
+            
             if ($data['image_url'] != '') {
-                $img = Html::img($data['image_url']);
-            } else {
-                $img = '';
-                //$img = Html::img('http://cdn-ak.f.st-hatena.com/images/fotolife/e/emija/20140128/20140128163352.jpg');
+                $img_array = explode(',', $data['image_url']);
+                foreach ($img_array as $key => $value) {
+                    $img = '<li>' . Html::img($value) . '</li>' . $img;
+                }
             }
 
-            $title = str_pad($data['title'], 120, "　");
             $sum = '<tr><td><a href="' . $data['url'] . '">' .
-                    $img .
+                    '<ul class="bxslider">' . $img . '</ul>' .
                     '<h4>' . $title . '</h4>' .
                     '<span class="news_from"><b>' . $data['from'] . '</b></span>' .
                     '</a></td></tr>';
@@ -54,7 +64,7 @@ class View_News_Data extends ViewModel {
                 'sum' => $sum
             ));
         }
-        $this->data = $array;
+        return $array;
     }
 
 }

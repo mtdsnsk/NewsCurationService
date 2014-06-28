@@ -9,7 +9,6 @@
 Class Controller_Myutil_Getimagefromurl2 extends Controller {
 
     // テスト用
-
     public function action_fn() {
 
         try {
@@ -20,7 +19,6 @@ Class Controller_Myutil_Getimagefromurl2 extends Controller {
                 Log::debug('(エラー)　画像取得開始 url=' . $url);
                 return;
             }
-
             $this->getimage($id, $url);
         } catch (Exception $ex) {
             Log::debug($ex->getMessage());
@@ -73,6 +71,8 @@ Class Controller_Myutil_Getimagefromurl2 extends Controller {
 
     private function getimage($id, $url) {
 
+        $image_count = 0;
+        $max_image_count = 4;
         $str_url = array();
         Log::debug('画像取得開始 url=' . $url);
 
@@ -82,17 +82,18 @@ Class Controller_Myutil_Getimagefromurl2 extends Controller {
             $image_size[$key] = $row['size'];
             $image_url[$key] = $row['url'];
         }
-
         // サイズ順に並べ替え
         if (count($image_array) > 0) {
             array_multisort($image_size, SORT_DESC, $image_url, SORT_ASC, $image_array);
         }
-
         // URL配列作成
         foreach ($image_array as $data) {
             array_push($str_url, $data['url']);
+            $image_count++;
+            if ($image_count > $max_image_count) {
+                break;
+            }
         }
-
         if (count($str_url) > 0) {
             $string = implode(',', $str_url);
             Log::debug('画像取得OK url=' . $string);
@@ -101,13 +102,10 @@ Class Controller_Myutil_Getimagefromurl2 extends Controller {
                         'updated_at' => date("Y-m-d H:i:s"),
                     ))->where('id', $id)
                     ->execute();
-        } else {
-            Log::debug('画像データなし url=' . $url);
         }
     }
 
     private function getimage_array($url) {
-
         Log::debug("画像URL配列作成");
         $image_dat = array(); // リンクの画像データの配列を格納する
         if ($url == '') {
@@ -125,13 +123,11 @@ Class Controller_Myutil_Getimagefromurl2 extends Controller {
             Log::debug("エラー３");
             return $image_dat;
         }
-
         foreach ($sp as $data) {
             $data_ = $this->push_images($data);
             if ($data_ != NULL) {
                 array_push($image_dat, array(
-                    'url' => $data_['url'],
-                    'size' => $data_['size'],
+                    'url' => $data_['url'], 'size' => $data_['size'],
                 ));
             }
         }
@@ -159,8 +155,8 @@ Class Controller_Myutil_Getimagefromurl2 extends Controller {
     private function push_images($data) {
 
         $kekka = '';
-        // jpeg,png,gifを探す
-        $bl = preg_match('/http.*(jpe?g|pne?g|gif)/i', $data, $kekka);
+        // jpeg,pngを探す
+        $bl = preg_match('/http.*(jpe?g|pne?g)/i', $data, $kekka);
         if (!$bl) {
             return NULL;
         }
@@ -170,17 +166,14 @@ Class Controller_Myutil_Getimagefromurl2 extends Controller {
             Log::debug("画像が存在しない:" . $kekka[0]);
             return NULL;
         }
-        //Log::debug("画像あり" . $kekka[0]);
         $size = ceil(strlen($exist) / 1024); // ファイルサイズ
         list($width, $height) = getimagesize($kekka[0]); // 大きさ
 
         $dat['url'] = $kekka[0];
         $dat['size'] = $size;
-        $dat['ratio'] = $height / $width;
+        $ratio = $height / $width;
 
-        if (($dat['ratio'] > 0.6 && $dat['ratio'] < 3) && $width > 120) {
-            //echo $dat['size'] . '<br>';
-            //echo $dat['url'] . '<br>';
+        if (($ratio > 0.6 && $ratio < 3) && $width > 120) {
             return $dat;
         }
     }

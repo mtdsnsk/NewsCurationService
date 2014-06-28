@@ -1,0 +1,205 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2014/06/28, 6:41:57
+    Author     : matsudashinsuke
+*/
+
+/***********************************************************
+  CSS3スライドショー for アメブロ
+  2014/04/08 A.Matsumoto http://ameblo.jp/wazameba/
+***********************************************************/
+.skinContentsArea{
+  position:relative;
+}
+.css3ss {
+  position:absolute;
+  left:0;
+  top:-300px;
+}
+.css3ss img {
+  position:absolute;
+  opacity:0.0;
+}
+.css3ss br {
+  display:none;
+}
+.css3ss_2 img {
+  opacity:0.0;
+  animation:css3ss_ani_2 12s linear infinite 0s;
+  -webkit-animation:css3ss_ani_2 12s linear infinite 0s;
+}
+.css3ss_2 img:nth-of-type(1) {
+  opacity:0.0;
+  animation:css3ss_ani_2_1 12s linear infinite 0s;
+  -webkit-animation:css3ss_ani_2_1 12s linear infinite 0s;
+}
+.css3ss_3 img {
+  opacity:0.0;
+  animation:css3ss_ani_3 18s linear infinite 0s;
+  -webkit-animation:css3ss_ani_3 18s linear infinite 0s;
+}
+.css3ss_3 img:nth-of-type(1) {
+  opacity:0.0;
+  animation:css3ss_ani_3_1 18s linear infinite 0s;
+  -webkit-animation:css3ss_ani_3_1 18s linear infinite 0s;
+}
+.css3ss_4 img {
+  opacity:0.0;
+  animation:css3ss_ani_4 24s linear infinite 0s;
+  -webkit-animation:css3ss_ani_4 24s linear infinite 0s;
+}
+.css3ss_4 img:nth-of-type(1) {
+  opacity:0.0;
+  animation:css3ss_ani_4_1 24s linear infinite 0s;
+  -webkit-animation:css3ss_ani_4_1 24s linear infinite 0s;
+}
+.css3ss_5 img {
+  opacity:0.0;
+  animation:css3ss_ani_5 30s linear infinite 0s;
+  -webkit-animation:css3ss_ani_5 30s linear infinite 0s;
+}
+.css3ss_5 img:nth-of-type(1) {
+  opacity:0.0;
+  animation:css3ss_ani_5_1 30s linear infinite 0s;
+  -webkit-animation:css3ss_ani_5_1 30s linear infinite 0s;
+}
+.css3ss img:nth-of-type(1) {
+  animation-delay:0s;
+  -webkit-animation-delay:0s;
+}
+.css3ss img:nth-of-type(2) {
+  animation-delay:5s;
+  -webkit-animation-delay:5s;
+}
+.css3ss img:nth-of-type(3) {
+  animation-delay:11s;
+  -webkit-animation-delay:11s;
+}
+.css3ss img:nth-of-type(4) {
+  animation-delay:17s;
+  -webkit-animation-delay:17s;
+}
+.css3ss img:nth-of-type(5) {
+  animation-delay:23s;
+  -webkit-animation-delay:23s;
+}
+.css3ss img:nth-of-type(6) {
+  animation-delay:29s;
+  -webkit-animation-delay:29s;
+}
+@keyframes css3ss_ani_2_1 {
+  0%    {opacity:1.0;animation-timing-function:ease-in;}
+  41.7% {opacity:1.0;}
+  50.0% {opacity:0.0;animation-timing-function:ease-out;}
+  91.7% {opacity:0.0;}
+  100%  {opacity:1.0;}
+}
+@keyframes css3ss_ani_2 {
+  0%    {opacity:0.0;}
+  8.3%  {opacity:1.0;animation-timing-function:ease-in;}
+  50.0% {opacity:1.0;}
+  58.3% {opacity:0.0;animation-timing-function:ease-out;}
+  100%  {opacity:0.0;}
+}
+@keyframes css3ss_ani_3_1 {
+  0%    {opacity:1.0;animation-timing-function:lenear-in;}
+  27.8% {opacity:1.0;}
+  33.3% {opacity:0.0;animation-timing-function:lenear-out;}
+  94.4% {opacity:0.0;}
+  100%  {opacity:1.0;}
+}
+@keyframes css3ss_ani_3 {
+  0%    {opacity:0.0;}
+  5.5%  {opacity:1.0;animation-timing-function:lenear-in;}
+  33.3% {opacity:1.0;}
+  38.9% {opacity:0.0;animation-timing-function:lenear-out;}
+  100%  {opacity:0.0;}
+}
+@keyframes css3ss_ani_4_1 {
+  0%    {opacity:1.0;animation-timing-function:lenear-in;}
+  20.8% {opacity:1.0;}
+  25.0% {opacity:0.0;animation-timing-function:lenear-out;}
+  95.8% {opacity:0.0;}
+  100%  {opacity:1.0;}
+}
+@keyframes css3ss_ani_4 {
+  0%    {opacity:0.0;}
+  4.2%  {opacity:1.0;animation-timing-function:lenear-in;}
+  25.0% {opacity:1.0;}
+  29.2% {opacity:0.0;animation-timing-function:lenear-out;}
+  100%  {opacity:0.0;}
+}
+@keyframes css3ss_ani_5_1 {
+  0%    {opacity:1.0;animation-timing-function:lenear-in;}
+  16.7% {opacity:1.0;}
+  20.0% {opacity:0.0;animation-timing-function:lenear-out;}
+  96.7% {opacity:0.0;}
+  100%  {opacity:1.0;}
+}
+@keyframes css3ss_ani_5 {
+  0%    {opacity:0.0;}
+  3.3%  {opacity:1.0;animation-timing-function:lenear-in;}
+  20.0% {opacity:1.0;}
+  23.3% {opacity:0.0;animation-timing-function:lenear-out;}
+  100%  {opacity:0.0;}
+}
+@-webkit-keyframes css3ss_ani_2_1 {
+  0%    {opacity:1.0;animation-timing-function:ease-in;}
+  41.7% {opacity:1.0;}
+  50.0% {opacity:0.0;animation-timing-function:ease-out;}
+  91.7% {opacity:0.0;}
+  100%  {opacity:1.0;}
+}
+@-webkit-keyframes css3ss_ani_2 {
+  0%    {opacity:0.0;}
+  8.3%  {opacity:1.0;animation-timing-function:ease-in;}
+  50.0% {opacity:1.0;}
+  58.3% {opacity:0.0;animation-timing-function:ease-out;}
+  100%  {opacity:0.0;}
+}
+@-webkit-keyframes css3ss_ani_3_1 {
+  0%    {opacity:1.0;animation-timing-function:lenear-in;}
+  27.8% {opacity:1.0;}
+  33.3% {opacity:0.0;animation-timing-function:lenear-out;}
+  94.4% {opacity:0.0;}
+  100%  {opacity:1.0;}
+}
+@-webkit-keyframes css3ss_ani_3 {
+  0%    {opacity:0.0;}
+  5.5%  {opacity:1.0;animation-timing-function:lenear-in;}
+  33.3% {opacity:1.0;}
+  38.9% {opacity:0.0;animation-timing-function:lenear-out;}
+  100%  {opacity:0.0;}
+}
+@-webkit-keyframes css3ss_ani_4_1 {
+  0%    {opacity:1.0;animation-timing-function:lenear-in;}
+  20.8% {opacity:1.0;}
+  25.0% {opacity:0.0;animation-timing-function:lenear-out;}
+  95.8% {opacity:0.0;}
+  100%  {opacity:1.0;}
+}
+@-webkit-keyframes css3ss_ani_4 {
+  0%    {opacity:0.0;}
+  4.2%  {opacity:1.0;animation-timing-function:lenear-in;}
+  25.0% {opacity:1.0;}
+  29.2% {opacity:0.0;animation-timing-function:lenear-out;}
+  100%  {opacity:0.0;}
+}
+@-webkit-keyframes css3ss_ani_5_1 {
+  0%    {opacity:1.0;animation-timing-function:lenear-in;}
+  16.7% {opacity:1.0;}
+  20.0% {opacity:0.0;animation-timing-function:lenear-out;}
+  96.7% {opacity:0.0;}
+  100%  {opacity:1.0;}
+}
+@-webkit-keyframes css3ss_ani_5 {
+  0%    {opacity:0.0;}
+  3.3%  {opacity:1.0;animation-timing-function:lenear-in;}
+  20.0% {opacity:1.0;}
+  23.3% {opacity:0.0;animation-timing-function:lenear-out;}
+  100%  {opacity:0.0;}
+}
