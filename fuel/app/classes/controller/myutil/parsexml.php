@@ -66,9 +66,15 @@ Class Controller_Myutil_Parsexml extends Controller {
                     $imgurl = $kekka[0];
                 }
                 $source = $myrss->channel->title;
-                $pubDate = $item->pubDate;
-                //$pubDate = strtotime($tmpdate);
-                //Log::debug($pubDate);
+                //$pubDateStr = strtotime($item->pubDate);
+                //$pubDate = date('Y-m-d H:i:s', $pubDateStr);
+                $pubDate = date('Y-m-d H:i:s', strtotime($item->pubDate));
+                $dc = $item->children('http://purl.org/dc/elements/1.1/');
+                $date = date('Y-m-d', strtotime($dc->date));
+                if ($pubDate < $date) {
+                    $pubDate = $date;
+                }
+                Log::debug("形式1 $pubDate");
                 $this->insert_news($rssid, $item->title, $item->link, $item->guid, $imgurl, $desc, $category, $source, $pubDate);
             }
             foreach ($myrss->entry as $item) {
@@ -84,9 +90,8 @@ Class Controller_Myutil_Parsexml extends Controller {
                     $imgurl = $kekka[0];
                 }
                 $source = $myrss->channel->title;
-                $pubDate = $item->pubDate;
-                //$pubDate = strtotime($tmpdate);
-                //Log::debug($pubDate);
+                $pubDate = date('Y-m-d H:i:s', strtotime($item->updated));
+                Log::debug("形式2 $pubDate");
                 $linkurl = $item->link->attributes()->href;
                 $this->insert_news($rssid, $item->title, $linkurl, $item->guid, $imgurl, $desc, $category, $source, $pubDate);
             }
@@ -103,9 +108,13 @@ Class Controller_Myutil_Parsexml extends Controller {
                     $imgurl = $kekka[0];
                 }
                 $source = $myrss->channel['title'];
-                $pubDate = $item->pubDate;
-                //$pubDate = strtotime($tmpdate);
-                //Log::debug($pubDate);            
+                $pubDate = date('Y-m-d H:i:s', strtotime($item->pubDate));
+                $dc = $item->children('http://purl.org/dc/elements/1.1/');
+                $date = date('Y-m-d', strtotime($dc->date));
+                if ($pubDate < $date) {
+                    $pubDate = $date;
+                }
+                Log::debug("形式3 $pubDate");
                 $this->insert_news($rssid, $item->title, $item->link, $item->guid, $imgurl, $desc, $category, $source, $pubDate);
             }
             echo '<hr>';
