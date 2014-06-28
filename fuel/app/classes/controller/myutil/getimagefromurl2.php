@@ -140,10 +140,11 @@ Class Controller_Myutil_Getimagefromurl2 extends Controller {
             return NULL;
         }
 
-        $ex0 = preg_replace("/<a .*?(amazon|rakuten|valuecommerce|linksynergy|trafficgate).*?>.*?<\/a>/i", "", $exist);
-        $ex1 = preg_replace("/<a .*?(\.html|\.js).*?>.*?<\/a>/i", "", $ex0);
+        $ex0 = preg_replace("/<a .*?(amazon|rakuten|valuecommerce|linksynergy|trafficgate).*?>.*?<\/a>/i", " ", $exist);
+        $ex1 = preg_replace("/<a .*?(\.html|\.js).*?>.*?<\/a>/i", " ", $ex0);
         $ex2 = preg_replace("/[<>]/", " ", $ex1); // データ文字列を置換
-        $sp1 = explode(" ", $ex2); // 文字列を分割
+        $ex3 = preg_replace("/(\&quot)/", " ", $ex2); // データ文字列を置換
+        $sp1 = explode(" ", $ex3); // 文字列を分割
         $sp2 = array_unique($sp1); // 重複排除
         $sp3 = array_filter($sp2, 'strlen'); // null削除
         return $sp3;
@@ -153,7 +154,7 @@ Class Controller_Myutil_Getimagefromurl2 extends Controller {
 
         $kekka = '';
         // jpeg,pngを探す
-        $bl = preg_match('/http.*(jpe?g|pne?g)/i', $data, $kekka);
+        $bl = preg_match('/http.*?(jpe?g|pne?g)/i', $data, $kekka);
         if (!$bl) {
             return NULL;
         }
@@ -164,15 +165,11 @@ Class Controller_Myutil_Getimagefromurl2 extends Controller {
             return NULL;
         }
         $size = ceil(strlen($exist) / 1024); // ファイルサイズ
-        list($width, $height) = getimagesize($exist); // 大きさ
+        //list($width, $height) = getimagesize($exist); // 大きさ
 
         $dat['url'] = $kekka[0];
         $dat['size'] = $size;
-        $ratio = $height / $width;
-
-        if (($ratio > 0.6 && $ratio < 3) && $width > 120) {
-            return $dat;
-        }
+        return $dat;
     }
 
 }
