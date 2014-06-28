@@ -164,7 +164,7 @@ Class Controller_Myutil_Getimagefromurl2 extends Controller {
             return NULL;
         }
         $size = ceil(strlen($exist) / 1024); // ファイルサイズ
-        list($width, $height) = getimagesize($kekka[0]); // 大きさ
+        list($width, $height) = getimagesize($exist); // 大きさ
 
         $dat['url'] = $kekka[0];
         $dat['size'] = $size;
