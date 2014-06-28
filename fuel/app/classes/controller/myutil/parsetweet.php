@@ -13,11 +13,11 @@ Class Controller_Myutil_Parsetweet extends Controller {
         require_once( APPPATH . 'classes/model/Multithreading.php');
         $array_url = array();
 
-        Log::info('twitter解析開始');
+        Log::DEBUG('twitter解析開始');
         $query = DB::select('url', 'id', 'tweet_count')->from('sk_news')
                 ->where('created_at', '>=', date("Ymd"))
                 ->execute();
-        Log::info("対象データ:" . count($query));
+        Log::DEBUG("対象データ:" . count($query));
 
         foreach ($query as $key => $data) {
 
@@ -32,7 +32,7 @@ Class Controller_Myutil_Parsetweet extends Controller {
         }
 
         Multithreading::execute($array_url);
-        Log::info('twitter解析終了');
+        Log::DEBUG('twitter解析終了');
 
         return;
     }
@@ -55,10 +55,10 @@ Class Controller_Myutil_Parsetweet extends Controller {
                 $count = $obj->count; // つぶやき回数取得
             }
         } catch (Exception $exc) {
-            Log::info("(エラー) つぶやき回数取得失敗 / 対象URL:$url" . $exc->getMessage());
+            Log::DEBUG("(エラー) つぶやき回数取得失敗 / 対象URL:$url" . $exc->getMessage());
             return 0;
         }
-        Log::info("つぶやき回数取得結果:$count / 対象URL:$url");
+        Log::DEBUG("つぶやき回数取得結果:$count / 対象URL:$url");
 
         // 更新処理
         DB::update('sk_news')->set(array(
@@ -73,11 +73,11 @@ Class Controller_Myutil_Parsetweet extends Controller {
         require_once( APPPATH . 'classes/model/Multithreading.php');
         $array_url = array();
 
-        Log::info('graph解析開始');
-        $query = DB::select('url', 'id', 'tweet_count')->from('sk_news')
+        Log::DEBUG('graph解析開始');
+        $query = DB::select('url', 'id')->from('sk_news')
                 ->where('created_at', '>=', date("Ymd"))
                 ->execute();
-        Log::info("対象データ:" . count($query));
+        Log::DEBUG("graph解析対象データ:" . count($query));
 
         foreach ($query as $key => $data) {
 
@@ -91,7 +91,7 @@ Class Controller_Myutil_Parsetweet extends Controller {
         }
 
         Multithreading::execute($array_url);
-        Log::info('graph解析終了');
+        Log::DEBUG('graph解析終了');
 
         return;
     }
@@ -123,10 +123,10 @@ Class Controller_Myutil_Parsetweet extends Controller {
                 $comments = $obj->comments; // つぶやき回数取得
             }
         } catch (Exception $exc) {
-            Log::info("(エラー) facebook graph取得失敗 / 対象URL:$url　" . $exc->getMessage());
+            Log::DEBUG("(エラー) facebook graph取得失敗 / 対象URL:$url　" . $exc->getMessage());
             return 0;
         }
-        Log::info("シェア回数:$shares / コメント回数:$comments /　対象URL:$url");
+        Log::DEBUG("シェア回数:$shares / コメント回数:$comments /　対象URL:$url");
 
         // 更新処理
         DB::update('sk_news')->set(array(
