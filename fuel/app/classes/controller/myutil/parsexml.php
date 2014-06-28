@@ -66,9 +66,9 @@ Class Controller_Myutil_Parsexml extends Controller {
                     $imgurl = $kekka[0];
                 }
                 $source = $myrss->channel->title;
-                $tmpdate = $item->pubDate;
-                $pubDate = strtotime($tmpdate);
-                Log::debug($pubDate);
+                $pubDate = $item->pubDate;
+                //$pubDate = strtotime($tmpdate);
+                //Log::debug($pubDate);
                 $this->insert_news($rssid, $item->title, $item->link, $item->guid, $imgurl, $desc, $category, $source, $pubDate);
             }
             foreach ($myrss->entry as $item) {
@@ -84,9 +84,9 @@ Class Controller_Myutil_Parsexml extends Controller {
                     $imgurl = $kekka[0];
                 }
                 $source = $myrss->channel->title;
-                $tmpdate = $item->pubDate;
-                $pubDate = strtotime($tmpdate);
-                Log::debug($pubDate);
+                $pubDate = $item->pubDate;
+                //$pubDate = strtotime($tmpdate);
+                //Log::debug($pubDate);
                 $linkurl = $item->link->attributes()->href;
                 $this->insert_news($rssid, $item->title, $linkurl, $item->guid, $imgurl, $desc, $category, $source, $pubDate);
             }
@@ -103,9 +103,9 @@ Class Controller_Myutil_Parsexml extends Controller {
                     $imgurl = $kekka[0];
                 }
                 $source = $myrss->channel['title'];
-                $tmpdate = $item->pubDate;
-                $pubDate = strtotime($tmpdate);
-                Log::debug($pubDate);            
+                $pubDate = $item->pubDate;
+                //$pubDate = strtotime($tmpdate);
+                //Log::debug($pubDate);            
                 $this->insert_news($rssid, $item->title, $item->link, $item->guid, $imgurl, $desc, $category, $source, $pubDate);
             }
             echo '<hr>';
