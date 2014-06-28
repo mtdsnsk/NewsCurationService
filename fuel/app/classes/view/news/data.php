@@ -15,6 +15,8 @@ class View_News_Data extends ViewModel {
         $query = DB::select()->from('view_news_and_from')
                 ->where('created_at', '>=', date("Ymd"))
                 ->and_where('category', $no)
+                ->order_by('ranking1', 'desc')
+                ->order_by('ranking2', 'desc')
                 ->order_by('tweet_count', 'desc')
                 ->group_by('url')
                 ->limit(50)

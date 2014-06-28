@@ -13,11 +13,11 @@ Class Controller_Myutil_Parsetweet extends Controller {
         require_once( APPPATH . 'classes/model/Multithreading.php');
         $array_url = array();
 
-        Log::DEBUG('twitter解析開始');
+        Log::debug('twitter解析開始');
         $query = DB::select('url', 'id', 'tweet_count')->from('sk_news')
                 ->where('created_at', '>=', date("Ymd"))
                 ->execute();
-        Log::DEBUG("対象データ:" . count($query));
+        Log::debug("対象データ:" . count($query));
 
         foreach ($query as $key => $data) {
 
@@ -32,7 +32,7 @@ Class Controller_Myutil_Parsetweet extends Controller {
         }
 
         Multithreading::execute($array_url);
-        Log::DEBUG('twitter解析終了');
+        Log::debug('twitter解析終了');
 
         return;
     }
@@ -55,10 +55,10 @@ Class Controller_Myutil_Parsetweet extends Controller {
                 $count = $obj->count; // つぶやき回数取得
             }
         } catch (Exception $exc) {
-            Log::DEBUG("(エラー) つぶやき回数取得失敗 / 対象URL:$url" . $exc->getMessage());
+            Log::debug("(エラー) つぶやき回数取得失敗 / 対象URL:$url" . $exc->getMessage());
             return 0;
         }
-        Log::DEBUG("つぶやき回数取得結果:$count / 対象URL:$url");
+        Log::debug("つぶやき回数取得結果:$count / 対象URL:$url");
 
         // 更新処理
         DB::update('sk_news')->set(array(
@@ -73,11 +73,20 @@ Class Controller_Myutil_Parsetweet extends Controller {
         require_once( APPPATH . 'classes/model/Multithreading.php');
         $array_url = array();
 
-        Log::DEBUG('graph解析開始');
+        Log::debug('graph解析開始');
         $query = DB::select('url', 'id')->from('sk_news')
                 ->where('created_at', '>=', date("Ymd"))
+                ->where_open()
+                ->where('ranking1', 0)
+                ->or_where('ranking1', null)
+                ->where_close()
+                ->where_open()
+                ->where('ranking2', 0)
+                ->or_where('ranking2', null)
+                ->where_close()
                 ->execute();
-        Log::DEBUG("graph解析対象データ:" . count($query));
+        Log::debug("QUERY:" . DB::last_query());
+        Log::debug("graph解析対象データ:" . count($query));
 
         foreach ($query as $key => $data) {
 
@@ -91,8 +100,7 @@ Class Controller_Myutil_Parsetweet extends Controller {
         }
 
         Multithreading::execute($array_url);
-        Log::DEBUG('graph解析終了');
-
+        Log::debug('graph解析終了');
         return;
     }
 
@@ -103,18 +111,22 @@ Class Controller_Myutil_Parsetweet extends Controller {
         $shares = '';
         $comments = '';
 
+        Log::debug("解析URL:" . $url);
+
         try {
             $sp = explode('?', $url); //パラメータがある場合は区切り文字で分割            
             $graphurl = 'http://graph.facebook.com/'; // APIのURL
             $apiurl = $graphurl . $sp[0];
+            Log::debug("実行URL:" . $apiurl);
             //$json1 = file_get_contents($apiurl); // JSON取得
-            $json1 = @file_get_contents($apiurl, NULL, NULL, 1);
-            if (!$json1) {
-                Log::debug("存在しないURL:" . $apiurl);
-                return NULL;
-            }
+            $json1 = file_get_contents($apiurl);
+            //if (!$json1) {
+            //    Log::debug("存在しないURL:" . $apiurl);
+            //    return NULL;
+            //}
             $json2 = mb_convert_encoding($json1, 'UTF8', 'ASCII,JIS,UTF-8,EUC-JP,SJIS-WIN'); // UTF-8に変換            
             $obj = json_decode($json2); // デコード
+            //Log::debug($obj);
             // 配列にキーがあるか確認
             if (array_key_exists('shares', $obj)) {
                 $shares = $obj->shares; // つぶやき回数取得
@@ -123,17 +135,17 @@ Class Controller_Myutil_Parsetweet extends Controller {
                 $comments = $obj->comments; // つぶやき回数取得
             }
         } catch (Exception $exc) {
-            Log::DEBUG("(エラー) facebook graph取得失敗 / 対象URL:$url　" . $exc->getMessage());
+            Log::debug("(エラー) facebook graph取得失敗 / 対象URL:$url" . $exc->getMessage());
             return 0;
         }
-        Log::DEBUG("シェア回数:$shares / コメント回数:$comments /　対象URL:$url");
+        Log::debug("シェア回数:$shares / コメント回数:$comments /　対象URL:$url");
 
         // 更新処理
         DB::update('sk_news')->set(array(
             'ranking1' => $shares,
             'ranking2' => $comments,
         ))->where('id', $id)->execute();
-        return;
+        return "success!!";
     }
 
 }
