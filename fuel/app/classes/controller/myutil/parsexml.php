@@ -4,9 +4,6 @@ Class Controller_Myutil_Parsexml extends Controller {
 
     public function action_fnxml() {
 
-        //require_once( APPPATH . 'classes/model/Multithreading.php');
-        //$array_url = array();
-
         $rsslist = DB::select()->from('sk_rsslist')->execute();
         Log::info('xml解析開始');
         Log::info('対象RSS数:' . count($rsslist));
@@ -16,13 +13,8 @@ Class Controller_Myutil_Parsexml extends Controller {
             $url = $value['rssurl'];
             $category = $value['category'];
             $kekka = $this->action_parsexml($id, $url, $category);
-            //$html = 'http://dev-tachiyomi.torico-tokyo.com/commic_news/public/myutil/parsexml/parsexml?' .
-            //$th = 'http://localhost/sukima_server/public/myutil/parsexml/parsexml?' .
-            //        "rssid=$id" . '&' . "rssurl=$url" . '&' . "category=$category";
-            //array_push($array_url, $th);
         }
 
-        //Multithreading::execute($array_url);
         Log::info('xml解析終了');
     }
 
