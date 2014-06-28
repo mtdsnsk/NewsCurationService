@@ -56,7 +56,6 @@ Class Controller_Myutil_Getimagefromurl2 extends Controller {
             }
 
             if (is_array($str_url)) {
-                Log::debug('配列を文字列にする');
                 $string = implode(',', $str_url);
                 Log::debug('画像取得OK url=' . $string);
             }

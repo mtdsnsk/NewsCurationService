@@ -15,7 +15,7 @@ Class Controller_Myutil_Getimagefromurl extends Controller {
 
         Log::info('画像取得開始');
         //前日
-        $date = strtotime(date("Ymd"));
+        $date = date("Ymd");
         //$date = strtotime("-1 day", date("Ymd"));
         $query = DB::select('url', 'id', 'tweet_count')->from('sk_news')
                 ->where('created_at', '>', $date)
