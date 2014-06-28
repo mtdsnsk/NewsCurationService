@@ -47,13 +47,14 @@ class View_News_Data extends ViewModel {
             
             if ($data['image_url'] != '') {
                 $img_array = explode(',', $data['image_url']);
-                foreach ($img_array as $key => $value) {
-                    $img = '<li>' . Html::img($value) . '</li>' . $img;
-                }
+                $img = Html::img($img_array[0]);
+                //foreach ($img_array as $key => $value) {
+                //    $img = '<li>' . Html::img($value) . '</li>' . $img;
+                //}
             }
 
             $sum = '<tr><td><a href="' . $data['url'] . '">' .
-                    '<ul class="bxslider">' . $img . '</ul>' .
+                    $img.
                     '<h4>' . $title . '</h4>' .
                     '<span class="news_from"><b>' . $data['from'] . '</b></span>' .
                     '</a></td></tr>';

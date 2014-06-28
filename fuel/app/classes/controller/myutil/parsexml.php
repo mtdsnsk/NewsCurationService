@@ -66,7 +66,10 @@ Class Controller_Myutil_Parsexml extends Controller {
                     $imgurl = $kekka[0];
                 }
                 $source = $myrss->channel->title;
-                $this->insert_news($rssid, $item->title, $item->link, $item->guid, $imgurl, $desc, $category, $source);
+                $tmpdate = $item->pubDate;
+                $pubDate = strtotime($tmpdate);
+                Log::debug($pubDate);
+                $this->insert_news($rssid, $item->title, $item->link, $item->guid, $imgurl, $desc, $category, $source, $pubDate);
             }
             foreach ($myrss->entry as $item) {
                 $imgurl = '';
@@ -81,7 +84,11 @@ Class Controller_Myutil_Parsexml extends Controller {
                     $imgurl = $kekka[0];
                 }
                 $source = $myrss->channel->title;
-                $this->insert_news($rssid, $item->title, $item->link->attributes()->href, $item->guid, $imgurl, $desc, $category, $source);
+                $tmpdate = $item->pubDate;
+                $pubDate = strtotime($tmpdate);
+                Log::debug($pubDate);
+                $linkurl = $item->link->attributes()->href;
+                $this->insert_news($rssid, $item->title, $linkurl, $item->guid, $imgurl, $desc, $category, $source, $pubDate);
             }
             foreach ($myrss->channel->item as $item) {
                 $imgurl = '';
@@ -96,7 +103,10 @@ Class Controller_Myutil_Parsexml extends Controller {
                     $imgurl = $kekka[0];
                 }
                 $source = $myrss->channel['title'];
-                $this->insert_news($rssid, $item->title, $item->link, $item->guid, $imgurl, $desc, $category, $source);
+                $tmpdate = $item->pubDate;
+                $pubDate = strtotime($tmpdate);
+                Log::debug($pubDate);            
+                $this->insert_news($rssid, $item->title, $item->link, $item->guid, $imgurl, $desc, $category, $source, $pubDate);
             }
             echo '<hr>';
         } catch (Exception $exc) {
@@ -116,7 +126,7 @@ Class Controller_Myutil_Parsexml extends Controller {
         return TRUE;
     }
 
-    private function insert_news($rssid, $title, $url, $guid, $imgurl, $desc, $category, $source) {
+    private function insert_news($rssid, $title, $url, $guid, $imgurl, $desc, $category, $source, $pubdate) {
 
         $query = DB::select('id')->from('sk_news')
                 ->where_open()
@@ -134,6 +144,7 @@ Class Controller_Myutil_Parsexml extends Controller {
                 'source' => $source,
                 'updated_at' => date("Y-m-d H:i:s"),
                 'rsslist_id' => $rssid,
+                'pubdate' => $pubdate,
             ))->where('id', $query[0]['id'])->execute();
         } else {
             DB::insert('sk_news')->set(array(
@@ -147,6 +158,7 @@ Class Controller_Myutil_Parsexml extends Controller {
                 'created_at' => date("Y-m-d H:i:s"),
                 'updated_at' => date("Y-m-d H:i:s"),
                 'rsslist_id' => $rssid,
+                'pubdate' => $pubdate,
             ))->execute();
         }
     }
