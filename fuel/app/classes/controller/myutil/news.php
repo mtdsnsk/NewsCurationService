@@ -68,7 +68,6 @@ Class Controller_Myutil_News extends Controller_Rest {
             );
         }
 
-        //return $array;
         return $query->as_array();
     }
 
