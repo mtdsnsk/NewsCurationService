@@ -51,8 +51,8 @@ Class Multithreading extends \Model {
                 if (!empty($res)) {
                     $ret = array_merge($ret, $res);
                 } else {
-                    echo '一時停止<br>';
-                    sleep(3);
+                    //echo '一時停止<br>';
+                    //sleep(3);
                     continue;
                 }
             }
@@ -119,7 +119,6 @@ Class Multithreading extends \Model {
                 $res[$i] = curl_multi_getcontent($conn[$i]);
             } else {
                 echo '<a style="color:red;">取得に失敗しました</a>:[' . $i . "]" . $url_list[$i] . '<br />';
-                //$sippai++;
             }
             curl_multi_remove_handle($mh, $conn[$i]);
             curl_close($conn[$i]);
@@ -127,7 +126,6 @@ Class Multithreading extends \Model {
         curl_multi_close($mh);
 
         echo "成功:$seiko";
-
         return $res;
     }
 

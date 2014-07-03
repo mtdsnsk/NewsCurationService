@@ -16,7 +16,7 @@ Class Controller_Myutil_Parsetweet extends Controller {
 
         Log::debug('twitter解析開始');
         $query = DB::select('url', 'id', 'tweet_count')->from('sk_news')
-                ->where('created_at', '>=', date("Ymd"))
+                ->where('pubdate', '>=', date("Ymd"))
                 ->execute();
         Log::debug("対象データ:" . count($query));
 
@@ -81,7 +81,6 @@ Class Controller_Myutil_Parsetweet extends Controller {
         $query = DB::select('url', 'id')->from('sk_news')
                 ->where('pubdate', '>=', date("Ymd"))
                 ->execute();
-        Log::debug("QUERY:" . DB::last_query());
         Log::debug("graph解析対象データ:" . count($query));
         echo "graph解析対象データ:" . count($query);
 
@@ -101,12 +100,10 @@ Class Controller_Myutil_Parsetweet extends Controller {
         return;
     }
 
-    public function action_goodcount() {
+    public function action_goodcount($shares = 0, $comments = 0) {
 
         $id = Input::param('id');
         $url = Input::param('url');
-        $shares = 0;
-        $comments = 0;
 
         Log::debug("解析URL:" . $url);
 

@@ -77,20 +77,27 @@ class View_News_Data extends ViewModel {
                 //}
             }
 
-            $sum = '<tr><td><a href="' . $data['url'] . '">' .
-                    $img .
+            $sum = '<a href="' . $data['url'] . '">' . $img .
                     '<h4>' . $title . '</h4>' .
-                    '<span class="news_from"><b>' .
-                    $data['from'] .
-                    //'<span style="text_align:right;"><a>' . $data['pubdate'] . '</a></span>' .
-                    '</b></span>' .
-                    '</a></td></tr>';
+                    '<span class="news_from">' .
+                    '<b>' . $data['from'] . '</b><br>' .
+                    '<a><b>DATE</b>:' . $data['pubdate'] . '</a>' .
+                    '<a><b>TWEET</b>:' . $data['tweet_count'] . '</a>' .
+                    '<a><b>RANK1</b>:' . $data['ranking1'] . '</a>' .
+                    '<a><b>RANK2</b>:' . $data['ranking2'] . '</a>' .
+                    '<a><b>URL</b>:' . $data['url'] . '</a></br>' .
+                    '</span>' .
+                    '</a>';
 
             array_push($array, array(
                 'title' => $data['title'],
                 'url' => $data['url'],
                 'image_url' => $data['image_url'],
                 'description' => $data['description'],
+                'pubdate' => $data['pubdate'],
+                'tweet' => $data['tweet_count'],
+                'ranking1' => $data['ranking1'],
+                'ranking2' => $data['ranking2'],
                 'sum' => $sum
             ));
         }
