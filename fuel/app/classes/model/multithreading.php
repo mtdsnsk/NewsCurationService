@@ -6,15 +6,13 @@
  * and open the template in the editor.
  */
 
-Class Multithreading extends Model{
+namespace Model;
+
+Class Multithreading extends \Model {
 
     public static function _init() {
         // これはクラスをロードしているときに呼び出されます。
         set_time_limit(6000);
-    }
-
-    public function action_index() {
-        echo 'Controller_Myutil_Multithreading';
     }
 
     public static function execute($url_list) {
@@ -26,16 +24,49 @@ Class Multithreading extends Model{
         //実行
         $res = Multithreading::fetch_multi_url($url_list);
 
-        //結果出力
-        echo '実行結果:<pre>';
-        print_r($res);
-        echo '</pre>';
-
         //実行時間
         echo '--<br />time:' . (time() - $time) . ' sec';
     }
 
+    public static function exe_setnum($url_list, $url_as_key = false, $timeout = 0) {
+        
+        // set your process number
+        $process = 20;
+        $is_over_process = false;
+        
+        if ($process < count($url_list)) {
+            // chunk url list / process number*
+            $url_chunk = array_chunk($url_list, $process);
+            $is_over_process = true;
+        }
+
+        $ret = array();
+
+        if ($is_over_process && !empty($url_chunk)) {
+
+            foreach ($url_chunk as $key => $url_list) {
+                //echo "chunk start:{$key}\n";
+
+                $res = Multithreading::fetch_multi_url($url_list, $url_as_key, $timeout);
+                if (!empty($res)) {
+                    $ret = array_merge($ret, $res);
+                } else {
+                    echo '一時停止<br>';
+                    sleep(3);
+                    continue;
+                }
+            }
+        } else if (!$is_over_process && !empty($url_list)) {
+            $ret = Multithreading::fetch_multi_url($url_list, $url_as_key, $timeout);
+        } else {
+            //echo "url invalid::";
+        }
+
+        return $ret;
+    }
+
     private static function fetch_multi_url($url_list, $timeout = 0) {
+        // マルチスレッドクラス初期化
         $mh = curl_multi_init();
 
         foreach ($url_list as $i => $url) {
@@ -76,18 +107,26 @@ Class Multithreading extends Model{
             echo '読み込みエラーが発生しました:' . $mrc;
         }
 
+        $seiko = 0;
+        //$sippai = 0;
+
         //ソースコードを取得
         $res = array();
         foreach ($url_list as $i => $url) {
             if (($err = curl_error($conn[$i])) == '') {
+                echo '<b>取得に成功しました</b>:[' . $i . "]" . $url_list[$i] . '<br />';
+                $seiko++;
                 $res[$i] = curl_multi_getcontent($conn[$i]);
             } else {
-                echo '取得に失敗しました:' . $url_list[$i] . '<br />';
+                echo '<a style="color:red;">取得に失敗しました</a>:[' . $i . "]" . $url_list[$i] . '<br />';
+                //$sippai++;
             }
             curl_multi_remove_handle($mh, $conn[$i]);
             curl_close($conn[$i]);
         }
         curl_multi_close($mh);
+
+        echo "成功:$seiko";
 
         return $res;
     }

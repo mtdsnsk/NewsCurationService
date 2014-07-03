@@ -5,17 +5,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+namespace Model;
 
-class Getfilelist extends Model {
+class Getfilename extends \Model {
 
-    public static function functionName($param) {
+    public static function getlist($param) {
 
         $list = array();
 
         if ($dir = opendir($param)) {
             while (($file = readdir($dir)) !== false) {
                 if ($file != "." && $file != "..") {
-                    //echo "$file\n";
                     array_push($list, $file);
                 }
             }

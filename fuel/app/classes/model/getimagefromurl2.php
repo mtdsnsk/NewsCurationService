@@ -5,8 +5,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+namespace Model;
 
-Class Getimagefromurl extends Model {
+Class Getimagefromurl extends \Model {
 
     // テスト用
     public function execute() {

@@ -1,7 +1,7 @@
 <?php
 
 // リダイレクト先のURLを取得するクラス読み込み
-require_once ( APPPATH . 'classes/model/Getheaders.php');
+use \Model\Getheaders;
 
 Class Controller_Myutil_Parsexml extends Controller {
 
@@ -120,7 +120,7 @@ Class Controller_Myutil_Parsexml extends Controller {
             'error' => 0,
         ))->where('id', $rssid)->execute();
 
-        return TRUE;
+        return $this;
     }
 
     private function insert_news($rssid, $title, $m_url, $guid, $imgurl, $desc, $category, $source, $pubdate) {

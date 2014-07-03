@@ -5,10 +5,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+namespace Model;
 
-class Getheaders extends Model {
+class Getheaders extends \Model {
 
     public static function get_header($param) {
+        
         // リダイレクト先のURLを取得する
         $kekka = '';
         $headers = get_headers($param);
@@ -29,7 +31,6 @@ class Getheaders extends Model {
         if ($kekka != '') {
             $html_str = explode(' ', $kekka);
             // URL部分だけを返却
-            //echo 'html:' . $html_str[1] . '<br>';       
             return ($html_str[1]);
         }
 
