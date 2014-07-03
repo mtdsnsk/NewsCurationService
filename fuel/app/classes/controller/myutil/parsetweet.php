@@ -28,10 +28,13 @@ Class Controller_Myutil_Parsetweet extends Controller {
             $th = 'http://localhost/sukima_server/public/myutil/parsetweet/tweetcount?' .
                     "id=$id" . '&' . "url=$url" . '&' . "tweet_count=$tweet_count";
 
+            // URLリスト作成
             array_push($array_url, $th);
         }
 
+        // スレッドを実行
         Multithreading::execute($array_url);
+        
         Log::debug('twitter解析終了');
 
         return;
@@ -118,15 +121,9 @@ Class Controller_Myutil_Parsetweet extends Controller {
             $graphurl = 'http://graph.facebook.com/'; // APIのURL
             $apiurl = $graphurl . $sp[0];
             Log::debug("実行URL:" . $apiurl);
-            //$json1 = file_get_contents($apiurl); // JSON取得
             $json1 = file_get_contents($apiurl);
-            //if (!$json1) {
-            //    Log::debug("存在しないURL:" . $apiurl);
-            //    return NULL;
-            //}
             $json2 = mb_convert_encoding($json1, 'UTF8', 'ASCII,JIS,UTF-8,EUC-JP,SJIS-WIN'); // UTF-8に変換            
             $obj = json_decode($json2); // デコード
-            //Log::debug($obj);
             // 配列にキーがあるか確認
             if (array_key_exists('shares', $obj)) {
                 $shares = $obj->shares; // つぶやき回数取得

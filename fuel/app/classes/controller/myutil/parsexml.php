@@ -20,10 +20,6 @@ Class Controller_Myutil_Parsexml extends Controller {
 
     public function action_parsexml($rssid, $myurl, $category) {
 
-        //$rssid = Input::param('rssid');
-        //$myurl = Input::param('rssurl');
-        //$category = Input::param('category');
-
         Log::info("xml解析対象RSS:$myurl");
 
         try {
@@ -32,21 +28,15 @@ Class Controller_Myutil_Parsexml extends Controller {
             ));
             $mycontents = file_get_contents($myurl, false, $context); // RSSの内容を取得
             if ($mycontents === 'false') {
-                //echo '<h3>エラー</h3>contents false[' . $myurl . ']<br>';
-                //echo '<hr>';
                 Log::info("file_get_contents エラー url:$myurl");
                 return FALSE;
             }
             $pos = strpos($http_response_header[0], '200'); // レスポンス取得
             if ($pos === false) {
-                //echo '<h3>エラー</h3>response false[' . $myurl . ']<br>';
-                //echo '<hr>';
                 Log::info("http_response_header エラー url:$myurl");
                 return FALSE;
             }
             if ($mycontents == NULL) {
-                //echo '<h3>エラー</h3>no-contents! [' . $myurl . ']<br>';
-                //echo '<hr>';
                 Log::info("mycontents Null エラー url:$myurl");
                 return FALSE;
             }
@@ -61,20 +51,17 @@ Class Controller_Myutil_Parsexml extends Controller {
                 } else {
                     $desc = $item->summary;
                 }
-                $bl = preg_match('/http.*(jpe?g|png)/i', $desc, $kekka);
+                $bl = preg_match('/http.*?(jpe?g|png)/i', $desc, $kekka);
                 if ($bl) {
                     $imgurl = $kekka[0];
                 }
                 $source = $myrss->channel->title;
-                //$pubDateStr = strtotime($item->pubDate);
-                //$pubDate = date('Y-m-d H:i:s', $pubDateStr);
                 $pubDate = date('Y-m-d H:i:s', strtotime($item->pubDate));
                 $dc = $item->children('http://purl.org/dc/elements/1.1/');
                 $date = date('Y-m-d', strtotime($dc->date));
                 if ($pubDate < $date) {
                     $pubDate = $date;
                 }
-                //Log::debug("形式1 $pubDate");
                 $this->insert_news($rssid, $item->title, $item->link, $item->guid, $imgurl, $desc, $category, $source, $pubDate);
             }
             foreach ($myrss->entry as $item) {
@@ -85,13 +72,12 @@ Class Controller_Myutil_Parsexml extends Controller {
                 } else {
                     $desc = $item->description;
                 }
-                $bl = preg_match('/http.*(jpe?g|png)/i', $desc, $kekka);
+                $bl = preg_match('/http.*?(jpe?g|png)/i', $desc, $kekka);
                 if ($bl) {
                     $imgurl = $kekka[0];
                 }
                 $source = $myrss->channel->title;
                 $pubDate = date('Y-m-d H:i:s', strtotime($item->updated));
-                //Log::debug("形式2 $pubDate");
                 $linkurl = $item->link->attributes()->href;
                 $this->insert_news($rssid, $item->title, $linkurl, $item->guid, $imgurl, $desc, $category, $source, $pubDate);
             }
@@ -103,7 +89,7 @@ Class Controller_Myutil_Parsexml extends Controller {
                 } else {
                     $desc = $item->desc;
                 }
-                $bl = preg_match('/http.*(jpe?g|png)/i', $desc, $kekka);
+                $bl = preg_match('/http.*?(jpe?g|png)/i', $desc, $kekka);
                 if ($bl) {
                     $imgurl = $kekka[0];
                 }
@@ -114,7 +100,6 @@ Class Controller_Myutil_Parsexml extends Controller {
                 if ($pubDate < $date) {
                     $pubDate = $date;
                 }
-                //Log::debug("形式3 $pubDate");
                 $this->insert_news($rssid, $item->title, $item->link, $item->guid, $imgurl, $desc, $category, $source, $pubDate);
             }
             echo '<hr>';
@@ -135,14 +120,17 @@ Class Controller_Myutil_Parsexml extends Controller {
         return TRUE;
     }
 
-    private function insert_news($rssid, $title, $url, $guid, $imgurl, $desc, $category, $source, $pubdate) {
+    private function insert_news($rssid, $title, $m_url, $guid, $imgurl, $desc, $category, $source, $pubdate) {
+
+        // リダイレクト先のURLを取得するクラス読み込み
+        require_once ( APPPATH . 'classes/model/Getheaders.php');
+        $url = Getheaders::get_header($m_url);
+        Log::debug("$m_url ' to redirect ' $url");
 
         $query = DB::select('id')->from('sk_news')
-                ->where_open()
-                ->where('title', $title)
-                ->and_where('url', $url)
-                ->where_close()
+                ->where('url', $url)
                 ->execute();
+
         if (DB::count_last_query() > 0) {
             DB::update('sk_news')->set(array(
                 'title' => $title,

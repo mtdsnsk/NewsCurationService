@@ -9,7 +9,10 @@
 Class Controller_Myutil_News extends Controller_Rest {
 
     public function get_data() {
-        echo 'QWERTY';
+        $url = 'http://feeds.cinematoday.jp/~r/cinematoday_update/~3/-Ouk92AkBzs/N0064303';
+        require_once ( APPPATH . 'classes/model/Getheaders.php');
+        $header = Getheaders::get_plain_header($url);
+        print_r($header);
     }
 
     public function get_news() {
