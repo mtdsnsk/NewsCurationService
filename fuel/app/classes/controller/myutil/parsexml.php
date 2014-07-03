@@ -1,5 +1,8 @@
 <?php
 
+// リダイレクト先のURLを取得するクラス読み込み
+require_once ( APPPATH . 'classes/model/Getheaders.php');
+
 Class Controller_Myutil_Parsexml extends Controller {
 
     public function action_fnxml() {
@@ -122,8 +125,6 @@ Class Controller_Myutil_Parsexml extends Controller {
 
     private function insert_news($rssid, $title, $m_url, $guid, $imgurl, $desc, $category, $source, $pubdate) {
 
-        // リダイレクト先のURLを取得するクラス読み込み
-        require_once ( APPPATH . 'classes/model/Getheaders.php');
         $url = Getheaders::get_header($m_url);
         Log::debug("$m_url ' to redirect ' $url");
 
