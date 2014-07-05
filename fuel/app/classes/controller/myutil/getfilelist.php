@@ -9,16 +9,19 @@
 use \Model\Getfilename;
 
 Class Controller_Myutil_Getfilelist extends Controller_Rest {
-    
+
     public function action_get() {
+
         $param = Input::param('title');
         $list = Getfilename::getlist($param);
         return $list;
     }
 
     public function action_apppath() {
-
-        echo APPPATH;
+        
+        echo 'APPPATH:' . APPPATH . '<br>';
+        echo 'UriBase:' . Uri::base(false);
+        return array('APPPATH:' . APPPATH . '<br>', 'UriBase:' . Uri::base(false));
     }
 
 }

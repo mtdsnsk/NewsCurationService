@@ -22,7 +22,12 @@ class Getfilename extends \Model {
             closedir($dir);
         }
         
-        return $list;
+        //return $list;  
+        if(sort($list, SORT_NUMERIC)){
+            return $list;
+        }else{
+            return NULL;
+        }
     }
 
 }

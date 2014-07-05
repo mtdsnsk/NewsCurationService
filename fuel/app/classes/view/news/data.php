@@ -18,18 +18,21 @@ class View_News_Data extends ViewModel {
             $query = DB::select()->from('view_news_and_from')
                     ->where('pubdate', '>=', $date)
                     ->and_where('category', $no)
+                    ->group_by('url')
                     ->order_by('pubdate', 'desc')
                     ->execute();
         } else if ($order_by == 2) {
             $query = DB::select()->from('view_news_and_from')
                     ->where('pubdate', '>=', $date)
                     ->and_where('category', $no)
+                    ->group_by('url')
                     ->order_by('tweet_count', 'desc')
                     ->execute();
         } else if ($order_by == 3) {
             $query = DB::select()->from('view_news_and_from')
                     ->where('pubdate', '>=', $date)
                     ->and_where('category', $no)
+                    ->group_by('url')
                     ->order_by('ranking1', 'desc')
                     ->execute();
         } else {
@@ -40,9 +43,7 @@ class View_News_Data extends ViewModel {
                     ->order_by('ranking1', 'desc')
                     ->order_by('ranking2', 'desc')
                     ->order_by('tweet_count', 'desc')
-                    ->group_by('url')
-                    ->limit(50)
-                    ->execute();
+                    ->limit(50);
             if (count($query) < 10) {
                 //データが少ない時は前の日も取得
                 $date = strtotime("-1 day", date("Ymd", strtotime("-1 day")));
@@ -50,9 +51,7 @@ class View_News_Data extends ViewModel {
                         ->where('pubdate', '>=', $date)
                         ->and_where('category', $no)
                         ->order_by('tweet_count', 'desc')
-                        ->group_by('url')
-                        ->limit(50)
-                        ->execute();
+                        ->limit(50);
             }
         }
 

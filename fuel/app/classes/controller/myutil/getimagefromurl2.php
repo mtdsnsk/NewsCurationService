@@ -24,7 +24,7 @@ Class Controller_Myutil_Getimagefromurl2 extends Controller {
             Log::debug($ex->getMessage());
         }
     }
-
+/*
     public function action_getimage() {
 
         echo '開始<br>';
@@ -65,11 +65,12 @@ Class Controller_Myutil_Getimagefromurl2 extends Controller {
             Log::debug($exc->getTraceAsString());
         }
     }
+ */
 
     private function getimage($id, $url) {
 
         $image_count = 0;
-        $max_image_count = 4;
+        $max_image_count = 10;
         $str_url = array();
         Log::debug('画像取得開始 url=' . $url);
 
@@ -140,7 +141,7 @@ Class Controller_Myutil_Getimagefromurl2 extends Controller {
             return NULL;
         }
 
-        $ex0 = preg_replace("/<a .*?(amazon|rakuten|valuecommerce|linksynergy|trafficgate).*?>.*?<\/a>/i", " ", $exist);
+        $ex0 = preg_replace("/<a .*?(amazon|rakuten|valuecommerce|linksynergy|trafficgate|logo).*?>.*?<\/a>/i", " ", $exist);
         $ex1 = preg_replace("/<a .*?(\.html|\.js).*?>.*?<\/a>/i", " ", $ex0);
         $ex2 = preg_replace("/[<>]/", " ", $ex1); // データ文字列を置換
         $ex3 = preg_replace("/(\&quot)/", " ", $ex2); // データ文字列を置換
@@ -166,6 +167,10 @@ Class Controller_Myutil_Getimagefromurl2 extends Controller {
         }
         $size = ceil(strlen($exist) / 1024); // ファイルサイズ
         //list($width, $height) = getimagesize($exist); // 大きさ
+        if($size < 15){
+            og::debug("画像が存在しない:" . $kekka[0]);
+            return NULL;
+        }
 
         $dat['url'] = $kekka[0];
         $dat['size'] = $size;

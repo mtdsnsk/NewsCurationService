@@ -20,10 +20,24 @@
  * @package  app
  * @extends  Controller
  */
+use \Model\Multithreading;
+
 class Controller_News extends Controller {
 
     public function action_index() {
         return Response::forge(ViewModel::forge('news/data'));
     }
-    
+
+    public function action_get($param, $date, $array = array()) {
+        
+        Log::debug("カテゴリ:$param 日付:$date");
+        
+        array_push($array, Uri::base(false) . "myutil/parsexml/execute/$param");
+        array_push($array, Uri::base(false) . "myutil/parsetweet/execute/$param/$date");
+        array_push($array, Uri::base(false) . "myutil/parsegraph/execute/$param/$date");
+        array_push($array, Uri::base(false) . "myutil/getimagefromurl/execute/$param/$date");
+
+        Multithreading::execute($array);
+    }
+
 }

@@ -6,17 +6,44 @@
  * and open the template in the editor.
  */
 
+use \Model\Multithreading;
+
 Class Controller_Myutil_Getimagefromurl extends Controller {
+
+    public function action_execute($param, $date, $array_url = array()) {
+
+        Log::info("画像取得開始 カテゴリー:$param 日付$date");
+
+        $query = DB::select('url', 'id', 'tweet_count')->from('sk_news')
+                ->where('created_at', '>', $date)
+                ->and_where('category', $param)
+                ->execute();
+
+        Log::info('対象データ:' . count($query));
+
+        foreach ($query as $key => $data) {
+
+            $id = $data['id'];
+            $url = $data['url'];
+            $url_encode = urlencode($url);
+            $th = Uri::base(false) . 'myutil/getimagefromurl2/fn?' .
+                    "id=$id" . '&' . "url=$url_encode";
+            Log::info('対象URL追加:' . urlencode($url_encode));
+            array_push($array_url, $th);
+        }
+
+        Multithreading::execute($array_url);
+        Log::info('画像取得終了');
+    }
 
     public function action_fnimage() {
 
-        require_once( APPPATH . 'classes/model/Multithreading.php');
         $array_url = array();
 
         Log::info('画像取得開始');
-        //前日
-        $date = date("Ymd");
-        //$date = strtotime("-1 day", date("Ymd"));
+        $date = date("Ymd"); // 今日      
+        //$date = strtotime("-1 day", date("Ymd")); // 前日
+
         $query = DB::select('url', 'id', 'tweet_count')->from('sk_news')
                 ->where('created_at', '>', $date)
                 ->and_where_open()
@@ -33,12 +60,12 @@ Class Controller_Myutil_Getimagefromurl extends Controller {
             $url = $data['url'];
             $url_encode = urlencode($url);
 
-            //$html = 'http://dev-tachiyomi.torico-tokyo.com/commic_news/public/myutil/getimagefromurl/getimagefromurl?' .
-            $th = 'http://localhost/sukima_server/public/myutil/getimagefromurl2/fn?' .
+            $th = Uri::base(false) . 'myutil/getimagefromurl2/fn?' .
                     "id=$id" . '&' . "url=$url_encode";
             Log::info('対象URL追加:' . urlencode($url_encode));
             array_push($array_url, $th);
         }
+
         Multithreading::execute($array_url);
         Log::info('画像取得終了');
     }

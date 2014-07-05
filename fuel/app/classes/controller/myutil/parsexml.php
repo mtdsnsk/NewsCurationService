@@ -5,17 +5,19 @@ use \Model\Getheaders;
 
 Class Controller_Myutil_Parsexml extends Controller {
 
-    public function action_fnxml() {
+    public function action_execute($param) {
 
-        $rsslist = DB::select()->from('sk_rsslist')->execute();
-        Log::info('xml解析開始');
-        Log::info('対象RSS数:' . count($rsslist));
+        $rsslist = DB::select()->from('sk_rsslist')
+                ->where('category', $param)
+                ->execute();
+
+        Log::info("xml解析START カテゴリー:$param 対象RSS数:" . count($rsslist));
 
         foreach ($rsslist as $value) {
             $id = $value['id'];
             $url = $value['rssurl'];
             $category = $value['category'];
-            $kekka = $this->action_parsexml($id, $url, $category);
+            $this->action_parsexml($id, $url, $category);
         }
 
         Log::info('xml解析終了');
@@ -23,7 +25,7 @@ Class Controller_Myutil_Parsexml extends Controller {
 
     public function action_parsexml($rssid, $myurl, $category) {
 
-        Log::info("xml解析対象RSS:$myurl");
+        Log::info("[$rssid] xml解析対象RSS:$myurl");
 
         try {
             $context = stream_context_create(array(
