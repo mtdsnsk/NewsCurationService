@@ -24,19 +24,38 @@ use \Model\Multithreading;
 
 class Controller_News extends Controller {
 
+    /*
+     * ニュース表示
+     */
     public function action_index() {
         return Response::forge(ViewModel::forge('news/data'));
     }
 
+    /*
+     * カテゴリと日付を指定してRSS解析
+     */
     public function action_get($param, $date, $array = array()) {
         
         Log::debug("カテゴリ:$param 日付:$date");
-        
+        // RSS解析の起動URL
         array_push($array, Uri::base(false) . "myutil/parsexml/execute/$param");
+        // つぶやき数取得の起動URL
         array_push($array, Uri::base(false) . "myutil/parsetweet/execute/$param/$date");
+        // GRAPH取得の起動URL
         array_push($array, Uri::base(false) . "myutil/parsegraph/execute/$param/$date");
-        array_push($array, Uri::base(false) . "myutil/getimagefromurl/execute/$param/$date");
 
+        // マルチスレッドで起動
+        Multithreading::execute($array);
+    }
+    
+    /*
+     * カテゴリと日付を指定して、URLから画像を取得する
+     */
+    public function action_getimages($param, $date, $array = array()) {
+        
+        Log::debug("画像取得 カテゴリ:$param 日付:$date");
+        
+        array_push($array, Uri::base(false) . "myutil/getimagefromurl/execute/$param/$date");
         Multithreading::execute($array);
     }
 

@@ -41,12 +41,12 @@ class Getheaders extends \Model {
     public static function get_plain_header($param) {
         // リダイレクト先のURLを取得する
         $headers = get_headers($param);
+        
         if ($headers == NULL) {
             // エラーの場合引数をそのまま処理
             return $param;
         } else {
             $html = explode(' ', $headers[1]);
-            // echo 'html:' . $html[1] . '<br>';
             // URL部分だけを返却
             return ($headers);
         }

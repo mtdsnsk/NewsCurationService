@@ -24,48 +24,49 @@ Class Controller_Myutil_Getimagefromurl2 extends Controller {
             Log::debug($ex->getMessage());
         }
     }
-/*
-    public function action_getimage() {
 
-        echo '開始<br>';
-        $url = 'http://wpb.shueisha.co.jp/2014/06/12/31438/';
-        $str_url = array();
+    /*
+      public function action_getimage() {
 
-        try {
-            Log::debug('画像取得開始 url=' . $url);
-            $image_array = $this->getimage_array($url);
+      echo '開始<br>';
+      $url = 'http://wpb.shueisha.co.jp/2014/06/12/31438/';
+      $str_url = array();
 
-            Log::debug('取得要素数:' . count($image_array));
+      try {
+      Log::debug('画像取得開始 url=' . $url);
+      $image_array = $this->getimage_array($url);
 
-            foreach ($image_array as $key => $row) {
-                $image_size[$key] = $row['size'];
-                $image_url[$key] = $row['url'];
-            }
+      Log::debug('取得要素数:' . count($image_array));
 
-            // サイズ順に並べ替え
-            Log::debug('サイズ順に並べ替え');
-            if (count($image_array) > 0) {
-                array_multisort($image_size, SORT_DESC, $image_url, SORT_ASC, $image_array);
-            }
+      foreach ($image_array as $key => $row) {
+      $image_size[$key] = $row['size'];
+      $image_url[$key] = $row['url'];
+      }
 
-            // URL配列作成
-            Log::debug('URL配列作成');
-            foreach ($image_array as $data) {
-                echo Html::img($data['url']);
-                array_push($str_url, $data['url']);
-            }
+      // サイズ順に並べ替え
+      Log::debug('サイズ順に並べ替え');
+      if (count($image_array) > 0) {
+      array_multisort($image_size, SORT_DESC, $image_url, SORT_ASC, $image_array);
+      }
 
-            if (is_array($str_url)) {
-                $string = implode(',', $str_url);
-                Log::debug('画像取得OK url=' . $string);
-            }
-        } catch (Exception $exc) {
-            echo 'エラー<br>';
-            Log::debug($exc->getMessage());
-            Log::debug($exc->getTraceAsString());
-        }
-    }
- */
+      // URL配列作成
+      Log::debug('URL配列作成');
+      foreach ($image_array as $data) {
+      echo Html::img($data['url']);
+      array_push($str_url, $data['url']);
+      }
+
+      if (is_array($str_url)) {
+      $string = implode(',', $str_url);
+      Log::debug('画像取得OK url=' . $string);
+      }
+      } catch (Exception $exc) {
+      echo 'エラー<br>';
+      Log::debug($exc->getMessage());
+      Log::debug($exc->getTraceAsString());
+      }
+      }
+     */
 
     private function getimage($id, $url) {
 
@@ -104,7 +105,9 @@ Class Controller_Myutil_Getimagefromurl2 extends Controller {
     }
 
     private function getimage_array($url) {
+
         Log::debug("画像URL配列作成");
+
         $image_dat = array(); // リンクの画像データの配列を格納する
         if ($url == '') {
             Log::debug("エラー１");
@@ -122,7 +125,7 @@ Class Controller_Myutil_Getimagefromurl2 extends Controller {
             return $image_dat;
         }
         foreach ($sp as $data) {
-            $data_ = $this->push_images($data);
+            $data_ = $this->push_images($data, $url);
             if ($data_ != NULL) {
                 array_push($image_dat, array(
                     'url' => $data_['url'], 'size' => $data_['size'],
@@ -151,24 +154,42 @@ Class Controller_Myutil_Getimagefromurl2 extends Controller {
         return $sp3;
     }
 
-    private function push_images($data) {
+    private function push_images($data, $url) {
 
         $kekka = '';
         // jpeg,pngを探す
         $bl = preg_match('/http.*?(jpe?g|pne?g)/i', $data, $kekka);
         if (!$bl) {
-            return NULL;
+            return NULL; // ファイル拡張子がjpeg,pngでない
+        }
+
+        //既に画像DBに存在するURLかをチェック
+        $db_exist = DB::select()->from('sk_icon_images')
+                ->where('image_url', $kekka[0])
+                ->execute();
+        if (count($db_exist) > 0) {
+            //Log::debug('画像URLが既に1つ以上存在する場合は追加しない');
+            return NULL; // 1つ以上存在する場合は追加しない
+        } else {
+            // 初出の場合は追加
+            //Log::debug('初出の場合は追加');
+            DB::insert('sk_icon_images')->set(array(
+                        'image_url' => $kekka[0],
+                        'sk_news_url' => $url
+                    ))
+                    ->execute();
         }
 
         $exist = @file_get_contents($kekka[0], NULL, NULL, 1);
         if (!$exist) {
-            Log::debug("画像が存在しない:" . $kekka[0]);
+            //Log::debug("画像が存在しない:" . $kekka[0]);
             return NULL;
         }
+
         $size = ceil(strlen($exist) / 1024); // ファイルサイズ
         //list($width, $height) = getimagesize($exist); // 大きさ
-        if($size < 15){
-            og::debug("画像が存在しない:" . $kekka[0]);
+        if ($size < 15) {
+            //Log::debug("画像が存在しない:" . $kekka[0]);
             return NULL;
         }
 
