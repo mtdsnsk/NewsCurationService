@@ -39,33 +39,30 @@ Class Controller_Myutil_Parsetweet extends Controller {
         return;
     }
 
-    public function action_fntweet() {
-
-        $array_url = array();
+    public function action_fn($param, $date, $array_url = array()) {
 
         Log::debug('twitter解析開始');
         $query = DB::select('url', 'id', 'tweet_count')->from('sk_news')
-                ->where('pubdate', '>=', date("Ymd"))
+                ->where('pubdate', '>=', $date)
+                ->and_where('category', $param)
                 ->execute();
         Log::debug("対象データ:" . count($query));
 
-        foreach ($query as $key => $data) {
-
+        foreach ($query as $data) {
             $id = $data['id'];
             $url = $data['url'];
             $tweet_count = $data['tweet_count'];
             $th = Uri::base(false) . 'myutil/parsetweet/tweetcount' .
                     "?id=$id" . "&tweet_count=$tweet_count" . "&url=$url";
-
             // URLリスト作成
-            array_push($array_url, $th);
+            //array_push($array_url, $th);           
+            // 実行
+            file_get_contents($th);
         }
         // スレッドを実行
         //Multithreading::execute($array_url);
-        Multithreading::exe_setnum($array_url);
-
+        //Multithreading::exe_setnum($array_url);
         Log::debug('twitter解析終了');
-
         return;
     }
 
@@ -100,4 +97,5 @@ Class Controller_Myutil_Parsetweet extends Controller {
         Log::debug("つぶやき回数取得結果:$count / 対象URL:$url");
         return "つぶやき回数取得結果:$count / 対象URL:$url";
     }
+
 }

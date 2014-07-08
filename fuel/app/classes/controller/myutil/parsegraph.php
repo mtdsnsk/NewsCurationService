@@ -10,6 +10,9 @@ use \Model\Multithreading;
 
 Class Controller_Myutil_Parsegraph extends Controller {
 
+    /*
+     * 
+     */
     public function action_execute($param, $date, $array_url = array()) {
 
         Log::debug('graph解析開始');
@@ -34,6 +37,34 @@ Class Controller_Myutil_Parsegraph extends Controller {
         
         // スレッドを実行
         Multithreading::exe_setnum($array_url);
+        Log::debug('graph解析終了');
+        return;
+    }
+    
+    /*
+     * 
+     */
+    public function action_fn($param, $date, $array_url = array()) {
+
+        Log::debug('graph解析開始');
+        $query = DB::select('url', 'id')->from('sk_news')
+                ->where('pubdate', '>=', $date)
+                ->and_where('category', $param)
+                ->execute();
+        
+        Log::debug("graph解析対象データ:" . count($query));
+        echo "graph解析対象データ:" . count($query);
+
+        foreach ($query as $key => $data) {
+
+            $id = $data['id'];
+            $url = $data['url'];
+            $th = Uri::base(false) . 'myutil/parsegraph/goodcount?' .
+                    "id=$id" . '&' . "url=$url";
+            // 実行
+            file_get_contents($th);
+        }
+        
         Log::debug('graph解析終了');
         return;
     }

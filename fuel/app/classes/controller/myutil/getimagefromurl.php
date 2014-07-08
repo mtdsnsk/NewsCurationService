@@ -45,7 +45,7 @@ Class Controller_Myutil_Getimagefromurl extends Controller {
     /*
      * スレッドでない画像処理
      */
-    public function action_execute($param, $date, $array_url = array()) {
+    public function action_fn($param, $date, $array_url = array()) {
 
         Log::info("画像取得開始 カテゴリー:$param 日付$date");
         
