@@ -34,15 +34,15 @@ class Controller_News extends Controller {
     /*
      * カテゴリと日付を指定してRSS解析
      */
-    public function action_get($param, $date, $array = array()) {
+    public function action_get($no, $date, $array = array()) {
         
-        Log::debug("カテゴリ:$param 日付:$date");
+        Log::debug("カテゴリ:$no 日付:$date");
         // RSS解析の起動URL
-        array_push($array, Uri::base(false) . "myutil/parsexml/execute/$param");
+        array_push($array, Uri::base(false) . "myutil/parsexml/execute/$no");
         // つぶやき数取得の起動URL
-        array_push($array, Uri::base(false) . "myutil/parsetweet/execute/$param/$date");
+        array_push($array, Uri::base(false) . "myutil/parsetweet/execute/$no/$date");
         // GRAPH取得の起動URL
-        array_push($array, Uri::base(false) . "myutil/parsegraph/execute/$param/$date");
+        array_push($array, Uri::base(false) . "myutil/parsegraph/execute/$no/$date");
 
         // マルチスレッドで起動
         Multithreading::execute($array);

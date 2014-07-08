@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>sample</title>
+        <title><?= $title ?></title>
 
         <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
         <?php echo Asset::js('jquery.bxslider.min.js'); ?>
@@ -41,7 +41,7 @@
 
         <table class="sample_01">
             <tbody>
-
+                
                 <?php
                 foreach ($data as $list) {
                     echo '<tr><td>';

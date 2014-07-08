@@ -11,9 +11,21 @@ class View_News_Data extends ViewModel {
     public function view() {
 
         $no = Input::param('no');
-        $date = Input::param('date');
+        $date_tmp = Input::param('date');
         $order_by = Input::param('order_by');
         $key = Input::param('key');
+
+        // 日付指定が正しいかチェック
+        if (!checkdate(substr($date_tmp, 4, 2), substr($date_tmp, 6, 2), substr($date_tmp, 0, 4))) {
+            // 正しくない日付
+            $date_obj = new dateTime(date('Y/m/d'));
+        } else {
+            // 正しい日付
+            $date_obj = new dateTime(date('Y/m/d', strtotime($date_tmp)));
+        }
+
+        // 日付取得
+        $date = $date_obj->format("Y-m-d");
 
         switch ($order_by) {
             case 1:
@@ -54,8 +66,8 @@ class View_News_Data extends ViewModel {
                     ->limit(50)
                     ->execute();
             if (count($query) < 20) {
-                //データが少ない時は前日のデータからも取得
-                $date = strtotime("-1 day", $date);
+                //データが少ない時は前日のデータからも取得    
+                $date = $date_obj->modify("-1 day")->format("Y-m-d");
                 $query = DB::select()->from('view_news_and_from')
                         ->where('pubdate', '>=', $date)
                         ->and_where('category', $no)
@@ -64,9 +76,13 @@ class View_News_Data extends ViewModel {
                         ->execute();
             }
         }
+        
+        // カテゴリ名取得
+        $category = DB::select()->from('sk_category')->where('id', $no)->execute();
+        $category_name = $category[0]['name'];
 
-        Log::debug($key);
-        Log::debug(DB::last_query());
+        //Log::debug(DB::last_query());
+        $this->title = $category_name;
         $this->data = $this->create_html($query);
     }
 
