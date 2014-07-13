@@ -5,7 +5,7 @@ use \Model\Getheaders;
 
 Class Controller_Myutil_Parsexml extends Controller {
 
-    public function action_fn($param) {
+    public function action_execute($param) {
 
         $rsslist = DB::select()->from('sk_rsslist')
                 ->where('category', $param)
